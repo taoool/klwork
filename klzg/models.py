@@ -22,11 +22,11 @@ class CustomerCollection(models.Model):
     """客户收款人信息表"""
     id = models.AutoField(primary_key=True)
     name = models.CharField(verbose_name='收款人姓名', max_length=32)
-    remark = models.CharField(verbose_name='备注', max_length=64)
-    account_name = models.CharField(verbose_name='收款人', max_length=32)
-    account_number = models.IntegerField()
-    account_bank = models.CharField(verbose_name='开户银行', max_length=32)
-    wechat = models.CharField(verbose_name='微信收款账号', max_length=32)
+    remark = models.CharField(verbose_name='备注', max_length=64, null=True)
+    account_name = models.CharField(verbose_name='收款人', max_length=32, null=True)
+    account_number = models.IntegerField(null=True)
+    account_method = models.CharField(verbose_name='收款方式', max_length=32, null=True)
+
 
     customer = models.ForeignKey(verbose_name='所属客户', to='Customer', to_field='id', on_delete=models.CASCADE)
 
@@ -34,11 +34,11 @@ class Pay(models.Model):
     """支付项目表"""
     id = models.AutoField(primary_key=True)
     start_time = models.DateTimeField(verbose_name='开始时间')
-    end_time = models.DateTimeField(verbose_name='结束时间')
+    end_time = models.DateTimeField(verbose_name='结束时间', null=True)
     price = models.DecimalField(max_digits=6, decimal_places=2)
 
     customer = models.ForeignKey(verbose_name='客户', to='Customer', to_field='id', on_delete=models.CASCADE)
-    customer_collection = models.ForeignKey(verbose_name='收款人', to='CustomerCollection', to_field='id', on_delete=models.CASCADE)
+    saleman = models.ForeignKey(verbose_name='负责人', to='Salesman', to_field='id', on_delete=models.CASCADE, null=True)
 
 class Sales(models.Model):
     """销量表"""
@@ -58,11 +58,11 @@ class Commission(models.Model):
 class FinishPay(models.Model):
     """已支付表"""
     id = models.AutoField(primary_key=True)
-    time = models.DateTimeField(verbose_name='支付时间')
-    money = models.DecimalField(max_digits=12, decimal_places=2)
-    remark = models.CharField(verbose_name='备注', max_length=64)
+    time = models.DateTimeField(verbose_name='支付时间', null=True)
+    money = models.DecimalField(max_digits=12, decimal_places=2, null=True)
+    remark = models.CharField(verbose_name='备注', max_length=64, null=True)
     payment_method = models.CharField(verbose_name='支付方式', max_length=32)
-    accont_number = models.IntegerField()
-    account_bank = models.CharField(verbose_name='开户银行', max_length=64)
+    accont_number = models.IntegerField(null=True)
+
 
     customer = models.ForeignKey(verbose_name='客户', to='Customer', to_field='id', on_delete=models.CASCADE)

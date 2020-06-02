@@ -1,23 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d34d233d-5291-41e4-ad04-42e5012211b7" name="Default Changelist" comment="" />
+    <list default="true" id="d34d233d-5291-41e4-ad04-42e5012211b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/bs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/bs/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/bs/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/bs/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/bs/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/bs/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/bs/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/bs/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/bs/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/bs/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/bs/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/bs/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/bs/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/bs/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/bs/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/bs/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/blog/bs/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/klwork/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/klwork/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/klwork/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/klwork/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/klwork/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/klwork/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/klzg/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/static/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/klzg/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/klzg/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/klzg/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/klzg/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1cke3yOrXYmhp0ARUjtjaIGyuPE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../python/day16/StockSystem" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\12817\Desktop\klzgapp\klwork" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="klwork" type="Python.DjangoServer" factoryName="Django server">
@@ -26,6 +84,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="klwork.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -55,6 +114,8 @@
       <option name="presentableId" value="Default" />
       <updated>1591076822734</updated>
       <workItem from="1591076827886" duration="497000" />
+      <workItem from="1591077582780" duration="8212000" />
+      <workItem from="1591086780368" duration="5626000" />
     </task>
     <servers />
   </component>
@@ -62,9 +123,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="650" y="163" key="FileChooserDialogImpl" timestamp="1591077630289">
+    <state x="650" y="163" key="FileChooserDialogImpl" timestamp="1591077934075">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="650" y="163" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591077630289" />
+    <state x="650" y="163" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591077934075" />
+    <state width="1855" height="244" key="GridCell.Tab.0.bottom" timestamp="1591092410967">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1855" height="244" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591092410967" />
+    <state width="1855" height="244" key="GridCell.Tab.0.center" timestamp="1591092410967">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1855" height="244" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591092410967" />
+    <state width="1855" height="244" key="GridCell.Tab.0.left" timestamp="1591092410967">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1855" height="244" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591092410967" />
+    <state width="1855" height="244" key="GridCell.Tab.0.right" timestamp="1591092410967">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1855" height="244" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591092410967" />
   </component>
 </project>

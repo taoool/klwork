@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/blog/bs/css/bootstrap.css">
+    <script src="/static/js/jquery-3.2.1.min.js"></script>
+    <script src="/static/blog/bs/js/bootstrap.min.js"></script>
+
+    <style>
+        .background{
+            display: flex;
+        }
+        .col-1{
+            font-size: 40px;
+        }
+        .col-2{
+            font-size: 30px;
+        }
+        .col-md-3{
+            width: 300px;
+        }
+        .col-md-9{
+
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="background">
+
+        <div class="col-md-3 ">
+            <div class="col-1">导航栏</div>
+                <div class="panel-body col-2">
+                    <ul>
+                        <li><a href="/show/">客户123</a></li>
+                        <li><a href="">业务员</a></li>
+                        <li><a href="">部门</a></li>
+                    </ul>
+                </div>
+        </div>
+
+
+
+        <div class="col-md-9">
+            <p>qweqwe12123</p>
+            {% block content %}
+
+            {% endblock %}
+        </div>
+
+
+</div>
+</body>
+</html>
