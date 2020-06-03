@@ -21,10 +21,10 @@ class Customer(models.Model):
 class CustomerCollection(models.Model):
     """客户收款人信息表"""
     id = models.AutoField(primary_key=True)
-    name = models.CharField(verbose_name='收款人姓名', max_length=32)
-    remark = models.CharField(verbose_name='备注', max_length=64, null=True)
+    name = models.CharField(verbose_name='联络人', max_length=32)
+    remark = models.CharField(verbose_name='备注', max_length=64, null=True, default='无')
     account_name = models.CharField(verbose_name='收款人', max_length=32, null=True)
-    account_number = models.IntegerField(null=True)
+    account_number = models.BigIntegerField(null=True)
     account_method = models.CharField(verbose_name='收款方式', max_length=32, null=True)
 
 
@@ -43,9 +43,9 @@ class Pay(models.Model):
 class Sales(models.Model):
     """销量表"""
     id = models.AutoField(primary_key=True)
-    number = models.IntegerField()
-    time = models.DateTimeField(verbose_name='下单时间')
+    number = models.IntegerField(max_length=16)
 
+    pay = models.ForeignKey(verbose_name='支付项目', to='Pay', to_field='id', on_delete=models.CASCADE)
     customer = models.ForeignKey(verbose_name='所属客户', to='Customer', to_field='id', on_delete=models.CASCADE)
 
 class Commission(models.Model):
@@ -60,7 +60,7 @@ class FinishPay(models.Model):
     id = models.AutoField(primary_key=True)
     time = models.DateTimeField(verbose_name='支付时间', null=True)
     money = models.DecimalField(max_digits=12, decimal_places=2, null=True)
-    remark = models.CharField(verbose_name='备注', max_length=64, null=True)
+    remark = models.CharField(verbose_name='备注', max_length=64, null=True, default='无')
     payment_method = models.CharField(verbose_name='支付方式', max_length=32)
     accont_number = models.IntegerField(null=True)
 

@@ -1,0 +1,15 @@
+{% extends 'base_add.html' %}
+
+{% block content %}
+    
+    <div class="form-group put">
+                    <label for="customer">客户</label>
+                    <input type="text" name="customer" class="form-control" value="{{ res.name }}">
+                </div>
+
+    <div class="btnn">
+                    <input type="submit" class="btn btn-primary btn-lg active add" value="保存">
+                    <a href="/customer_inf/" class="btn btn-lg active add" role="button">取消</a>
+                </div>
+
+{% endblock %}

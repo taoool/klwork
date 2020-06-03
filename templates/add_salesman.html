@@ -1,0 +1,30 @@
+{% extends 'base_add.html' %}
+
+{% block content %}
+
+    <div class="form-group put">
+                    <label>部门</label>
+                    <select class="selectpicker show-tick form-control" name="department" data-live-search="true">
+
+                        {% for cc in cus %}
+                            {% if cc.id == ret.department_id %}
+                                <option selected>{{ cc.name }}</option>
+                            {% else %}
+                                <option>{{ cc.name }}</option>
+                            {% endif %}
+                        {% endfor %}
+
+                    </select>
+                </div>
+
+    <div class="form-group">
+                    <label for="salesman">业务员</label>
+                    <input type="text" name="salesman" class="form-control" value="{{ ret.name }}">
+                </div>
+
+    <div class="btnn">
+                    <input type="submit" class="btn btn-primary btn-lg active add" value="保存">
+                    <a href="/salesman/" class="btn btn-lg active add" role="button">取消</a>
+                </div>
+
+{% endblock %}

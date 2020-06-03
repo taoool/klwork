@@ -10,6 +10,7 @@
     <style>
         .background{
             display: flex;
+            margin-top: 60px;
         }
         .col-1{
             font-size: 40px;
@@ -18,11 +19,19 @@
             font-size: 30px;
         }
         .col-md-3{
-            width: 300px;
+            width: 360px;
         }
         .col-md-9{
-
+            margin-top: 65px;
         }
+        .table{
+        font-size: 25px;
+        }
+        .add{
+            font-size: 18px;
+            float: right;
+        }
+
     </style>
 
 </head>
@@ -30,25 +39,26 @@
 
 <div class="background">
 
-        <div class="col-md-3 ">
-            <div class="col-1">导航栏</div>
-                <div class="panel-body col-2">
-                    <ul>
-                        <li><a href="/show/">客户123</a></li>
-                        <li><a href="">业务员</a></li>
-                        <li><a href="">部门</a></li>
-                    </ul>
-                </div>
-        </div>
+    <div class="col-md-3 ">
+        <div class="col-1">导航栏</div>
+            <div class="panel-body col-2">
+                <ul>
+                    <li><a href="/customer_inf/">客户信息</a></li>
+                    <li><a href="/customer/">客户收款</a></li>
+                    <li><a href="/salesman/">业务员信息</a></li>
+                    <li><a href="/project/">支付项目</a></li>
+                    <li><a href="/pay/">提成</a></li>
+                    <li><a href="/finish/">付款记录</a></li>
+                    <li><a href="/department/">部门</a></li>
+                </ul>
+            </div>
+    </div>
 
 
 
-        <div class="col-md-9">
-            <p>qweqwe12123</p>
-            {% block content %}
+        {% block content %}
 
-            {% endblock %}
-        </div>
+        {% endblock %}
 
 
 </div>
