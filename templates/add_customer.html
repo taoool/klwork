@@ -3,28 +3,28 @@
 {% block content %}
 
     <div class="form-group put">
-                    <label>客户</label>
-                    <select class="selectpicker show-tick form-control" name="customer" data-live-search="true">
+        <label>客户</label>
+        <select class="selectpicker show-tick form-control" name="customer" data-live-search="true">
 
-                        {% for cc in cus %}
-                            {% if cc.id == ret.customer_id %}
-                                <option selected>{{ cc.name }}</option>
-                            {% else %}
-                                <option>{{ cc.name }}</option>
-                            {% endif %}
-                        {% endfor %}
+            {% for cc in cus %}
+                {% if cc.id == ret.customer_id %}
+                    <option selected>{{ cc.name }}</option>
+                {% else %}
+                    <option>{{ cc.name }}</option>
+                {% endif %}
+            {% endfor %}
 
-                    </select>
-                </div>
-
-    <div class="form-group">
-                    <label for="contact">联络人</label>
-                    <input type="text" name="contact" class="form-control" value="{{ ret.name }}">
-                </div>
+        </select>
+    </div>
 
     <div class="form-group">
-    <label for="remark">备注</label>
-    <input type="text" name="remark" class="form-control" value="{{ ret.remark }}">
+        <label for="contact">联络人</label>
+        <input type="text" name="contact" class="form-control" value="{{ ret.name }}">
+    </div>
+
+    <div class="form-group">
+        <label for="remark">备注</label>
+        <input type="text" name="remark" class="form-control" value="{{ ret.remark }}">
     </div>
 
     <div class="form-group">
@@ -38,14 +38,14 @@
     </div>
 
     <div class="form-group">
-                    <label for="account_number">收款账号</label>
-                    <input type="text" name="account_number" class="form-control" value="{{ ret.account_number }}">
-                </div>
+        <label for="account_number">收款账号</label>
+        <input type="text" name="account_number" class="form-control" value="{{ ret.account_number }}">
+    </div>
 
     <div class="btnn">
-                    <input type="submit" class="btn btn-primary btn-lg active add" value="保存">
-                    <a href="/customer/" class="btn btn-lg active add" role="button">取消</a>
-                </div>
+        <input type="submit" class="btn btn-primary btn-lg active add" value="保存">
+        <a href="/customer/" class="btn btn-lg active add" role="button">取消</a>
+    </div>
 
 
 {% endblock %}

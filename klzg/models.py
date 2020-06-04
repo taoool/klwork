@@ -35,25 +35,18 @@ class Pay(models.Model):
     id = models.AutoField(primary_key=True)
     start_time = models.DateTimeField(verbose_name='开始时间')
     end_time = models.DateTimeField(verbose_name='结束时间', null=True)
-    price = models.DecimalField(max_digits=6, decimal_places=2)
+    price = models.DecimalField(max_digits=6, decimal_places=2, null=True)
+    number = models.IntegerField(null=True)
 
-    customer = models.ForeignKey(verbose_name='客户', to='Customer', to_field='id', on_delete=models.CASCADE)
-    saleman = models.ForeignKey(verbose_name='负责人', to='Salesman', to_field='id', on_delete=models.CASCADE, null=True)
-
-class Sales(models.Model):
-    """销量表"""
-    id = models.AutoField(primary_key=True)
-    number = models.IntegerField(max_length=16)
-
-    pay = models.ForeignKey(verbose_name='支付项目', to='Pay', to_field='id', on_delete=models.CASCADE)
-    customer = models.ForeignKey(verbose_name='所属客户', to='Customer', to_field='id', on_delete=models.CASCADE)
+    customercol = models.ForeignKey(verbose_name='客户联络人', to='CustomerCollection', to_field='id', on_delete=models.CASCADE)
+    salesman = models.ForeignKey(verbose_name='业务负责人', to='Salesman', to_field='id', on_delete=models.CASCADE, null=True)
 
 class Commission(models.Model):
     """提成表"""
     id = models.AutoField(primary_key=True)
     total = models.DecimalField(max_digits=12, decimal_places=3)
 
-    sales = models.ForeignKey(verbose_name='所属客户', to='Sales', to_field='id', on_delete=models.CASCADE)
+    pay = models.ForeignKey(verbose_name='订单号', to='Pay', to_field='id', on_delete=models.CASCADE)
 
 class FinishPay(models.Model):
     """已支付表"""
@@ -62,7 +55,6 @@ class FinishPay(models.Model):
     money = models.DecimalField(max_digits=12, decimal_places=2, null=True)
     remark = models.CharField(verbose_name='备注', max_length=64, null=True, default='无')
     payment_method = models.CharField(verbose_name='支付方式', max_length=32)
-    accont_number = models.IntegerField(null=True)
+    account_number = models.IntegerField(null=True)
 
-
-    customer = models.ForeignKey(verbose_name='客户', to='Customer', to_field='id', on_delete=models.CASCADE)
+    customercol = models.ForeignKey(verbose_name='客户联络人', to='CustomerCollection', to_field='id', on_delete=models.CASCADE)

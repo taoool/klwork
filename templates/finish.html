@@ -3,14 +3,14 @@
 {% block content %}
     <div class="col-md-9">
         <div class="top-search">
-            <form class="navbar-form navbar-left">
+            <form class="navbar-form navbar-left" method="POST">
                 {% csrf_token %}
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search">
+                    <input type="text" name="cus_name" class="form-control" placeholder="Search">
                 </div>
                 <button type="submit" class="btn btn-default">搜索</button>
             </form>
-            <a href="/add/" class="btn btn-primary btn-lg active add" role="button">新增</a>
+            <a href="/modify_finish/" class="btn btn-primary btn-lg active add" role="button">新增</a>
         </div>
 
         <table class="table table-bordered">
@@ -19,6 +19,7 @@
             <tr>
                 <th scope="col">序号</th>
                 <th scope="col">客户</th>
+                <th scope="col">联络人</th>
                 <th scope="col">支付时间</th>
                 <th scope="col">金额</th>
                 <th scope="col">支付方式</th>
@@ -32,14 +33,15 @@
             {% for cus in ret %}
                 <tr>
                     <th scope="row">{{ cus.id }}</th>
-                    <td>{{ cus.customer.name }}</td>
+                    <td>{{ cus.customercol.customer.name }}</td>
+                    <td>{{ cus.customercol.name }}</td>
                     <td>{{ cus.time|date:"Y-m" }}</td>
                     <td>{{ cus.money|floatformat:2 }}</td>
                     <td>{{ cus.payment_method }}</td>
-                    <td>{{ cus.accont_number }}</td>
+                    <td>{{ cus.account_number }}</td>
                     <td>{{ cus.remark }}</td>
-                    <td><a href="/modify/" class="btn btn-primary btn-lg active modify" role="button">编辑</a>
-                        <a href="/delete/" class="btn btn-primary btn-lg active delete" role="button">删除</a></td>
+                    <td><a href="/modify_finish/{{ cus.id }}" class="btn btn-primary btn-lg active modify" role="button">编辑</a>
+                        <a href="/delete_finish/{{ cus.id }}" class="btn btn-primary btn-lg active delete" role="button">删除</a></td>
                 </tr>
             {% endfor %}
 

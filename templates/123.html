@@ -1,12 +1,28 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<script>
+     $(window).on('load', function () {  
+                $('.selectpicker').selectpicker({  
+                    'selectedText': 'cat'
+                });  
+                // $('.selectpicker').selectpicker('hide');  
+               });  
+</script>
 
-    <form class="navbar-form navbar-left">
-        <div class="form-group">
-            <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-    </form>
+
+            <label for="id_select">下拉框:</label>
+                <select id="id_select" class="selectpicker bla bla bli" multiple data-live-search="true">
+                    <option>123</option>
+                    <option>456</option>
+                    <option>wer</option>
+                    <option>435</option>
+                    <option>wqre</option>
+                    <option>sdf</option>
+                    <option>cxvz</option>
+                    <option selected>789</option>
+                    </optgroup>
+                  </select>
+
 
 {% endblock %}

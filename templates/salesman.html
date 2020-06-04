@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <div class="col-md-6">
+    <div class="col-md-9">
         <div class="top-search">
             <form class="navbar-form navbar-left" method="POST">
                 {% csrf_token %}
@@ -10,7 +10,7 @@
                 </div>
                 <button type="submit" class="btn btn-default">搜索</button>
             </form>
-            <a href="/add_salesman/" class="btn btn-primary btn-lg active add" role="button">新增</a>
+            <a href="/modify_salesman/" class="btn btn-primary btn-lg active add" role="button">新增</a>
         </div>
 
         <table class="table table-bordered">

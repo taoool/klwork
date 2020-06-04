@@ -2,32 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d34d233d-5291-41e4-ad04-42e5012211b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/123.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/add_customer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/add_customer_inf.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/add_department.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/add_project.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/add_salesman.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base_add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/customer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/customer_inf.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/department.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/finish.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/pay.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/project.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/salesman.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/add_finish.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/add_pay.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/klwork/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/klwork/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/klzg/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/klzg/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/klzg/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/klzg/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/klzg.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/klzg.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/123.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/123.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/add_customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add_customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/add_customer_inf.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add_customer_inf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/add_department.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add_department.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/add_project.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add_project.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/add_salesman.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add_salesman.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/show.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/customer_inf.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/customer_inf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/department.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/department.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/finish.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/finish.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/project.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/salesman.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/salesman.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -53,7 +56,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../python/day09" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -108,6 +111,7 @@
       <workItem from="1591086780368" duration="5626000" />
       <workItem from="1591144820923" duration="14565000" />
       <workItem from="1591164636736" duration="13337000" />
+      <workItem from="1591231425518" duration="18572000" />
     </task>
     <servers />
   </component>
@@ -115,25 +119,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="650" y="163" key="FileChooserDialogImpl" timestamp="1591077934075">
+    <state x="650" y="163" key="FileChooserDialogImpl" timestamp="1591232694982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="650" y="163" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591077934075" />
-    <state width="1855" height="244" key="GridCell.Tab.0.bottom" timestamp="1591177988153">
+    <state x="650" y="163" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591232694982" />
+    <state width="1855" height="244" key="GridCell.Tab.0.bottom" timestamp="1591255369039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1855" height="244" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591177988153" />
-    <state width="1855" height="244" key="GridCell.Tab.0.center" timestamp="1591177988153">
+    <state width="1855" height="244" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591255369039" />
+    <state width="1855" height="244" key="GridCell.Tab.0.center" timestamp="1591255369039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1855" height="244" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591177988153" />
-    <state width="1855" height="244" key="GridCell.Tab.0.left" timestamp="1591177988152">
+    <state width="1855" height="244" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591255369039" />
+    <state width="1855" height="244" key="GridCell.Tab.0.left" timestamp="1591255369039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1855" height="244" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591177988152" />
-    <state width="1855" height="244" key="GridCell.Tab.0.right" timestamp="1591177988153">
+    <state width="1855" height="244" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591255369039" />
+    <state width="1855" height="244" key="GridCell.Tab.0.right" timestamp="1591255369039">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1855" height="244" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591177988153" />
+    <state width="1855" height="244" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591255369039" />
   </component>
 </project>
