@@ -52,6 +52,7 @@ urlpatterns = [
     re_path('delete_finish/(?P<cus_id>\d+)/$', views.delete_finish),
     re_path('delete_department/(?P<cus_id>\d+)/$', views.delete_department),
 
+    path('commission_flash/', views.commission_flash),
 
 
 

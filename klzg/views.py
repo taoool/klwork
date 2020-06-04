@@ -1,7 +1,8 @@
 from django.shortcuts import render, redirect, HttpResponse
 from klzg import models
-from klzg.models import CustomerCollection, Customer, Salesman, Pay, Department, Commission, FinishPay
+from klzg.models import CustomerCollection, Customer, Sales, Salesman, Pay, Department, Commission, FinishPay
 import re
+from django.db.models import Q
 
 # Create your views here.
 def index(request):
@@ -127,19 +128,21 @@ def modify_project(request, **kwargs):
         ret = models.Pay.objects.filter(id=cus_id).first()
 
     if request.method == "POST":
-        cu = request.POST.get("contact")
-        cus = CustomerCollection.objects.filter(name=cu).first()
+        cu = request.POST.get("customer")
+        co = request.POST.get("contact")
+        con = CustomerCollection.objects.filter(Q(customer__name=cu) & Q(name=co)).first()
         sal = request.POST.get("salesman")
         sale = Salesman.objects.filter(name=sal).first()
+        price = request.POST.get("price")
         stime = request.POST.get("start_time")
         etime = request.POST.get("end_time")
         stime += "-01 01:01:01"
         etime += "-01 01:01:01"
         if kwargs:
             cus_id = kwargs.get("cus_id")
-            pay_obj = Pay.objects.filter(id=cus_id).update(start_time=stime, end_time=etime, customercol_id=cus.id, salesman_id=sale.id)
+            pay_obj = Pay.objects.filter(id=cus_id).update(start_time=stime, end_time=etime, price=price, customercol_id=con.id, salesman_id=sale.id)
         else:
-            pay_obj = Pay.objects.create(start_time=stime, end_time=etime, customercol_id=cus.id, salesman_id=sale.id)
+            pay_obj = Pay.objects.create(start_time=stime, end_time=etime, customercol_id=con.id, salesman_id=sale.id)
         return redirect("/project/")
 
     return render(request, "add_project.html", locals())
@@ -166,25 +169,40 @@ def modify_commission(request, **kwargs):
         ret = Commission.objects.filter(id=cus_id).first()
     if request.method == "POST":
         order = request.POST.get("order")  # 订单号
+        time = request.POST.get("time")
         num = request.POST.get("number")
-        price = request.POST.get("price")
-        print(num)
-        print(price)
+        pri = models.Pay.objects.filter(id=order).first()
+        price = pri.price
         total = int(num) * float(price)
-
+        time += "-01 01:01:01"
         if kwargs:
             cus_id = kwargs.get("cus_id")
-            pay_obj = Pay.objects.filter(id=order).update(number=num, price=price)
+            ret = Commission.objects.filter(id=cus_id).first()
+            sal_obj = Sales.objects.filter(id=ret.sales_id).update(time=time, number=num)
             com_obj = Commission.objects.filter(id=cus_id).update(total=total, pay_id=order)
         else:
-            pay_obj = Pay.objects.create(number=num, price=price)
-            com_obj = Commission.objects.create(total=total, pay_id=order)
+            sal_obj = Sales.objects.create(time=time, number=num)
+            com_obj = Commission.objects.create(total=total, pay_id=order, sales_id=sal_obj.id)
         return redirect("/commission/")
     return render(request, "add_pay.html", locals())
 
 def delete_commission(request, cus_id):
     """提成表-删除"""
     com_obj = Commission.objects.filter(id=cus_id).delete()
+    return redirect("/commission/")
+
+def commission_flash(request):
+    """提成表-刷新"""
+    ret = Commission.objects.all().values_list("id")
+
+    for i in ret:
+        nu = models.Commission.objects.filter(id=i[0]).all()
+        for cc in nu:
+            num = cc.sales.number
+            price = cc.pay.price
+            total = int(num) * float(price)
+            com_obj = Commission.objects.filter(id=i[0]).update(total=total)
+
     return redirect("/commission/")
 
 def finish(request):
@@ -194,7 +212,7 @@ def finish(request):
         sea = request.POST.get("cus_name")
         ret = models.FinishPay.objects.filter(customercol__customer__name__contains=sea).all()
     return render(request, "finish.html", {"ret": ret})
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+
 def modify_finish(request, **kwargs):
     """付款记录表-增改"""
     cus = models.CustomerCollection.objects.all()

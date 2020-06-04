@@ -23,6 +23,7 @@
                 <th scope="col">业务负责人</th>
                 <th scope="col">开始时间</th>
                 <th scope="col">结束时间</th>
+                <th scope="col">单价</th>
                 <th scope="col">操作</th>
             </tr>
             </thead>
@@ -36,6 +37,7 @@
                     <td>{{ cus.salesman.name }}</td>
                     <td>{{ cus.start_time|date:"Y-m" }}</td>
                     <td>{{ cus.end_time|date:"Y-m" }}</td>
+                    <td>{{ cus.price }}</td>
                     <td><a href="/modify_project/{{ cus.id }}" class="btn btn-primary btn-lg active modify"
                            role="button">编辑</a>
                         <a href="/delete_project/{{ cus.id }}" class="btn btn-primary btn-lg active delete"

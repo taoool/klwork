@@ -36,7 +36,7 @@ class Pay(models.Model):
     start_time = models.DateTimeField(verbose_name='开始时间')
     end_time = models.DateTimeField(verbose_name='结束时间', null=True)
     price = models.DecimalField(max_digits=6, decimal_places=2, null=True)
-    number = models.IntegerField(null=True)
+
 
     customercol = models.ForeignKey(verbose_name='客户联络人', to='CustomerCollection', to_field='id', on_delete=models.CASCADE)
     salesman = models.ForeignKey(verbose_name='业务负责人', to='Salesman', to_field='id', on_delete=models.CASCADE, null=True)
@@ -47,6 +47,7 @@ class Commission(models.Model):
     total = models.DecimalField(max_digits=12, decimal_places=3)
 
     pay = models.ForeignKey(verbose_name='订单号', to='Pay', to_field='id', on_delete=models.CASCADE)
+    sales = models.ForeignKey(default=1, verbose_name='销量', to='Sales', to_field='id', on_delete=models.CASCADE)
 
 class FinishPay(models.Model):
     """已支付表"""
@@ -58,3 +59,9 @@ class FinishPay(models.Model):
     account_number = models.IntegerField(null=True)
 
     customercol = models.ForeignKey(verbose_name='客户联络人', to='CustomerCollection', to_field='id', on_delete=models.CASCADE)
+
+class Sales(models.Model):
+    """销量表"""
+    id = models.AutoField(primary_key=True)
+    time = models.DateTimeField(verbose_name="月销量", null=True)
+    number = models.IntegerField(null=True)

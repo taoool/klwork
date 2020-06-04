@@ -3,18 +3,18 @@
 {% block content %}
 
     <div class="form-group put">
-        <label for="account_method">单号</label>
+        <label for="account_method">订单编号</label>
         <input type="text" name="order" class="form-control" value="{{ ret.pay_id }}">
     </div>
 
     <div class="form-group">
-        <label for="account_method">数量</label>
-        <input type="text" name="number" class="form-control" value="{{ ret.pay.number }}">
+        <label for="remark">月份</label>
+        <input type="month" name="time" class="form-control" value="{{ ret.sales.time|date:"Y-m" }}">
     </div>
 
-        <div class="form-group">
-        <label for="account_method">单价</label>
-        <input type="text" name="price" class="form-control" value="{{ ret.pay.price }}">
+    <div class="form-group">
+        <label for="account_method">数量</label>
+        <input type="text" name="number" class="form-control" value="{{ ret.sales.number }}">
     </div>
 
     <div class="btnn">
