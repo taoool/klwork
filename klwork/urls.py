@@ -52,7 +52,12 @@ urlpatterns = [
     re_path('delete_finish/(?P<cus_id>\d+)/$', views.delete_finish),
     re_path('delete_department/(?P<cus_id>\d+)/$', views.delete_department),
 
-    path('commission_flash/', views.commission_flash),
+    re_path('commission/(?P<time_id>\d+-\d{2})/$', views.commission),  # 日期筛选
+    re_path('project/(?P<time_id>\d+-\d{2})/$', views.project),
+    re_path('finish/(?P<time_id>\d+-\d{2})/$', views.finish),
+
+    path('commission_flash/', views.commission_flash),  # 刷新
+
 
 
 

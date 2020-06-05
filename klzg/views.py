@@ -111,13 +111,20 @@ def delete_salesman(request, cus_id):
     return redirect("/salesman/")
 
 
-def project(request):
+def project(request, **kwargs):
     """支付项目表"""
     ret = models.Pay.objects.all()
+    opt = models.Pay.objects.values("start_time").distinct().all()
+    # for foo in opt:
+    #     print(foo.get("time"))
+    if kwargs:
+        time_id = kwargs.get("time_id")
+        time_id += "-01 01:01:01"
+        ret = models.Pay.objects.filter(start_time=time_id).all()
     if request.method == "POST":
         sea = request.POST.get("cus_name")
-        ret = models.Pay.objects.filter(customer__name__contains=sea).all()
-    return render(request, "project.html", {"ret": ret})
+        ret = models.Pay.objects.filter(customercol__customer__name__contains=sea).all()
+    return render(request, "project.html", {"ret": ret, "opt": opt})
 
 def modify_project(request, **kwargs):
     """支付项目-增改"""
@@ -153,13 +160,20 @@ def delete_project(request, cus_id):
     pay_obj = Pay.objects.filter(id=cus_id).delete()
     return redirect("/projrct/")
 
-def commission(request):
+def commission(request, **kwargs):
     """提成表"""
     ret = models.Commission.objects.all()
+    opt = models.Commission.objects.values("sales__time").distinct().all()
+    # for foo in opt:
+    #     print(foo.get("time"))
+    if kwargs:
+        time_id = kwargs.get("time_id")
+        time_id += "-01 01:01:01"
+        ret = models.Commission.objects.filter(sales__time=time_id).all()
     if request.method == "POST":
         sea = request.POST.get("cus_name")
         ret = models.Commission.objects.filter(pay__customercol__customer__name__contains=sea).all()
-    return render(request, "pay.html", {"ret": ret})
+    return render(request, "pay.html", {"ret": ret, "opt": opt})
 
 def modify_commission(request, **kwargs):
     """提成表-增改"""
@@ -205,13 +219,21 @@ def commission_flash(request):
 
     return redirect("/commission/")
 
-def finish(request):
+
+def finish(request, **kwargs):
     """付款记录表"""
     ret = models.FinishPay.objects.all()
+    opt = models.FinishPay.objects.values("time").distinct().all()
+    # for foo in opt:
+    #     print(foo.get("time"))
+    if kwargs:
+        time_id = kwargs.get("time_id")
+        time_id += "-01 01:01:01"
+        ret = models.FinishPay.objects.filter(time=time_id).all()
     if request.method == "POST":
         sea = request.POST.get("cus_name")
         ret = models.FinishPay.objects.filter(customercol__customer__name__contains=sea).all()
-    return render(request, "finish.html", {"ret": ret})
+    return render(request, "finish.html", {"ret": ret, "opt": opt})
 
 def modify_finish(request, **kwargs):
     """付款记录表-增改"""
@@ -275,8 +297,11 @@ def delete_department(request, cus_id):
 
 
 
-
-
 def aba(request):
     """测试用"""
-    return render(request, "123.html")
+    ret = models.Commission.objects.all()
+    opt = models.Commission.objects.values("sales__time").distinct().all()
+    if request.method == "POST":
+        sea = request.POST.get("cus_name")
+        ret = models.Commission.objects.filter(pay__customercol__customer__name__contains=sea).all()
+    return render(request, "123.html", {"ret": ret, "opt": opt})

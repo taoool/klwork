@@ -1,7 +1,72 @@
-{% extends 'base.html' %}
+<html lang="en">
+ 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>bootstrap 搜索下拉框</title>
+  <!-- jquery -->
+  <script src="/static/js/jquery-3.2.1.min.js" type="text/javascript"></script>
+  <!-- bootstrap -->
+  <link href="/static/blog/bs/css/bootstrap.css" rel="stylesheet">
+  <script src="/static/blog/bs/js/bootstrap.min.js" type="text/javascript"></script>
+  <!-- bootstrap-select -->
+  <link rel="stylesheet" href="/static/blog/bs/css/bootstrap-select.css">
+  <script src="/static/blog/bs/js/bootstrap-select.min.js"></script>
 
-{% block content %}
-    <div class="col-md-9">
+        <style>
+        .background{
+            display: flex;
+            margin-top: 60px;
+        }
+        .col-1{
+            font-size: 40px;
+        }
+        .col-2{
+            font-size: 30px;
+        }
+        .col-md-3{
+            width: 360px;
+        }
+        .col-md-9{
+            margin-top: 65px;
+        }
+        .table{
+            font-size: 25px;
+
+        }
+        .add{
+            font-size: 18px;
+            float: right;
+        }
+        .flash{
+            margin-right: 220px;
+        }
+
+    </style>
+
+</head>
+ 
+<body>
+
+    <div class="background">
+
+        <div class="col-md-3 ">
+        <div class="col-1">导航栏</div>
+            <div class="panel-body col-2">
+                <ul>
+                    <li><a href="/customer_inf/">客户信息</a></li>
+                    <li><a href="/customer/">客户收款</a></li>
+                    <li><a href="/salesman/">业务员信息</a></li>
+                    <li><a href="/project/">支付项目</a></li>
+                    <li><a href="/commission/">提成</a></li>
+                    <li><a href="/finish/">付款记录</a></li>
+                    <li><a href="/department/">部门</a></li>
+                </ul>
+            </div>
+    </div>
+
+        <div class="col-md-9">
         <div class="top-search">
             <form class="navbar-form navbar-left" method="POST">
                 {% csrf_token %}
@@ -22,7 +87,19 @@
                 <th scope="col">序号</th>
                 <th scope="col">客户</th>
                 <th scope="col">联络人</th>
-                <th scope="col">时间</th>
+                <th scope="col">
+                <select class="selectpicker show-tick form-control" data-live-search="true">
+
+                    <option>月份</option>
+
+                    {% for foo in opt %}
+
+                        <option value="/commission/{{ foo.sales__time|date:"Y-m" }}/">{{ foo.sales__time|date:"Y-m" }}</option>
+
+                    {% endfor %}
+
+                </select>
+                </th>
                 <th scope="col">单价</th>
                 <th scope="col">数量</th>
                 <th scope="col">总额</th>
@@ -50,4 +127,17 @@
         </table>
     </div>
 
-{% endblock %}
+
+    </div>
+
+    <script>
+        var select = document.querySelector('select');
+        select.onchange = function(){
+	    window.location=this.value;
+        }
+
+    </script>
+
+</body>
+
+</html>
