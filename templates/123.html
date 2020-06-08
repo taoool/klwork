@@ -1,46 +1,53 @@
 <html lang="en">
- 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>bootstrap 搜索下拉框</title>
-  <!-- jquery -->
-  <script src="/static/js/jquery-3.2.1.min.js" type="text/javascript"></script>
-  <!-- bootstrap -->
-  <link href="/static/blog/bs/css/bootstrap.css" rel="stylesheet">
-  <script src="/static/blog/bs/js/bootstrap.min.js" type="text/javascript"></script>
-  <!-- bootstrap-select -->
-  <link rel="stylesheet" href="/static/blog/bs/css/bootstrap-select.css">
-  <script src="/static/blog/bs/js/bootstrap-select.min.js"></script>
 
-        <style>
-        .background{
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>bootstrap 搜索下拉框</title>
+    <!-- jquery -->
+    <script src="/static/js/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <!-- bootstrap -->
+    <link href="/static/blog/bs/css/bootstrap.css" rel="stylesheet">
+    <script src="/static/blog/bs/js/bootstrap.min.js" type="text/javascript"></script>
+    <!-- bootstrap-select -->
+    <link rel="stylesheet" href="/static/blog/bs/css/bootstrap-select.css">
+    <script src="/static/blog/bs/js/bootstrap-select.min.js"></script>
+
+    <style>
+        .background {
             display: flex;
             margin-top: 60px;
         }
-        .col-1{
+
+        .col-1 {
             font-size: 40px;
         }
-        .col-2{
+
+        .col-2 {
             font-size: 30px;
         }
-        .col-md-3{
+
+        .col-md-3 {
             width: 360px;
         }
-        .col-md-9{
+
+        .col-md-9 {
             margin-top: 65px;
         }
-        .table{
+
+        .table {
             font-size: 25px;
 
         }
-        .add{
+
+        .add {
             font-size: 18px;
             float: right;
         }
-        .flash{
-            margin-right: 300px;
+
+        .flash {
+            margin-right: 320px;
         }
 
     </style>
@@ -49,24 +56,24 @@
 
 <body>
 
-    <div class="background">
+<div class="background">
 
-        <div class="col-md-3 ">
+    <div class="col-md-3 ">
         <div class="col-1">导航栏</div>
-            <div class="panel-body col-2">
-                <ul>
-                    <li><a href="/customer_inf/">客户信息</a></li>
-                    <li><a href="/customer/">客户收款</a></li>
-                    <li><a href="/salesman/">业务员信息</a></li>
-                    <li><a href="/project/">支付项目</a></li>
-                    <li><a href="/commission/">提成</a></li>
-                    <li><a href="/finish/">付款记录</a></li>
-                    <li><a href="/department/">部门</a></li>
-                </ul>
-            </div>
+        <div class="panel-body col-2">
+            <ul>
+                <li><a href="/customer_inf/">客户信息</a></li>
+                <li><a href="/customer/">客户收款</a></li>
+                <li><a href="/salesman/">业务员信息</a></li>
+                <li><a href="/project/">支付项目</a></li>
+                <li><a href="/commission/">提成</a></li>
+                <li><a href="/finish/">付款记录</a></li>
+                <li><a href="/department/">部门</a></li>
+            </ul>
+        </div>
     </div>
 
-        <div class="col-md-9">
+    <div class="col-md-9">
         <div class="top-search">
             <form class="navbar-form navbar-left" method="POST">
                 {% csrf_token %}
@@ -75,8 +82,8 @@
                 </div>
                 <button type="submit" class="btn btn-default">搜索</button>
             </form>
-            <a href="/modify_finish/" class="btn btn-primary btn-lg active add" role="button">新增</a>
-            <a href="/finish/" class="btn btn-primary btn-lg active add flash" role="button">刷新</a>
+            <a href="/modify_commission/" class="btn btn-primary btn-lg active add" role="button">新增</a>
+            <a href="/commission_flash/" class="btn btn-primary btn-lg active add flash" role="button">刷新</a>
 
         </div>
 
@@ -87,26 +94,25 @@
                 <th scope="col">序号</th>
                 <th scope="col">客户</th>
                 <th scope="col">联络人</th>
-                <th scope="col">
-                <select class="selectpicker show-tick form-control" data-live-search="true">
+                <th scope="col">收款人</th>
+                <form name="date">
+                    <th scope="col">
+                        <select name="year" onchange="selectYear(this.value)">
+                            <option value="">选择 年</option>
+                        </select>
+                    </th>
 
-                    <option>支付时间</option>
+                    <th scope="col">
+                        <select name="month" onchange="selectMonth(this.value)">
+                            <option value="">选择 月</option>
+                        </select>
+                </form>
 
-                    {% for foo in opt %}
-
-                        <option value="/finish/{{ foo.time|date:"Y-m" }}/">{{ foo.time|date:"Y-m" }}</option>
-
-                    {% endfor %}
-
-                </select>
                 </th>
-                <th scope="col">金额</th>
-                <th scope="col">支付方式</th>
-                <th scope="col">账号</th>
-                <th scope="col">备注</th>
+                <th scope="col">数量</th>
+                <th scope="col">单价</th>
+                <th scope="col">总额</th>
                 <th scope="col">操作</th>
-
-
             </tr>
             </thead>
             <tbody>
@@ -114,16 +120,18 @@
             {% for cus in ret %}
                 <tr>
                     <th scope="row">{{ cus.id }}</th>
-                    <td>{{ cus.customercol.customer.name }}</td>
-                    <td>{{ cus.customercol.name }}</td>
-                    <td>{{ cus.time|date:"Y-m" }}</td>
-                    <td>{{ cus.money|floatformat:2 }}</td>
-                    <td>{{ cus.payment_method }}</td>
-                    <td>{{ cus.account_number }}</td>
-                    <td>{{ cus.remark }}</td>
-                    <td><a href="/modify_finish/{{ cus.id }}" class="btn btn-primary btn-lg active modify"
+                    <td onclick="location.href='/待填入/';"
+                        style="cursor:pointer;">{{ cus.pay.customercol.customer.name }}</td>
+                    <td>{{ cus.pay.customercol.name }}</td>
+                    <td>{{ cus.pay.customercol.account_name }}</td>
+                    <td>{{ cus.sales.time|date:"Y" }}</td>
+                    <td>{{ cus.sales.time|date:"m" }}</td>
+                    <td>{{ cus.sales.number }}</td>
+                    <td>{{ cus.pay.price|floatformat:2 }}</td>
+                    <td>{{ cus.total|floatformat:2 }}</td>
+                    <td><a href="/modify_commission/{{ cus.id }}" class="btn btn-primary btn-lg active modify"
                            role="button">编辑</a>
-                        <a href="/delete_finish/{{ cus.id }}" class="btn btn-primary btn-lg active delete"
+                        <a href="/delete_commission/{{ cus.id }}" class="btn btn-primary btn-lg active delete"
                            role="button">删除</a></td>
                 </tr>
             {% endfor %}
@@ -134,15 +142,43 @@
     </div>
 
 
-    </div>
+</div>
 
-    <script>
-        var select = document.querySelector('select');
-        select.onchange = function(){
-	    window.location=this.value;
-        }
+<script>
+    var select = document.querySelector('select');
+    select.onchange = function () {
+        window.location = this.value;
+    }
 
-    </script>
+</script>
+
+
+<script language="JavaScript">
+    function dateStart() {
+
+        //给年下拉框赋内容
+        var y = new Date().getFullYear();
+        for (var i = (y - 50); i < (y + 50); i++) //以今年为准，前50年，后50年
+            document.date.year.options.add(new Option(" " + i + " 年", i));
+
+        //给月下拉框赋内容
+        var m = new Date().getFullYear();
+        for (var i = 1; i < 13; i++)
+            document.date.month.options.add(new Option(" " + i + " 月", i));
+
+
+    }
+
+    if (document.attachEvent)
+        window.attachEvent("onload", dateStart);
+    else
+        window.addEventListener('load', dateStart, false);
+
+    function optionsClear(e) {
+        e.options.length = 1;
+    }
+</script>
+
 
 </body>
 

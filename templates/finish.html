@@ -101,8 +101,9 @@
                 </select>
                 </th>
                 <th scope="col">金额</th>
-                <th scope="col">支付方式</th>
+                <th scope="col">收款人</th>
                 <th scope="col">账号</th>
+                <th scope="col">支付方式</th>
                 <th scope="col">备注</th>
                 <th scope="col">操作</th>
 
@@ -118,8 +119,9 @@
                     <td>{{ cus.customercol.name }}</td>
                     <td>{{ cus.time|date:"Y-m" }}</td>
                     <td>{{ cus.money|floatformat:2 }}</td>
-                    <td>{{ cus.payment_method }}</td>
+                    <td>{{ cus.customercol.account_name }}</td>
                     <td>{{ cus.account_number }}</td>
+                    <td>{{ cus.payment_method }}</td>
                     <td>{{ cus.remark }}</td>
                     <td><a href="/modify_finish/{{ cus.id }}" class="btn btn-primary btn-lg active modify"
                            role="button">编辑</a>

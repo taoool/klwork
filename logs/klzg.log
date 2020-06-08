@@ -12634,3 +12634,1989 @@ INFO 2020-06-05 12:25:30,337 basehttp 154 "GET /finish/ HTTP/1.1" 200 5830
 INFO 2020-06-05 12:25:32,494 basehttp 154 "GET /commission/ HTTP/1.1" 200 8064
 INFO 2020-06-05 12:25:34,430 basehttp 154 "GET /project/ HTTP/1.1" 200 7607
 INFO 2020-06-05 12:25:34,802 basehttp 154 "GET /finish/ HTTP/1.1" 200 5830
+INFO 2020-06-05 12:29:16,141 basehttp 154 "GET / HTTP/1.1" 200 1546
+WARNING 2020-06-05 12:29:16,657 log 228 Not Found: /favicon.ico
+WARNING 2020-06-05 12:29:16,658 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 6259
+INFO 2020-06-08 09:34:09,682 basehttp 154 "GET / HTTP/1.1" 200 1546
+WARNING 2020-06-08 09:34:10,216 log 228 Not Found: /favicon.ico
+WARNING 2020-06-08 09:34:10,216 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 6259
+INFO 2020-06-08 09:34:22,495 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 5279
+INFO 2020-06-08 09:34:31,576 basehttp 154 "GET /modify_customer_inf/1/ HTTP/1.1" 200 1192
+INFO 2020-06-08 09:34:37,384 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 5279
+INFO 2020-06-08 09:34:44,450 basehttp 154 "GET /modify_customer_inf/ HTTP/1.1" 200 1184
+INFO 2020-06-08 09:34:59,736 basehttp 154 "POST /modify_customer_inf/ HTTP/1.1" 302 0
+INFO 2020-06-08 09:34:59,750 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 5727
+INFO 2020-06-08 09:35:03,629 basehttp 154 "GET /customer/ HTTP/1.1" 200 7135
+INFO 2020-06-08 09:35:17,245 basehttp 154 "GET /salesman/ HTTP/1.1" 200 4710
+INFO 2020-06-08 09:35:19,909 basehttp 154 "GET /project/ HTTP/1.1" 200 7607
+INFO 2020-06-08 09:35:19,944 basehttp 154 "GET /static/blog/bs/js/bootstrap-select.min.js HTTP/1.1" 304 0
+INFO 2020-06-08 09:35:20,855 basehttp 154 "GET /project/ HTTP/1.1" 200 7607
+INFO 2020-06-08 09:35:21,943 basehttp 154 "GET /project/ HTTP/1.1" 200 7607
+INFO 2020-06-08 09:35:23,629 basehttp 154 "GET /project/ HTTP/1.1" 200 7607
+INFO 2020-06-08 09:35:26,762 basehttp 154 "GET /project/ HTTP/1.1" 200 7607
+INFO 2020-06-08 09:35:28,387 basehttp 154 "GET /project/ HTTP/1.1" 200 7607
+INFO 2020-06-08 09:35:29,354 basehttp 154 "GET /project/ HTTP/1.1" 200 7607
+INFO 2020-06-08 09:35:29,959 basehttp 154 "GET /project/ HTTP/1.1" 200 7607
+INFO 2020-06-08 09:35:33,177 basehttp 154 "GET /salesman/ HTTP/1.1" 200 4710
+INFO 2020-06-08 09:35:35,225 basehttp 154 "GET /project/ HTTP/1.1" 200 7607
+INFO 2020-06-08 09:35:47,385 basehttp 154 "GET /project/2020-11/ HTTP/1.1" 200 4459
+INFO 2020-06-08 09:35:56,487 basehttp 154 "GET /project/ HTTP/1.1" 200 7607
+INFO 2020-06-08 09:36:11,452 basehttp 154 "GET /commission/ HTTP/1.1" 200 8064
+INFO 2020-06-08 09:36:27,896 basehttp 154 "GET /commission/ HTTP/1.1" 200 8064
+INFO 2020-06-08 09:36:42,247 basehttp 154 "GET /finish/ HTTP/1.1" 200 5830
+INFO 2020-06-08 09:36:47,592 basehttp 154 "GET /project/ HTTP/1.1" 200 7607
+INFO 2020-06-08 09:36:51,013 basehttp 154 "GET /modify_project/ HTTP/1.1" 200 2509
+INFO 2020-06-08 09:37:20,046 basehttp 154 "GET /project/ HTTP/1.1" 200 7607
+INFO 2020-06-08 09:37:25,146 basehttp 154 "GET /commission/ HTTP/1.1" 200 8064
+INFO 2020-06-08 09:37:34,858 basehttp 154 "GET /modify_commission/ HTTP/1.1" 200 1511
+INFO 2020-06-08 09:37:39,399 basehttp 154 "GET /commission/ HTTP/1.1" 200 8064
+INFO 2020-06-08 09:37:45,655 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 5727
+INFO 2020-06-08 09:37:49,362 basehttp 154 "GET /customer/ HTTP/1.1" 200 7135
+INFO 2020-06-08 09:37:51,174 basehttp 154 "GET /salesman/ HTTP/1.1" 200 4710
+INFO 2020-06-08 09:37:54,179 basehttp 154 "GET /project/ HTTP/1.1" 200 7607
+INFO 2020-06-08 09:38:02,365 basehttp 154 "GET /commission/ HTTP/1.1" 200 8064
+INFO 2020-06-08 09:38:10,784 basehttp 154 "GET /finish/ HTTP/1.1" 200 5830
+INFO 2020-06-08 09:38:36,396 basehttp 154 "GET /customer/ HTTP/1.1" 200 7135
+INFO 2020-06-08 09:39:07,355 basehttp 154 "GET /commission/ HTTP/1.1" 200 8064
+INFO 2020-06-08 09:39:24,813 basehttp 154 "GET /customer/ HTTP/1.1" 200 7135
+INFO 2020-06-08 09:39:33,644 basehttp 154 "GET /commission/ HTTP/1.1" 200 8064
+INFO 2020-06-08 09:40:17,200 basehttp 154 "GET /customer/ HTTP/1.1" 200 7135
+INFO 2020-06-08 09:40:32,722 basehttp 154 "GET /commission/ HTTP/1.1" 200 8064
+INFO 2020-06-08 09:40:47,661 basehttp 154 "GET /finish/ HTTP/1.1" 200 5830
+INFO 2020-06-08 09:40:47,907 basehttp 154 "GET /commission/ HTTP/1.1" 200 8064
+INFO 2020-06-08 09:40:48,194 basehttp 154 "GET /commission/ HTTP/1.1" 200 8064
+INFO 2020-06-08 09:41:40,150 basehttp 154 "GET /commission/ HTTP/1.1" 200 8064
+INFO 2020-06-08 09:41:44,330 basehttp 154 "GET /department/ HTTP/1.1" 200 3873
+INFO 2020-06-08 09:41:45,397 basehttp 154 "GET /finish/ HTTP/1.1" 200 5830
+INFO 2020-06-08 09:41:55,872 basehttp 154 "GET /finish/ HTTP/1.1" 200 5830
+INFO 2020-06-08 09:42:12,928 basehttp 154 "GET /project/ HTTP/1.1" 200 7607
+INFO 2020-06-08 09:42:13,779 basehttp 154 "GET /commission/ HTTP/1.1" 200 8064
+INFO 2020-06-08 09:42:43,779 basehttp 154 "GET /commission/ HTTP/1.1" 200 8366
+INFO 2020-06-08 09:42:49,161 basehttp 154 "GET /finish/ HTTP/1.1" 200 5830
+INFO 2020-06-08 09:43:58,292 basehttp 154 "GET /finish/ HTTP/1.1" 200 5877
+INFO 2020-06-08 09:44:22,308 basehttp 154 "GET /finish/ HTTP/1.1" 200 5988
+INFO 2020-06-08 09:44:29,385 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 5727
+INFO 2020-06-08 09:44:32,268 basehttp 154 "GET /modify_customer_inf/ HTTP/1.1" 200 1184
+INFO 2020-06-08 09:44:56,496 basehttp 154 "POST /modify_customer_inf/ HTTP/1.1" 302 0
+INFO 2020-06-08 09:44:56,518 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 6178
+INFO 2020-06-08 09:45:06,362 basehttp 154 "GET /customer/ HTTP/1.1" 200 7135
+INFO 2020-06-08 09:45:10,394 basehttp 154 "GET /modify_customer/ HTTP/1.1" 200 2830
+ERROR 2020-06-08 09:45:28,663 log 228 Internal Server Error: /modify_customer/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 70, in modify_customer
+    cuscol_obj = CustomerCollection.objects.create(name=contact, remark=remark, account_name=account, account_method=account_method, account_number=account_number, customer_id=a.id)
+  File "E:\envs\test1\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\envs\test1\lib\site-packages\django\db\models\query.py", line 413, in create
+    obj.save(force_insert=True, using=self.db)
+  File "E:\envs\test1\lib\site-packages\django\db\models\base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "E:\envs\test1\lib\site-packages\django\db\models\base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "E:\envs\test1\lib\site-packages\django\db\models\base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "E:\envs\test1\lib\site-packages\django\db\models\base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "E:\envs\test1\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\envs\test1\lib\site-packages\django\db\models\query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\compiler.py", line 1288, in execute_sql
+    for sql, params in self.as_sql():
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\compiler.py", line 1241, in as_sql
+    for obj in self.query.objs
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\compiler.py", line 1241, in <listcomp>
+    for obj in self.query.objs
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\compiler.py", line 1240, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\compiler.py", line 1182, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "E:\envs\test1\lib\site-packages\django\db\models\fields\__init__.py", line 790, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "E:\envs\test1\lib\site-packages\django\db\models\fields\__init__.py", line 785, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "E:\envs\test1\lib\site-packages\django\db\models\fields\__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+ERROR 2020-06-08 09:45:28,668 basehttp 154 "POST /modify_customer/ HTTP/1.1" 500 152627
+INFO 2020-06-08 09:45:38,511 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 6178
+INFO 2020-06-08 09:45:43,825 basehttp 154 "GET /customer/ HTTP/1.1" 200 7135
+INFO 2020-06-08 09:45:47,762 basehttp 154 "GET /modify_customer/ HTTP/1.1" 200 2830
+INFO 2020-06-08 09:46:45,915 basehttp 154 "POST /modify_customer/ HTTP/1.1" 302 0
+INFO 2020-06-08 09:46:45,949 basehttp 154 "GET /customer/ HTTP/1.1" 200 7761
+INFO 2020-06-08 09:46:54,041 basehttp 154 "GET /salesman/ HTTP/1.1" 200 4710
+INFO 2020-06-08 09:46:59,461 basehttp 154 "GET /modify_salesman/ HTTP/1.1" 200 1674
+INFO 2020-06-08 09:47:09,833 basehttp 154 "GET /salesman/ HTTP/1.1" 200 4710
+INFO 2020-06-08 09:47:12,132 basehttp 154 "GET /salesman/ HTTP/1.1" 200 4710
+INFO 2020-06-08 09:47:13,250 basehttp 154 "GET /salesman/ HTTP/1.1" 200 4710
+INFO 2020-06-08 09:47:14,620 basehttp 154 "GET /salesman/ HTTP/1.1" 200 4710
+INFO 2020-06-08 09:47:16,151 basehttp 154 "GET /modify_salesman/ HTTP/1.1" 200 1674
+INFO 2020-06-08 09:47:36,810 basehttp 154 "GET /salesman/ HTTP/1.1" 200 4710
+INFO 2020-06-08 09:47:39,072 basehttp 154 "GET /department/ HTTP/1.1" 200 3873
+INFO 2020-06-08 09:47:41,282 basehttp 154 "GET /modify_department/ HTTP/1.1" 200 1174
+INFO 2020-06-08 09:48:04,016 basehttp 154 "POST /modify_department/ HTTP/1.1" 302 0
+INFO 2020-06-08 09:48:04,038 basehttp 154 "GET /department/ HTTP/1.1" 200 4320
+INFO 2020-06-08 09:48:06,499 basehttp 154 "GET /salesman/ HTTP/1.1" 200 4710
+INFO 2020-06-08 09:48:12,001 basehttp 154 "GET /modify_salesman/ HTTP/1.1" 200 1768
+INFO 2020-06-08 09:48:18,710 basehttp 154 "POST /modify_salesman/ HTTP/1.1" 302 0
+INFO 2020-06-08 09:48:18,739 basehttp 154 "GET /salesman/ HTTP/1.1" 200 5132
+INFO 2020-06-08 09:48:27,358 basehttp 154 "GET /modify_salesman/10 HTTP/1.1" 301 0
+INFO 2020-06-08 09:48:27,374 basehttp 154 "GET /modify_salesman/10/ HTTP/1.1" 200 1777
+INFO 2020-06-08 09:48:40,659 basehttp 154 "POST /modify_salesman/10/ HTTP/1.1" 302 0
+INFO 2020-06-08 09:48:40,689 basehttp 154 "GET /salesman/ HTTP/1.1" 200 5141
+INFO 2020-06-08 09:48:47,958 basehttp 154 "GET /salesman/ HTTP/1.1" 200 5141
+INFO 2020-06-08 09:48:48,530 basehttp 154 "GET /project/ HTTP/1.1" 200 7607
+INFO 2020-06-08 09:48:56,530 basehttp 154 "GET /modify_project/ HTTP/1.1" 200 2603
+INFO 2020-06-08 09:49:51,128 basehttp 154 "POST /modify_project/ HTTP/1.1" 302 0
+INFO 2020-06-08 09:49:51,174 basehttp 154 "GET /project/ HTTP/1.1" 200 8231
+INFO 2020-06-08 09:50:10,168 basehttp 154 "GET /project/ HTTP/1.1" 200 8231
+INFO 2020-06-08 09:50:12,820 basehttp 154 "GET /modify_project/ HTTP/1.1" 200 2603
+INFO 2020-06-08 09:50:51,246 basehttp 154 "POST /modify_project/ HTTP/1.1" 302 0
+INFO 2020-06-08 09:50:51,287 basehttp 154 "GET /project/ HTTP/1.1" 200 8855
+INFO 2020-06-08 09:50:59,567 basehttp 154 "GET /modify_project/7 HTTP/1.1" 301 0
+INFO 2020-06-08 09:50:59,598 basehttp 154 "GET /modify_project/7/ HTTP/1.1" 200 2645
+INFO 2020-06-08 09:51:05,871 basehttp 154 "POST /modify_project/7/ HTTP/1.1" 302 0
+INFO 2020-06-08 09:51:05,912 basehttp 154 "GET /project/ HTTP/1.1" 200 8857
+INFO 2020-06-08 09:51:12,395 basehttp 154 "GET /commission/ HTTP/1.1" 200 8366
+INFO 2020-06-08 09:51:13,430 basehttp 154 "GET /commission/ HTTP/1.1" 200 8366
+INFO 2020-06-08 09:51:16,623 basehttp 154 "GET /commission/ HTTP/1.1" 200 8366
+INFO 2020-06-08 09:51:18,266 basehttp 154 "GET /commission/ HTTP/1.1" 200 8366
+INFO 2020-06-08 09:51:20,022 basehttp 154 "GET /project/ HTTP/1.1" 200 8857
+INFO 2020-06-08 09:51:25,651 basehttp 154 "GET /commission/ HTTP/1.1" 200 8366
+INFO 2020-06-08 09:51:29,940 basehttp 154 "GET /modify_commission/ HTTP/1.1" 200 1511
+ERROR 2020-06-08 09:51:47,735 log 228 Internal Server Error: /modify_commission/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 190, in modify_commission
+    total = int(num) * float(price)
+ValueError: invalid literal for int() with base 10: ''
+ERROR 2020-06-08 09:51:47,736 basehttp 154 "POST /modify_commission/ HTTP/1.1" 500 76515
+INFO 2020-06-08 09:52:12,081 basehttp 154 "POST /modify_commission/ HTTP/1.1" 302 0
+INFO 2020-06-08 09:52:12,143 basehttp 154 "GET /commission/ HTTP/1.1" 200 8978
+INFO 2020-06-08 09:52:43,360 basehttp 154 "GET /commission/ HTTP/1.1" 200 8978
+INFO 2020-06-08 09:52:44,909 basehttp 154 "GET /commission/ HTTP/1.1" 200 8978
+INFO 2020-06-08 09:52:55,627 basehttp 154 "GET /commission/ HTTP/1.1" 200 8978
+INFO 2020-06-08 09:52:57,431 basehttp 154 "GET /project/ HTTP/1.1" 200 8857
+INFO 2020-06-08 09:52:58,298 basehttp 154 "GET /commission/ HTTP/1.1" 200 8978
+INFO 2020-06-08 09:53:21,906 basehttp 154 "GET /modify_commission/ HTTP/1.1" 200 1511
+INFO 2020-06-08 09:53:25,994 basehttp 154 "GET /commission/ HTTP/1.1" 200 8978
+INFO 2020-06-08 09:55:17,014 basehttp 154 "GET /customer/ HTTP/1.1" 200 7761
+INFO 2020-06-08 09:55:21,413 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 6178
+INFO 2020-06-08 09:55:24,473 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 6178
+INFO 2020-06-08 09:55:44,408 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 6178
+INFO 2020-06-08 09:55:45,307 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 6178
+INFO 2020-06-08 09:55:48,788 basehttp 154 "GET /salesman/ HTTP/1.1" 200 5141
+INFO 2020-06-08 09:55:50,646 basehttp 154 "GET /project/ HTTP/1.1" 200 8857
+INFO 2020-06-08 09:57:14,096 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 6178
+INFO 2020-06-08 09:57:15,723 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 6178
+INFO 2020-06-08 09:57:18,104 basehttp 154 "GET /customer/ HTTP/1.1" 200 7761
+INFO 2020-06-08 09:57:23,279 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 6178
+INFO 2020-06-08 09:57:28,751 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 6178
+INFO 2020-06-08 09:57:34,747 basehttp 154 "GET /customer/ HTTP/1.1" 200 7761
+INFO 2020-06-08 09:57:43,276 basehttp 154 "GET /salesman/ HTTP/1.1" 200 5141
+INFO 2020-06-08 09:59:00,168 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 6178
+INFO 2020-06-08 10:00:21,964 basehttp 154 "GET /project/ HTTP/1.1" 200 8857
+INFO 2020-06-08 10:00:39,176 basehttp 154 "GET /project/ HTTP/1.1" 200 8857
+INFO 2020-06-08 10:00:40,583 basehttp 154 "GET /commission/ HTTP/1.1" 200 8978
+INFO 2020-06-08 10:01:13,500 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 6178
+INFO 2020-06-08 10:01:47,050 basehttp 154 "GET /commission/ HTTP/1.1" 200 8978
+INFO 2020-06-08 10:03:19,949 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 6178
+INFO 2020-06-08 10:03:20,598 basehttp 154 "GET /customer/ HTTP/1.1" 200 7761
+INFO 2020-06-08 10:03:43,317 basehttp 154 "GET /modify_customer/1/ HTTP/1.1" 200 2873
+INFO 2020-06-08 10:05:07,607 basehttp 154 "POST /modify_customer/1/ HTTP/1.1" 302 0
+INFO 2020-06-08 10:05:07,629 basehttp 154 "GET /customer/ HTTP/1.1" 200 7758
+INFO 2020-06-08 10:05:18,886 basehttp 154 "GET /project/ HTTP/1.1" 200 8855
+INFO 2020-06-08 10:05:27,190 basehttp 154 "GET /modify_project/ HTTP/1.1" 200 2603
+INFO 2020-06-08 10:05:59,750 basehttp 154 "POST /modify_project/ HTTP/1.1" 302 0
+INFO 2020-06-08 10:05:59,806 basehttp 154 "GET /project/ HTTP/1.1" 200 9476
+INFO 2020-06-08 10:06:05,567 basehttp 154 "GET /modify_project/9 HTTP/1.1" 301 0
+INFO 2020-06-08 10:06:05,595 basehttp 154 "GET /modify_project/9/ HTTP/1.1" 200 2642
+INFO 2020-06-08 10:06:10,933 basehttp 154 "POST /modify_project/9/ HTTP/1.1" 302 0
+INFO 2020-06-08 10:06:10,991 basehttp 154 "GET /project/ HTTP/1.1" 200 9477
+INFO 2020-06-08 10:06:17,995 basehttp 154 "GET /delete_project/8 HTTP/1.1" 301 0
+INFO 2020-06-08 10:06:18,133 basehttp 154 "GET /delete_project/8/ HTTP/1.1" 302 0
+WARNING 2020-06-08 10:06:18,141 log 228 Not Found: /projrct/
+WARNING 2020-06-08 10:06:18,141 basehttp 154 "GET /projrct/ HTTP/1.1" 404 6250
+INFO 2020-06-08 10:06:28,411 basehttp 154 "GET /commission/ HTTP/1.1" 200 8972
+INFO 2020-06-08 10:06:46,076 basehttp 154 "GET /commission/ HTTP/1.1" 200 8972
+INFO 2020-06-08 10:09:00,723 basehttp 154 "POST /commission/ HTTP/1.1" 200 6505
+INFO 2020-06-08 10:09:29,809 basehttp 154 "POST /commission/ HTTP/1.1" 200 8972
+INFO 2020-06-08 10:09:40,594 basehttp 154 "GET /commission/2020-06/ HTTP/1.1" 200 5902
+INFO 2020-06-08 10:09:46,905 basehttp 154 "GET /commission/2020-07/ HTTP/1.1" 200 5936
+INFO 2020-06-08 10:09:53,425 basehttp 154 "GET /commission_flash/ HTTP/1.1" 302 0
+INFO 2020-06-08 10:09:53,488 basehttp 154 "GET /commission/ HTTP/1.1" 200 8972
+INFO 2020-06-08 10:10:31,807 basehttp 154 "POST /commission/ HTTP/1.1" 200 6505
+INFO 2020-06-08 10:10:40,722 basehttp 154 "GET /commission/2020-06/ HTTP/1.1" 200 5902
+INFO 2020-06-08 10:10:48,155 basehttp 154 "GET /commission_flash/ HTTP/1.1" 302 0
+INFO 2020-06-08 10:10:48,221 basehttp 154 "GET /commission/ HTTP/1.1" 200 8972
+INFO 2020-06-08 10:14:50,107 basehttp 154 "GET /commission/2020-06/ HTTP/1.1" 200 5902
+INFO 2020-06-08 10:14:51,896 basehttp 154 "GET /commission/2020-07/ HTTP/1.1" 200 5936
+INFO 2020-06-08 10:14:54,371 basehttp 154 "GET /commission/2020-05/ HTTP/1.1" 200 4692
+INFO 2020-06-08 10:14:57,194 basehttp 154 "GET /commission/2020-06/ HTTP/1.1" 200 5902
+INFO 2020-06-08 10:15:37,388 basehttp 154 "GET /commission_flash/ HTTP/1.1" 302 0
+INFO 2020-06-08 10:15:37,455 basehttp 154 "GET /commission/ HTTP/1.1" 200 8972
+INFO 2020-06-08 10:18:50,852 basehttp 154 "GET /commission/2020-06/ HTTP/1.1" 200 5902
+INFO 2020-06-08 10:26:43,591 basehttp 154 "GET /salesman/ HTTP/1.1" 200 5141
+INFO 2020-06-08 10:26:44,615 basehttp 154 "GET /project/ HTTP/1.1" 200 8853
+INFO 2020-06-08 10:26:49,234 basehttp 154 "GET /project/ HTTP/1.1" 200 8853
+INFO 2020-06-08 10:26:52,555 basehttp 154 "GET /delete_project/6 HTTP/1.1" 301 0
+INFO 2020-06-08 10:26:52,714 basehttp 154 "GET /delete_project/6/ HTTP/1.1" 302 0
+WARNING 2020-06-08 10:26:52,723 log 228 Not Found: /projrct/
+WARNING 2020-06-08 10:26:52,724 basehttp 154 "GET /projrct/ HTTP/1.1" 404 6250
+INFO 2020-06-08 10:26:58,739 basehttp 154 "GET /delete_project/6/ HTTP/1.1" 302 0
+WARNING 2020-06-08 10:26:58,747 log 228 Not Found: /projrct/
+WARNING 2020-06-08 10:26:58,747 basehttp 154 "GET /projrct/ HTTP/1.1" 404 6250
+INFO 2020-06-08 10:27:26,635 basehttp 154 "GET /project/ HTTP/1.1" 200 8131
+INFO 2020-06-08 10:27:29,515 basehttp 154 "GET /delete_project/5 HTTP/1.1" 301 0
+INFO 2020-06-08 10:27:29,615 basehttp 154 "GET /delete_project/5/ HTTP/1.1" 302 0
+INFO 2020-06-08 10:27:29,665 basehttp 154 "GET /project/ HTTP/1.1" 200 7511
+INFO 2020-06-08 10:27:34,164 basehttp 154 "GET /modify_project/ HTTP/1.1" 200 2603
+INFO 2020-06-08 10:27:36,265 basehttp 154 "GET /project/ HTTP/1.1" 200 7511
+INFO 2020-06-08 10:27:37,828 basehttp 154 "GET /commission/ HTTP/1.1" 200 8367
+INFO 2020-06-08 10:27:38,760 basehttp 154 "GET /finish/ HTTP/1.1" 200 5986
+INFO 2020-06-08 10:27:39,391 basehttp 154 "GET /department/ HTTP/1.1" 200 4320
+INFO 2020-06-08 10:27:40,755 basehttp 154 "GET /commission/ HTTP/1.1" 200 8367
+INFO 2020-06-08 10:27:41,109 basehttp 154 "GET /commission/ HTTP/1.1" 200 8367
+INFO 2020-06-08 10:27:41,630 basehttp 154 "GET /department/ HTTP/1.1" 200 4320
+INFO 2020-06-08 10:27:44,352 basehttp 154 "GET /salesman/ HTTP/1.1" 200 5141
+INFO 2020-06-08 10:27:46,143 basehttp 154 "GET /commission/ HTTP/1.1" 200 8367
+INFO 2020-06-08 10:27:54,581 basehttp 154 "GET /delete_commission/5 HTTP/1.1" 301 0
+INFO 2020-06-08 10:27:54,803 basehttp 154 "GET /delete_commission/5/ HTTP/1.1" 302 0
+INFO 2020-06-08 10:27:54,856 basehttp 154 "GET /commission/ HTTP/1.1" 200 7763
+INFO 2020-06-08 10:27:55,982 basehttp 154 "GET /delete_commission/6 HTTP/1.1" 301 0
+INFO 2020-06-08 10:27:56,072 basehttp 154 "GET /delete_commission/6/ HTTP/1.1" 302 0
+INFO 2020-06-08 10:27:56,128 basehttp 154 "GET /commission/ HTTP/1.1" 200 7058
+INFO 2020-06-08 10:27:57,859 basehttp 154 "GET /commission/ HTTP/1.1" 200 7058
+INFO 2020-06-08 10:27:58,869 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 6178
+INFO 2020-06-08 10:27:59,492 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 6178
+INFO 2020-06-08 10:28:00,395 basehttp 154 "GET /customer/ HTTP/1.1" 200 7758
+INFO 2020-06-08 10:28:00,961 basehttp 154 "GET /customer/ HTTP/1.1" 200 7758
+INFO 2020-06-08 10:28:01,722 basehttp 154 "GET /salesman/ HTTP/1.1" 200 5141
+INFO 2020-06-08 10:28:03,584 basehttp 154 "GET /project/ HTTP/1.1" 200 7511
+INFO 2020-06-08 10:28:04,274 basehttp 154 "GET /project/ HTTP/1.1" 200 7511
+INFO 2020-06-08 10:28:04,971 basehttp 154 "GET /project/ HTTP/1.1" 200 7511
+INFO 2020-06-08 10:28:05,829 basehttp 154 "GET /project/ HTTP/1.1" 200 7511
+INFO 2020-06-08 10:28:14,271 basehttp 154 "GET /modify_project/1/ HTTP/1.1" 200 2643
+INFO 2020-06-08 10:28:17,838 basehttp 154 "GET /project/ HTTP/1.1" 200 7511
+INFO 2020-06-08 10:28:19,194 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 6178
+INFO 2020-06-08 10:28:19,635 basehttp 154 "GET /salesman/ HTTP/1.1" 200 5141
+INFO 2020-06-08 10:28:20,178 basehttp 154 "GET /customer/ HTTP/1.1" 200 7758
+INFO 2020-06-08 10:28:21,012 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 6178
+INFO 2020-06-08 10:28:24,206 basehttp 154 "GET /salesman/ HTTP/1.1" 200 5141
+INFO 2020-06-08 10:28:25,913 basehttp 154 "GET /project/ HTTP/1.1" 200 7511
+INFO 2020-06-08 10:28:27,246 basehttp 154 "GET /modify_project/1/ HTTP/1.1" 200 2643
+INFO 2020-06-08 10:28:35,699 basehttp 154 "GET /project/ HTTP/1.1" 200 7511
+INFO 2020-06-08 10:28:36,688 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 6178
+INFO 2020-06-08 10:28:39,120 basehttp 154 "GET /customer/ HTTP/1.1" 200 7758
+INFO 2020-06-08 10:28:43,068 basehttp 154 "GET /salesman/ HTTP/1.1" 200 5141
+INFO 2020-06-08 10:28:43,963 basehttp 154 "GET /project/ HTTP/1.1" 200 7511
+INFO 2020-06-08 10:28:45,346 basehttp 154 "GET /modify_project/1/ HTTP/1.1" 200 2643
+INFO 2020-06-08 10:28:53,422 basehttp 154 "POST /modify_project/1/ HTTP/1.1" 302 0
+INFO 2020-06-08 10:28:53,456 basehttp 154 "GET /project/ HTTP/1.1" 200 7511
+INFO 2020-06-08 10:28:57,450 basehttp 154 "GET /commission/ HTTP/1.1" 200 7056
+INFO 2020-06-08 10:28:58,893 basehttp 154 "GET /finish/ HTTP/1.1" 200 5986
+INFO 2020-06-08 10:29:00,090 basehttp 154 "GET /finish/ HTTP/1.1" 200 5986
+INFO 2020-06-08 10:29:00,686 basehttp 154 "GET /commission/ HTTP/1.1" 200 7056
+INFO 2020-06-08 10:29:01,238 basehttp 154 "GET /commission/ HTTP/1.1" 200 7056
+INFO 2020-06-08 10:29:02,550 basehttp 154 "GET /commission/ HTTP/1.1" 200 7056
+INFO 2020-06-08 10:29:03,439 basehttp 154 "GET /commission/ HTTP/1.1" 200 7056
+INFO 2020-06-08 10:29:04,174 basehttp 154 "GET /modify_commission/ HTTP/1.1" 200 1511
+INFO 2020-06-08 10:29:06,611 basehttp 154 "GET /commission/ HTTP/1.1" 200 7056
+INFO 2020-06-08 10:29:07,560 basehttp 154 "GET /project/ HTTP/1.1" 200 7511
+INFO 2020-06-08 10:29:09,935 basehttp 154 "GET /commission/ HTTP/1.1" 200 7056
+INFO 2020-06-08 10:29:11,063 basehttp 154 "GET /modify_commission/ HTTP/1.1" 200 1511
+INFO 2020-06-08 10:29:18,705 basehttp 154 "POST /modify_commission/ HTTP/1.1" 302 0
+INFO 2020-06-08 10:29:18,760 basehttp 154 "GET /commission/ HTTP/1.1" 200 7663
+INFO 2020-06-08 10:29:20,046 basehttp 154 "GET /commission/ HTTP/1.1" 200 7663
+INFO 2020-06-08 10:29:22,219 basehttp 154 "GET /commission/ HTTP/1.1" 200 7663
+INFO 2020-06-08 10:29:22,557 basehttp 154 "GET /commission/ HTTP/1.1" 200 7663
+INFO 2020-06-08 10:29:22,805 basehttp 154 "GET /commission/ HTTP/1.1" 200 7663
+INFO 2020-06-08 10:29:23,046 basehttp 154 "GET /commission/ HTTP/1.1" 200 7663
+INFO 2020-06-08 10:29:38,357 basehttp 154 "GET /finish/ HTTP/1.1" 200 5986
+INFO 2020-06-08 10:29:42,110 basehttp 154 "GET /department/ HTTP/1.1" 200 4320
+INFO 2020-06-08 10:29:43,462 basehttp 154 "GET /commission/ HTTP/1.1" 200 7663
+INFO 2020-06-08 10:29:52,997 basehttp 154 "GET /customer/ HTTP/1.1" 200 7758
+INFO 2020-06-08 10:29:55,974 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 6178
+INFO 2020-06-08 10:29:57,685 basehttp 154 "GET /customer/ HTTP/1.1" 200 7758
+INFO 2020-06-08 10:30:09,637 basehttp 154 "GET /customer/ HTTP/1.1" 200 7758
+INFO 2020-06-08 10:30:11,401 basehttp 154 "GET /salesman/ HTTP/1.1" 200 5141
+INFO 2020-06-08 10:30:12,360 basehttp 154 "GET /project/ HTTP/1.1" 200 7511
+INFO 2020-06-08 10:30:13,866 basehttp 154 "GET /commission/ HTTP/1.1" 200 7663
+INFO 2020-06-08 10:30:14,811 basehttp 154 "GET /project/ HTTP/1.1" 200 7511
+INFO 2020-06-08 10:30:16,768 basehttp 154 "GET /commission/ HTTP/1.1" 200 7663
+INFO 2020-06-08 10:30:31,843 basehttp 154 "GET /salesman/ HTTP/1.1" 200 5141
+INFO 2020-06-08 10:30:32,843 basehttp 154 "GET /project/ HTTP/1.1" 200 7511
+INFO 2020-06-08 10:30:58,168 basehttp 154 "GET /project/ HTTP/1.1" 200 7511
+INFO 2020-06-08 10:30:58,837 basehttp 154 "GET /project/ HTTP/1.1" 200 7511
+INFO 2020-06-08 10:31:00,230 basehttp 154 "GET /commission/ HTTP/1.1" 200 7659
+INFO 2020-06-08 10:31:00,447 basehttp 154 "GET /commission/ HTTP/1.1" 200 7659
+INFO 2020-06-08 10:31:01,183 basehttp 154 "GET /commission/ HTTP/1.1" 200 7659
+INFO 2020-06-08 10:31:01,526 basehttp 154 "GET /commission/ HTTP/1.1" 200 7659
+INFO 2020-06-08 10:31:01,716 basehttp 154 "GET /commission/ HTTP/1.1" 200 7659
+INFO 2020-06-08 10:31:02,402 basehttp 154 "GET /project/ HTTP/1.1" 200 7511
+INFO 2020-06-08 10:31:03,022 basehttp 154 "GET /project/ HTTP/1.1" 200 7511
+INFO 2020-06-08 10:31:03,739 basehttp 154 "GET /commission/ HTTP/1.1" 200 7659
+INFO 2020-06-08 10:31:04,234 basehttp 154 "GET /finish/ HTTP/1.1" 200 5986
+INFO 2020-06-08 10:31:04,949 basehttp 154 "GET /commission/ HTTP/1.1" 200 7659
+INFO 2020-06-08 10:31:09,451 basehttp 154 "GET /finish/ HTTP/1.1" 200 5986
+INFO 2020-06-08 10:31:20,751 basehttp 154 "GET /finish/ HTTP/1.1" 200 5986
+INFO 2020-06-08 10:31:41,025 basehttp 154 "GET /finish/ HTTP/1.1" 200 5984
+INFO 2020-06-08 10:31:42,015 basehttp 154 "GET /finish/ HTTP/1.1" 200 5984
+INFO 2020-06-08 10:31:42,285 basehttp 154 "GET /finish/ HTTP/1.1" 200 5984
+INFO 2020-06-08 10:31:42,522 basehttp 154 "GET /finish/ HTTP/1.1" 200 5984
+INFO 2020-06-08 10:31:42,667 basehttp 154 "GET /finish/ HTTP/1.1" 200 5984
+INFO 2020-06-08 10:31:42,882 basehttp 154 "GET /finish/ HTTP/1.1" 200 5984
+INFO 2020-06-08 10:31:43,098 basehttp 154 "GET /finish/ HTTP/1.1" 200 5984
+INFO 2020-06-08 10:31:44,198 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 6178
+INFO 2020-06-08 10:31:44,796 basehttp 154 "GET /customer/ HTTP/1.1" 200 7758
+INFO 2020-06-08 10:31:45,797 basehttp 154 "GET /salesman/ HTTP/1.1" 200 5141
+INFO 2020-06-08 10:31:46,434 basehttp 154 "GET /project/ HTTP/1.1" 200 7511
+INFO 2020-06-08 10:31:48,462 basehttp 154 "GET /commission/ HTTP/1.1" 200 7659
+INFO 2020-06-08 10:31:58,418 basehttp 154 "GET /commission/2020-06/ HTTP/1.1" 200 5192
+INFO 2020-06-08 10:32:00,503 basehttp 154 "GET /commission/2020-06/ HTTP/1.1" 200 5192
+INFO 2020-06-08 10:32:03,391 basehttp 154 "GET /commission_flash/ HTTP/1.1" 302 0
+INFO 2020-06-08 10:32:03,437 basehttp 154 "GET /commission/ HTTP/1.1" 200 7659
+INFO 2020-06-08 10:32:17,020 basehttp 154 "GET /commission/ HTTP/1.1" 200 7659
+INFO 2020-06-08 10:32:17,799 basehttp 154 "GET /finish/ HTTP/1.1" 200 5984
+INFO 2020-06-08 10:32:18,701 basehttp 154 "GET /commission/ HTTP/1.1" 200 7659
+INFO 2020-06-08 10:32:30,999 basehttp 154 "GET /commission/ HTTP/1.1" 200 7659
+INFO 2020-06-08 10:32:34,607 basehttp 154 "GET /commission/ HTTP/1.1" 200 7659
+INFO 2020-06-08 10:32:36,354 basehttp 154 "GET /finish/ HTTP/1.1" 200 5984
+INFO 2020-06-08 10:33:36,857 basehttp 154 "GET /project/ HTTP/1.1" 200 7511
+INFO 2020-06-08 10:34:25,092 basehttp 154 "GET /project/ HTTP/1.1" 200 7505
+INFO 2020-06-08 10:34:31,160 basehttp 154 "GET /commission/ HTTP/1.1" 200 7659
+INFO 2020-06-08 10:34:33,059 basehttp 154 "GET /project/ HTTP/1.1" 200 7505
+INFO 2020-06-08 10:34:33,878 basehttp 154 "GET /commission/ HTTP/1.1" 200 7659
+INFO 2020-06-08 10:34:38,783 basehttp 154 "GET /commission/ HTTP/1.1" 200 7659
+INFO 2020-06-08 10:34:42,798 basehttp 154 "GET /finish/ HTTP/1.1" 200 5984
+INFO 2020-06-08 10:34:58,853 basehttp 154 "GET /commission/ HTTP/1.1" 200 7659
+INFO 2020-06-08 10:35:38,685 basehttp 154 "GET /commission/ HTTP/1.1" 200 7659
+INFO 2020-06-08 10:35:39,474 basehttp 154 "GET /commission/ HTTP/1.1" 200 7659
+INFO 2020-06-08 10:35:40,050 basehttp 154 "GET /commission/ HTTP/1.1" 200 7659
+INFO 2020-06-08 10:35:42,505 basehttp 154 "GET /project/ HTTP/1.1" 200 7553
+INFO 2020-06-08 10:35:45,287 basehttp 154 "GET /commission/ HTTP/1.1" 200 7659
+INFO 2020-06-08 10:36:09,910 basehttp 154 "GET /commission/ HTTP/1.1" 200 7707
+INFO 2020-06-08 10:36:10,561 basehttp 154 "GET /commission/ HTTP/1.1" 200 7707
+INFO 2020-06-08 10:36:11,257 basehttp 154 "GET /commission/ HTTP/1.1" 200 7707
+INFO 2020-06-08 10:36:11,648 basehttp 154 "GET /commission/ HTTP/1.1" 200 7707
+INFO 2020-06-08 10:36:11,889 basehttp 154 "GET /commission/ HTTP/1.1" 200 7707
+INFO 2020-06-08 10:36:12,201 basehttp 154 "GET /commission/ HTTP/1.1" 200 7707
+INFO 2020-06-08 10:36:12,461 basehttp 154 "GET /commission/ HTTP/1.1" 200 7707
+INFO 2020-06-08 10:36:12,672 basehttp 154 "GET /commission/ HTTP/1.1" 200 7707
+INFO 2020-06-08 10:36:12,905 basehttp 154 "GET /commission/ HTTP/1.1" 200 7707
+INFO 2020-06-08 10:36:13,148 basehttp 154 "GET /commission/ HTTP/1.1" 200 7707
+INFO 2020-06-08 10:37:17,654 basehttp 154 "GET /commission/ HTTP/1.1" 200 7827
+INFO 2020-06-08 10:37:18,583 basehttp 154 "GET /commission/ HTTP/1.1" 200 7827
+INFO 2020-06-08 10:37:18,821 basehttp 154 "GET /commission/ HTTP/1.1" 200 7827
+INFO 2020-06-08 10:37:19,478 basehttp 154 "GET /commission/ HTTP/1.1" 200 7827
+INFO 2020-06-08 10:37:19,992 basehttp 154 "GET /commission/ HTTP/1.1" 200 7827
+INFO 2020-06-08 10:37:36,344 basehttp 154 "GET /commission/ HTTP/1.1" 200 7887
+INFO 2020-06-08 10:37:37,284 basehttp 154 "GET /customer/ HTTP/1.1" 200 7758
+INFO 2020-06-08 10:37:39,700 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 6178
+INFO 2020-06-08 10:37:40,418 basehttp 154 "GET /customer/ HTTP/1.1" 200 7758
+INFO 2020-06-08 10:37:42,285 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 6178
+INFO 2020-06-08 10:37:42,813 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 6178
+INFO 2020-06-08 10:37:43,589 basehttp 154 "GET /commission/ HTTP/1.1" 200 7887
+INFO 2020-06-08 10:37:44,697 basehttp 154 "GET /customer/ HTTP/1.1" 200 7758
+INFO 2020-06-08 10:37:45,704 basehttp 154 "GET /commission/ HTTP/1.1" 200 7887
+INFO 2020-06-08 10:37:46,831 basehttp 154 "GET /customer/ HTTP/1.1" 200 7758
+INFO 2020-06-08 10:37:47,706 basehttp 154 "GET /commission/ HTTP/1.1" 200 7887
+INFO 2020-06-08 10:38:13,639 basehttp 154 "GET /commission/ HTTP/1.1" 200 7749
+INFO 2020-06-08 10:38:29,798 basehttp 154 "GET /customer/ HTTP/1.1" 200 7758
+INFO 2020-06-08 10:38:30,882 basehttp 154 "GET /customer/ HTTP/1.1" 200 7758
+INFO 2020-06-08 10:38:45,051 basehttp 154 "GET /customer/ HTTP/1.1" 200 7758
+INFO 2020-06-08 10:40:43,711 basehttp 154 "GET /customer/ HTTP/1.1" 200 7758
+INFO 2020-06-08 10:40:43,964 basehttp 154 "GET /customer/ HTTP/1.1" 200 7758
+INFO 2020-06-08 10:40:44,156 basehttp 154 "GET /customer/ HTTP/1.1" 200 7758
+INFO 2020-06-08 10:40:44,447 basehttp 154 "GET /customer/ HTTP/1.1" 200 7758
+INFO 2020-06-08 10:40:46,856 basehttp 154 "GET /commission/ HTTP/1.1" 200 8043
+INFO 2020-06-08 10:40:49,592 basehttp 154 "GET /customer/ HTTP/1.1" 200 7758
+INFO 2020-06-08 10:40:51,759 basehttp 154 "GET /customer/ HTTP/1.1" 200 7758
+INFO 2020-06-08 10:40:59,699 basehttp 154 "GET /commission/ HTTP/1.1" 200 7887
+INFO 2020-06-08 10:41:00,203 basehttp 154 "GET /commission/ HTTP/1.1" 200 7887
+INFO 2020-06-08 10:41:01,092 basehttp 154 "GET /customer/ HTTP/1.1" 200 7758
+INFO 2020-06-08 10:41:02,973 basehttp 154 "GET /commission/ HTTP/1.1" 200 7887
+INFO 2020-06-08 10:41:22,817 basehttp 154 "GET /commission/ HTTP/1.1" 200 8499
+INFO 2020-06-08 10:41:23,563 basehttp 154 "GET /customer/ HTTP/1.1" 200 7758
+INFO 2020-06-08 10:41:25,374 basehttp 154 "GET /commission/ HTTP/1.1" 200 8499
+INFO 2020-06-08 10:41:58,953 basehttp 154 "GET /customer/ HTTP/1.1" 200 7758
+INFO 2020-06-08 10:42:01,812 basehttp 154 "GET /commission/ HTTP/1.1" 200 8505
+WARNING 2020-06-08 10:42:02,437 log 228 Not Found: /待填入/
+WARNING 2020-06-08 10:42:02,472 basehttp 154 "GET /%E5%BE%85%E5%A1%AB%E5%85%A5/ HTTP/1.1" 404 6274
+INFO 2020-06-08 10:43:49,651 basehttp 154 "GET /salesman/ HTTP/1.1" 200 5141
+INFO 2020-06-08 10:43:50,810 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 6178
+INFO 2020-06-08 10:43:51,889 basehttp 154 "GET /modify_customer_inf/ HTTP/1.1" 200 1184
+INFO 2020-06-08 10:43:53,096 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 6178
+INFO 2020-06-08 10:43:54,189 basehttp 154 "GET /customer/ HTTP/1.1" 200 7758
+INFO 2020-06-08 10:43:55,464 basehttp 154 "GET /modify_customer/ HTTP/1.1" 200 2830
+INFO 2020-06-08 10:43:56,865 basehttp 154 "GET /customer/ HTTP/1.1" 200 7758
+INFO 2020-06-08 10:45:01,301 basehttp 154 "GET /123/ HTTP/1.1" 200 8505
+INFO 2020-06-08 10:45:40,600 basehttp 154 "GET /123/ HTTP/1.1" 200 8279
+INFO 2020-06-08 10:46:11,379 basehttp 154 "GET /123/ HTTP/1.1" 200 8263
+ERROR 2020-06-08 10:47:01,818 log 228 Internal Server Error: /123/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 307, in aba
+    return render(request, "123.html", {"ret": ret, "opt": opt})
+  File "E:\envs\test1\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\envs\test1\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "E:\envs\test1\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "E:\envs\test1\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "E:\envs\test1\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "E:\envs\test1\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "E:\envs\test1\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "E:\envs\test1\lib\site-packages\django\template\defaulttags.py", line 165, in render
+    values = list(values)
+TypeError: 'int' object is not iterable
+ERROR 2020-06-08 10:47:01,822 basehttp 154 "GET /123/ HTTP/1.1" 500 121786
+INFO 2020-06-08 10:49:03,044 basehttp 154 "GET /123/ HTTP/1.1" 200 10840
+INFO 2020-06-08 10:49:03,208 basehttp 154 "GET /123/ HTTP/1.1" 200 10840
+INFO 2020-06-08 10:50:36,258 basehttp 154 "GET /123/ HTTP/1.1" 200 10913
+INFO 2020-06-08 10:51:01,260 basehttp 154 "GET /123/ HTTP/1.1" 200 10871
+INFO 2020-06-08 10:52:03,847 basehttp 154 "GET /123/ HTTP/1.1" 200 10823
+INFO 2020-06-08 10:52:11,605 basehttp 154 "GET /123/ HTTP/1.1" 200 10823
+INFO 2020-06-08 10:52:15,404 basehttp 154 "GET /123/ HTTP/1.1" 200 10823
+INFO 2020-06-08 10:52:17,939 basehttp 154 "GET / HTTP/1.1" 200 1546
+INFO 2020-06-08 10:52:18,643 basehttp 154 "GET /customer/ HTTP/1.1" 200 7758
+INFO 2020-06-08 10:52:21,201 basehttp 154 "GET /123/ HTTP/1.1" 200 10823
+INFO 2020-06-08 10:55:35,095 basehttp 154 "GET /123/ HTTP/1.1" 200 9254
+INFO 2020-06-08 10:55:36,098 basehttp 154 "GET /123/ HTTP/1.1" 200 9254
+INFO 2020-06-08 10:56:24,625 basehttp 154 "GET /123/ HTTP/1.1" 200 9152
+INFO 2020-06-08 10:56:25,296 basehttp 154 "GET /123/ HTTP/1.1" 200 9152
+INFO 2020-06-08 10:56:35,600 basehttp 154 "GET /123/ HTTP/1.1" 200 9153
+INFO 2020-06-08 10:56:36,881 basehttp 154 "GET /commission_flash/ HTTP/1.1" 302 0
+INFO 2020-06-08 10:56:36,929 basehttp 154 "GET /commission/ HTTP/1.1" 200 8505
+INFO 2020-06-08 10:56:38,390 basehttp 154 "GET /commission_flash/ HTTP/1.1" 302 0
+INFO 2020-06-08 10:56:38,437 basehttp 154 "GET /commission/ HTTP/1.1" 200 8505
+INFO 2020-06-08 10:57:50,170 basehttp 154 "GET /123/ HTTP/1.1" 200 9327
+WARNING 2020-06-08 10:58:28,333 log 228 Not Found: /123/1972
+WARNING 2020-06-08 10:58:28,333 basehttp 154 "GET /123/1972 HTTP/1.1" 404 6250
+WARNING 2020-06-08 10:58:36,649 log 228 Not Found: /123/1979
+WARNING 2020-06-08 10:58:36,650 basehttp 154 "GET /123/1979 HTTP/1.1" 404 6250
+INFO 2020-06-08 10:59:58,397 basehttp 154 "GET /123/ HTTP/1.1" 200 9369
+WARNING 2020-06-08 11:00:00,100 log 228 Not Found: /123/1971
+WARNING 2020-06-08 11:00:00,101 basehttp 154 "GET /123/1971 HTTP/1.1" 404 6250
+WARNING 2020-06-08 11:05:04,069 log 228 Not Found: /123/1974
+WARNING 2020-06-08 11:05:04,071 basehttp 154 "GET /123/1974 HTTP/1.1" 404 6250
+INFO 2020-06-08 11:05:45,919 basehttp 154 "GET /commission_flash/ HTTP/1.1" 302 0
+INFO 2020-06-08 11:05:45,968 basehttp 154 "GET /commission/ HTTP/1.1" 200 8505
+INFO 2020-06-08 11:05:51,962 basehttp 154 "GET /123/ HTTP/1.1" 200 9369
+WARNING 2020-06-08 11:05:54,521 log 228 Not Found: /123/1972
+WARNING 2020-06-08 11:05:54,522 basehttp 154 "GET /123/1972 HTTP/1.1" 404 6250
+INFO 2020-06-08 11:06:45,518 basehttp 154 "POST /123/ HTTP/1.1" 200 9369
+INFO 2020-06-08 11:06:47,005 basehttp 154 "GET /commission_flash/ HTTP/1.1" 302 0
+INFO 2020-06-08 11:06:47,048 basehttp 154 "GET /commission/ HTTP/1.1" 200 8505
+INFO 2020-06-08 11:06:51,194 basehttp 154 "POST /123/ HTTP/1.1" 200 9369
+INFO 2020-06-08 11:06:56,107 basehttp 154 "POST /123/ HTTP/1.1" 200 9369
+INFO 2020-06-08 11:06:58,810 basehttp 154 "GET /commission_flash/ HTTP/1.1" 302 0
+INFO 2020-06-08 11:06:58,859 basehttp 154 "GET /commission/ HTTP/1.1" 200 8505
+INFO 2020-06-08 11:07:02,333 basehttp 154 "GET /123/ HTTP/1.1" 200 9369
+INFO 2020-06-08 11:07:41,254 basehttp 154 "GET /finish/ HTTP/1.1" 200 5984
+INFO 2020-06-08 11:07:45,119 basehttp 154 "GET /commission/ HTTP/1.1" 200 8505
+INFO 2020-06-08 11:09:03,372 basehttp 154 "GET /commission/ HTTP/1.1" 200 8505
+INFO 2020-06-08 11:09:06,504 basehttp 154 "GET /123/ HTTP/1.1" 200 9369
+INFO 2020-06-08 11:09:09,003 basehttp 154 "GET /123/1975 HTTP/1.1" 301 0
+INFO 2020-06-08 11:09:09,057 basehttp 154 "GET /123/1975/ HTTP/1.1" 200 9369
+INFO 2020-06-08 11:11:27,426 basehttp 154 "GET /123/1975/ HTTP/1.1" 200 9369
+WARNING 2020-06-08 11:11:29,219 log 228 Not Found: /123/1975/1973
+WARNING 2020-06-08 11:11:29,220 basehttp 154 "GET /123/1975/1973 HTTP/1.1" 404 6395
+WARNING 2020-06-08 11:11:34,466 log 228 Not Found: /123/1975/1974
+WARNING 2020-06-08 11:11:34,466 basehttp 154 "GET /123/1975/1974 HTTP/1.1" 404 6395
+INFO 2020-06-08 11:14:55,934 basehttp 154 "GET /project/ HTTP/1.1" 200 7505
+INFO 2020-06-08 11:15:29,865 basehttp 154 "GET /commission/ HTTP/1.1" 200 8505
+INFO 2020-06-08 11:15:35,921 basehttp 154 "GET /project/ HTTP/1.1" 200 7505
+INFO 2020-06-08 11:15:37,895 basehttp 154 "GET /commission/ HTTP/1.1" 200 8505
+INFO 2020-06-08 11:15:44,728 basehttp 154 "GET /modify_commission/ HTTP/1.1" 200 1511
+INFO 2020-06-08 11:15:48,855 basehttp 154 "GET /commission/ HTTP/1.1" 200 8505
+INFO 2020-06-08 11:15:49,616 basehttp 154 "GET /project/ HTTP/1.1" 200 7505
+INFO 2020-06-08 11:16:09,163 basehttp 154 "GET /commission/ HTTP/1.1" 200 8505
+INFO 2020-06-08 11:16:12,592 basehttp 154 "GET /modify_commission/ HTTP/1.1" 200 1511
+INFO 2020-06-08 11:16:21,783 basehttp 154 "GET /commission/ HTTP/1.1" 200 8505
+INFO 2020-06-08 11:16:25,157 basehttp 154 "GET /modify_commission/ HTTP/1.1" 200 1511
+INFO 2020-06-08 11:16:27,217 basehttp 154 "GET /commission/ HTTP/1.1" 200 8505
+INFO 2020-06-08 11:16:35,048 basehttp 154 "GET /commission/ HTTP/1.1" 200 8505
+INFO 2020-06-08 11:18:16,343 basehttp 154 "GET /modify_commission/ HTTP/1.1" 200 1511
+INFO 2020-06-08 11:18:25,841 basehttp 154 "GET /commission/ HTTP/1.1" 200 8505
+INFO 2020-06-08 11:18:46,093 basehttp 154 "GET /123/ HTTP/1.1" 200 9368
+INFO 2020-06-08 11:22:06,179 basehttp 154 "GET /commission/ HTTP/1.1" 200 8505
+INFO 2020-06-08 11:36:56,345 basehttp 154 "GET /123/ HTTP/1.1" 200 9368
+INFO 2020-06-08 11:38:24,017 basehttp 154 "GET /modify_commission/ HTTP/1.1" 200 1511
+INFO 2020-06-08 11:38:28,644 basehttp 154 "GET /modify_commission/ HTTP/1.1" 200 1511
+INFO 2020-06-08 11:38:37,559 basehttp 154 "POST /modify_commission/ HTTP/1.1" 302 0
+INFO 2020-06-08 11:38:37,702 basehttp 154 "GET /commission/ HTTP/1.1" 200 9363
+INFO 2020-06-08 11:38:45,547 basehttp 154 "GET /project/ HTTP/1.1" 200 7505
+INFO 2020-06-08 11:38:49,861 basehttp 154 "GET /modify_commission/ HTTP/1.1" 200 1511
+INFO 2020-06-08 11:38:56,631 basehttp 154 "POST /modify_commission/ HTTP/1.1" 302 0
+INFO 2020-06-08 11:38:56,703 basehttp 154 "GET /commission/ HTTP/1.1" 200 10227
+INFO 2020-06-08 11:39:07,136 basehttp 154 "GET /commission/ HTTP/1.1" 200 10227
+INFO 2020-06-08 11:39:07,886 basehttp 154 "GET /commission/ HTTP/1.1" 200 10227
+INFO 2020-06-08 11:39:08,126 basehttp 154 "GET /commission/ HTTP/1.1" 200 10227
+INFO 2020-06-08 11:39:08,320 basehttp 154 "GET /commission/ HTTP/1.1" 200 10227
+INFO 2020-06-08 11:39:19,226 basehttp 154 "GET /commission/ HTTP/1.1" 200 10227
+INFO 2020-06-08 11:39:19,235 basehttp 154 "GET /commission/ HTTP/1.1" 200 10227
+ERROR 2020-06-08 11:39:19,236 basehttp 154 "GET /commission/ HTTP/1.1" 500 59
+ERROR 2020-06-08 11:39:23,286 log 228 Internal Server Error: /123/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 302, in aba
+    ret = models.Commission.objects.filter.all()
+AttributeError: 'function' object has no attribute 'all'
+ERROR 2020-06-08 11:39:23,289 basehttp 154 "GET /123/ HTTP/1.1" 500 73515
+INFO 2020-06-08 11:39:37,077 basehttp 154 "GET /123/ HTTP/1.1" 200 10930
+INFO 2020-06-08 11:39:43,772 basehttp 154 "GET /123/ HTTP/1.1" 200 9368
+WARNING 2020-06-08 11:43:03,587 log 228 Not Found: /待填入/
+WARNING 2020-06-08 11:43:03,588 basehttp 154 "GET /%E5%BE%85%E5%A1%AB%E5%85%A5/ HTTP/1.1" 404 6404
+WARNING 2020-06-08 11:43:03,682 log 228 Not Found: /待填入/
+WARNING 2020-06-08 11:43:03,683 basehttp 154 "GET /%E5%BE%85%E5%A1%AB%E5%85%A5/ HTTP/1.1" 404 6404
+WARNING 2020-06-08 11:43:04,697 log 228 Not Found: /待填入/
+WARNING 2020-06-08 11:43:04,698 basehttp 154 "GET /%E5%BE%85%E5%A1%AB%E5%85%A5/ HTTP/1.1" 404 6404
+WARNING 2020-06-08 11:43:04,926 log 228 Not Found: /待填入/
+WARNING 2020-06-08 11:43:04,927 basehttp 154 "GET /%E5%BE%85%E5%A1%AB%E5%85%A5/ HTTP/1.1" 404 6404
+WARNING 2020-06-08 11:43:05,113 log 228 Not Found: /待填入/
+WARNING 2020-06-08 11:43:05,115 basehttp 154 "GET /%E5%BE%85%E5%A1%AB%E5%85%A5/ HTTP/1.1" 404 6404
+WARNING 2020-06-08 11:43:05,355 log 228 Not Found: /待填入/
+WARNING 2020-06-08 11:43:05,356 basehttp 154 "GET /%E5%BE%85%E5%A1%AB%E5%85%A5/ HTTP/1.1" 404 6404
+WARNING 2020-06-08 11:43:05,547 log 228 Not Found: /待填入/
+WARNING 2020-06-08 11:43:05,548 basehttp 154 "GET /%E5%BE%85%E5%A1%AB%E5%85%A5/ HTTP/1.1" 404 6404
+WARNING 2020-06-08 11:43:05,740 log 228 Not Found: /待填入/
+WARNING 2020-06-08 11:43:05,740 basehttp 154 "GET /%E5%BE%85%E5%A1%AB%E5%85%A5/ HTTP/1.1" 404 6404
+WARNING 2020-06-08 11:43:05,907 log 228 Not Found: /待填入/
+WARNING 2020-06-08 11:43:05,907 basehttp 154 "GET /%E5%BE%85%E5%A1%AB%E5%85%A5/ HTTP/1.1" 404 6404
+WARNING 2020-06-08 11:43:06,078 log 228 Not Found: /待填入/
+WARNING 2020-06-08 11:43:06,079 basehttp 154 "GET /%E5%BE%85%E5%A1%AB%E5%85%A5/ HTTP/1.1" 404 6404
+WARNING 2020-06-08 11:43:06,270 log 228 Not Found: /待填入/
+WARNING 2020-06-08 11:43:06,271 basehttp 154 "GET /%E5%BE%85%E5%A1%AB%E5%85%A5/ HTTP/1.1" 404 6404
+INFO 2020-06-08 11:43:08,475 basehttp 154 "GET /123/1974 HTTP/1.1" 301 0
+INFO 2020-06-08 11:43:08,633 basehttp 154 "GET /123/1974/ HTTP/1.1" 200 10930
+INFO 2020-06-08 11:43:17,440 basehttp 154 "GET /123/2020 HTTP/1.1" 301 0
+INFO 2020-06-08 11:43:17,525 basehttp 154 "GET /123/2020/ HTTP/1.1" 200 10930
+INFO 2020-06-08 11:43:49,473 basehttp 154 "GET /123/ HTTP/1.1" 200 10930
+INFO 2020-06-08 11:44:01,682 basehttp 154 "GET /123/2019 HTTP/1.1" 301 0
+INFO 2020-06-08 11:44:01,748 basehttp 154 "GET /123/2019/ HTTP/1.1" 200 10930
+INFO 2020-06-08 11:44:21,023 basehttp 154 "GET /123/2019/ HTTP/1.1" 200 6231
+INFO 2020-06-08 11:44:25,332 basehttp 154 "GET /commission_flash/ HTTP/1.1" 302 0
+INFO 2020-06-08 11:44:25,398 basehttp 154 "GET /commission/ HTTP/1.1" 200 10227
+INFO 2020-06-08 11:49:41,371 basehttp 154 "GET /123/ HTTP/1.1" 200 10930
+WARNING 2020-06-08 11:49:43,699 log 228 Not Found: /123/1973
+WARNING 2020-06-08 11:49:43,699 basehttp 154 "GET /123/1973 HTTP/1.1" 404 6383
+WARNING 2020-06-08 11:49:48,639 log 228 Not Found: /123/2020/
+WARNING 2020-06-08 11:49:48,640 basehttp 154 "GET /123/2020/ HTTP/1.1" 404 6386
+WARNING 2020-06-08 11:49:55,386 log 228 Not Found: /123/2019/
+WARNING 2020-06-08 11:49:55,387 basehttp 154 "GET /123/2019/ HTTP/1.1" 404 6386
+INFO 2020-06-08 11:50:28,033 basehttp 154 "GET /123/ HTTP/1.1" 200 10930
+INFO 2020-06-08 11:50:33,373 basehttp 154 "GET /123/2020/ HTTP/1.1" 200 9368
+INFO 2020-06-08 11:50:42,249 basehttp 154 "GET /123/2020/2020 HTTP/1.1" 301 0
+INFO 2020-06-08 11:50:42,301 basehttp 154 "GET /123/2020/2020/ HTTP/1.1" 200 9368
+INFO 2020-06-08 11:50:47,134 basehttp 154 "GET /123/2020/2020/2019 HTTP/1.1" 301 0
+INFO 2020-06-08 11:50:47,171 basehttp 154 "GET /123/2020/2020/2019/ HTTP/1.1" 200 6231
+INFO 2020-06-08 11:50:54,391 basehttp 154 "GET /123/2020/2020/2019/2020 HTTP/1.1" 301 0
+INFO 2020-06-08 11:50:54,445 basehttp 154 "GET /123/2020/2020/2019/2020/ HTTP/1.1" 200 9368
+INFO 2020-06-08 11:50:58,171 basehttp 154 "GET /commission_flash/ HTTP/1.1" 302 0
+INFO 2020-06-08 11:50:58,226 basehttp 154 "GET /commission/ HTTP/1.1" 200 10227
+INFO 2020-06-08 11:55:35,770 basehttp 154 "GET /123/ HTTP/1.1" 200 10930
+WARNING 2020-06-08 11:55:38,984 log 228 Not Found: /待填入/
+WARNING 2020-06-08 11:55:38,985 basehttp 154 "GET /%E5%BE%85%E5%A1%AB%E5%85%A5/ HTTP/1.1" 404 6406
+WARNING 2020-06-08 11:56:16,646 log 228 Not Found: /待填入/
+WARNING 2020-06-08 11:56:16,647 basehttp 154 "GET /%E5%BE%85%E5%A1%AB%E5%85%A5/ HTTP/1.1" 404 6406
+INFO 2020-06-08 11:56:28,640 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 6178
+INFO 2020-06-08 11:56:30,144 basehttp 154 "GET /customer/ HTTP/1.1" 200 7758
+INFO 2020-06-08 11:56:35,894 basehttp 154 "GET /salesman/ HTTP/1.1" 200 5141
+INFO 2020-06-08 11:56:37,280 basehttp 154 "GET /project/ HTTP/1.1" 200 7505
+INFO 2020-06-08 11:56:43,552 basehttp 154 "GET /commission/ HTTP/1.1" 200 10227
+INFO 2020-06-08 11:56:55,591 basehttp 154 "GET /123/ HTTP/1.1" 200 10930
+INFO 2020-06-08 13:57:08,924 basehttp 154 "GET /project/ HTTP/1.1" 200 7505
+INFO 2020-06-08 13:57:10,798 basehttp 154 "GET /commission/ HTTP/1.1" 200 10930
+INFO 2020-06-08 13:57:46,947 basehttp 154 "GET /commission/ HTTP/1.1" 200 10622
+INFO 2020-06-08 13:59:31,193 basehttp 154 "GET /commission/1972 HTTP/1.1" 301 0
+INFO 2020-06-08 13:59:31,233 basehttp 154 "GET /commission/1972/ HTTP/1.1" 200 4669
+INFO 2020-06-08 13:59:34,999 basehttp 154 "GET /commission/1972/1976 HTTP/1.1" 301 0
+INFO 2020-06-08 13:59:35,024 basehttp 154 "GET /commission/1972/1976/ HTTP/1.1" 200 4669
+WARNING 2020-06-08 13:59:38,412 log 228 Not Found: /commission/1972/1976/73
+WARNING 2020-06-08 13:59:38,413 basehttp 154 "GET /commission/1972/1976/73 HTTP/1.1" 404 6698
+INFO 2020-06-08 13:59:41,531 basehttp 154 "GET /commission_flash/ HTTP/1.1" 302 0
+INFO 2020-06-08 13:59:41,668 basehttp 154 "GET /commission/ HTTP/1.1" 200 10930
+INFO 2020-06-08 14:05:11,475 basehttp 154 "GET /finish/ HTTP/1.1" 200 5984
+INFO 2020-06-08 14:05:11,727 basehttp 154 "GET /commission/ HTTP/1.1" 200 10930
+INFO 2020-06-08 14:07:09,505 basehttp 154 "GET /commission/ HTTP/1.1" 200 10930
+INFO 2020-06-08 14:07:22,318 basehttp 154 "GET /commission/2020 HTTP/1.1" 301 0
+INFO 2020-06-08 14:07:22,374 basehttp 154 "GET /commission/2020/ HTTP/1.1" 200 9368
+INFO 2020-06-08 14:07:32,398 basehttp 154 "GET /commission/2020/06 HTTP/1.1" 301 0
+INFO 2020-06-08 14:07:32,457 basehttp 154 "GET /commission/2020/06/ HTTP/1.1" 200 4669
+INFO 2020-06-08 14:07:54,283 basehttp 154 "GET /commission HTTP/1.1" 301 0
+INFO 2020-06-08 14:07:54,458 basehttp 154 "GET /commission/ HTTP/1.1" 200 10930
+INFO 2020-06-08 14:08:02,612 basehttp 154 "GET /commission/2020/ HTTP/1.1" 200 9368
+INFO 2020-06-08 14:08:10,807 basehttp 154 "GET /commission/2020/08 HTTP/1.1" 301 0
+INFO 2020-06-08 14:08:10,842 basehttp 154 "GET /commission/2020/08/ HTTP/1.1" 200 4669
+INFO 2020-06-08 14:08:55,383 basehttp 154 "GET /commission/2020/08/ HTTP/1.1" 200 4669
+INFO 2020-06-08 14:09:19,012 basehttp 154 "GET /commission/2020/08/ HTTP/1.1" 200 4669
+INFO 2020-06-08 14:09:23,851 basehttp 154 "GET /commission/2020/08/ HTTP/1.1" 200 4669
+INFO 2020-06-08 14:10:54,330 basehttp 154 "GET /commission/2020/08/ HTTP/1.1" 200 4669
+INFO 2020-06-08 14:13:27,392 basehttp 154 "GET /commission/2020/08/ HTTP/1.1" 200 4669
+INFO 2020-06-08 14:14:33,527 basehttp 154 "GET /commission/2020/08/ HTTP/1.1" 200 4669
+INFO 2020-06-08 14:14:56,874 basehttp 154 "GET /commission/2020/08/ HTTP/1.1" 200 4669
+INFO 2020-06-08 14:15:17,742 basehttp 154 "GET /commission/2020/08/ HTTP/1.1" 200 4669
+INFO 2020-06-08 14:15:26,209 basehttp 154 "GET /commission/2020/ HTTP/1.1" 200 9368
+INFO 2020-06-08 14:16:50,023 basehttp 154 "GET /commission/2020/ HTTP/1.1" 200 9368
+INFO 2020-06-08 14:17:13,128 basehttp 154 "GET /commission/2020/08/ HTTP/1.1" 200 4669
+WARNING 2020-06-08 14:25:13,608 log 228 Not Found: /commission/撒东湖区和维护
+WARNING 2020-06-08 14:25:13,687 basehttp 154 "GET /commission/%E6%92%92%E4%B8%9C%E6%B9%96%E5%8C%BA%E5%92%8C%E7%BB%B4%E6%8A%A4 HTTP/1.1" 404 7061
+WARNING 2020-06-08 14:25:17,225 log 228 Not Found: /commission/撒东湖区和维护/
+WARNING 2020-06-08 14:25:17,226 basehttp 154 "GET /commission/%E6%92%92%E4%B8%9C%E6%B9%96%E5%8C%BA%E5%92%8C%E7%BB%B4%E6%8A%A4/ HTTP/1.1" 404 7064
+WARNING 2020-06-08 14:25:20,285 log 228 Not Found: /commission/撒东湖区和维护/
+WARNING 2020-06-08 14:25:20,286 basehttp 154 "GET /commission/%E6%92%92%E4%B8%9C%E6%B9%96%E5%8C%BA%E5%92%8C%E7%BB%B4%E6%8A%A4/ HTTP/1.1" 404 7064
+INFO 2020-06-08 14:25:57,129 basehttp 154 "GET /commission/%E6%98%AF%E5%BD%93%E5%90%A6%E7%8E%A9%E5%84%BF HTTP/1.1" 301 0
+INFO 2020-06-08 14:25:57,151 basehttp 154 "GET /commission/%E6%98%AF%E5%BD%93%E5%90%A6%E7%8E%A9%E5%84%BF/ HTTP/1.1" 200 4669
+INFO 2020-06-08 14:26:01,259 basehttp 154 "GET /commission/ HTTP/1.1" 200 10930
+INFO 2020-06-08 14:27:03,644 basehttp 154 "GET /commission/ HTTP/1.1" 200 11041
+WARNING 2020-06-08 14:27:04,652 log 228 Not Found: /commission/a1客户/
+WARNING 2020-06-08 14:27:04,652 basehttp 154 "GET /commission/a1%E5%AE%A2%E6%88%B7/ HTTP/1.1" 404 6995
+INFO 2020-06-08 14:27:07,582 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 4669
+INFO 2020-06-08 14:27:10,371 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 4669
+INFO 2020-06-08 14:28:32,405 basehttp 154 "GET /commission/ HTTP/1.1" 200 11041
+INFO 2020-06-08 14:28:33,165 basehttp 154 "GET /commission/a1%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 4669
+INFO 2020-06-08 14:28:35,639 basehttp 154 "GET /commission/d%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 4669
+INFO 2020-06-08 14:28:40,127 basehttp 154 "GET /commission/1976 HTTP/1.1" 301 0
+INFO 2020-06-08 14:28:40,146 basehttp 154 "GET /commission/1976/ HTTP/1.1" 200 4669
+INFO 2020-06-08 14:28:42,807 basehttp 154 "GET /commission/1976/1981 HTTP/1.1" 301 0
+INFO 2020-06-08 14:28:42,827 basehttp 154 "GET /commission/1976/1981/ HTTP/1.1" 200 4669
+INFO 2020-06-08 14:28:45,777 basehttp 154 "GET /commission/1976/1981/08 HTTP/1.1" 301 0
+INFO 2020-06-08 14:28:45,804 basehttp 154 "GET /commission/1976/1981/08/ HTTP/1.1" 200 4669
+INFO 2020-06-08 14:28:49,438 basehttp 154 "GET /commission/ HTTP/1.1" 200 11041
+INFO 2020-06-08 14:29:33,608 basehttp 154 "GET /commission/ HTTP/1.1" 200 11041
+INFO 2020-06-08 14:29:34,047 basehttp 154 "GET /finish/ HTTP/1.1" 200 5984
+INFO 2020-06-08 14:29:35,453 basehttp 154 "GET /commission/ HTTP/1.1" 200 11041
+INFO 2020-06-08 14:29:35,680 basehttp 154 "GET /project/ HTTP/1.1" 200 7505
+INFO 2020-06-08 14:29:41,616 basehttp 154 "GET /project/ HTTP/1.1" 200 7505
+INFO 2020-06-08 14:29:42,991 basehttp 154 "GET /commission/ HTTP/1.1" 200 11041
+INFO 2020-06-08 14:30:11,304 basehttp 154 "GET /commission/ HTTP/1.1" 200 10409
+INFO 2020-06-08 14:31:27,827 basehttp 154 "GET /commission/ HTTP/1.1" 200 10593
+INFO 2020-06-08 14:31:51,682 basehttp 154 "GET /commission/ HTTP/1.1" 200 10435
+INFO 2020-06-08 14:31:59,836 basehttp 154 "GET /commission/ HTTP/1.1" 200 10518
+INFO 2020-06-08 14:32:11,454 basehttp 154 "GET /commission/ HTTP/1.1" 200 10568
+ERROR 2020-06-08 14:37:25,558 log 228 Internal Server Error: /commission/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 178, in commission
+    tol = ret.annotate(total=Sum("total"))
+  File "E:\envs\test1\lib\site-packages\django\db\models\query.py", line 1004, in annotate
+    "the model." % alias)
+ValueError: The annotation 'total' conflicts with a field on the model.
+ERROR 2020-06-08 14:37:25,561 basehttp 154 "GET /commission/ HTTP/1.1" 500 80968
+ERROR 2020-06-08 14:38:04,178 log 228 Internal Server Error: /commission/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 183, in commission
+    return render(request, "pay.html", {"ret": ret, "opt": opt})
+  File "E:\envs\test1\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\envs\test1\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "E:\envs\test1\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "E:\envs\test1\lib\site-packages\django\template\backends\django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "E:\envs\test1\lib\site-packages\django\template\engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "E:\envs\test1\lib\site-packages\django\template\engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "E:\envs\test1\lib\site-packages\django\template\loaders\base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "E:\envs\test1\lib\site-packages\django\template\base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "E:\envs\test1\lib\site-packages\django\template\base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "E:\envs\test1\lib\site-packages\django\template\base.py", line 445, in parse
+    raise self.error(token, 'Empty variable tag on line %d' % token.lineno)
+django.template.exceptions.TemplateSyntaxError: Empty variable tag on line 141
+ERROR 2020-06-08 14:38:04,181 basehttp 154 "GET /commission/ HTTP/1.1" 500 136654
+INFO 2020-06-08 14:38:27,412 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 14:38:52,726 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 14:40:10,162 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 14:40:12,614 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 14:40:36,774 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 14:40:41,979 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+ERROR 2020-06-08 14:42:21,229 log 228 Internal Server Error: /commission/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1735, in add_fields
+    join_info = self.setup_joins(name.split(LOOKUP_SEP), opts, alias, allow_many=allow_m2m)
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1473, in setup_joins
+    names[:pivot], opts, allow_many, fail_on_missing=True,
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1389, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'sum_total' into field. Choices are: id, pay, pay_id, sales, sales_id, total
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 178, in commission
+    tol = ret.values("sum_total").annotate(sum_total=Sum("total"))
+  File "E:\envs\test1\lib\site-packages\django\db\models\query.py", line 750, in values
+    clone = self._values(*fields, **expressions)
+  File "E:\envs\test1\lib\site-packages\django\db\models\query.py", line 745, in _values
+    clone.query.set_values(fields)
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1987, in set_values
+    self.add_fields(field_names, True)
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1758, in add_fields
+    "Choices are: %s" % (name, ", ".join(names)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'sum_total' into field. Choices are: id, pay, pay_id, sales, sales_id, total
+ERROR 2020-06-08 14:42:21,234 basehttp 154 "GET /commission/ HTTP/1.1" 500 111354
+ERROR 2020-06-08 14:42:28,050 log 228 Internal Server Error: /commission/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1735, in add_fields
+    join_info = self.setup_joins(name.split(LOOKUP_SEP), opts, alias, allow_many=allow_m2m)
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1473, in setup_joins
+    names[:pivot], opts, allow_many, fail_on_missing=True,
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1389, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'sum_total' into field. Choices are: id, pay, pay_id, sales, sales_id, total
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 178, in commission
+    tol = ret.values("sum_total").annotate(sum_total=Sum("total"))
+  File "E:\envs\test1\lib\site-packages\django\db\models\query.py", line 750, in values
+    clone = self._values(*fields, **expressions)
+  File "E:\envs\test1\lib\site-packages\django\db\models\query.py", line 745, in _values
+    clone.query.set_values(fields)
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1987, in set_values
+    self.add_fields(field_names, True)
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1758, in add_fields
+    "Choices are: %s" % (name, ", ".join(names)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'sum_total' into field. Choices are: id, pay, pay_id, sales, sales_id, total
+ERROR 2020-06-08 14:42:28,051 basehttp 154 "GET /commission/ HTTP/1.1" 500 111354
+ERROR 2020-06-08 14:42:35,001 log 228 Internal Server Error: /commission/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1735, in add_fields
+    join_info = self.setup_joins(name.split(LOOKUP_SEP), opts, alias, allow_many=allow_m2m)
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1473, in setup_joins
+    names[:pivot], opts, allow_many, fail_on_missing=True,
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1389, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'sum_total' into field. Choices are: id, pay, pay_id, sales, sales_id, total
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 178, in commission
+    tol = ret.values("total").annotate(sum_total=Sum("total"))
+  File "E:\envs\test1\lib\site-packages\django\db\models\query.py", line 750, in values
+    clone = self._values(*fields, **expressions)
+  File "E:\envs\test1\lib\site-packages\django\db\models\query.py", line 745, in _values
+    clone.query.set_values(fields)
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1987, in set_values
+    self.add_fields(field_names, True)
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1758, in add_fields
+    "Choices are: %s" % (name, ", ".join(names)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'sum_total' into field. Choices are: id, pay, pay_id, sales, sales_id, total
+ERROR 2020-06-08 14:42:35,003 basehttp 154 "GET /commission/ HTTP/1.1" 500 111346
+INFO 2020-06-08 14:42:36,844 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+ERROR 2020-06-08 14:42:36,848 basehttp 154 "GET /commission/ HTTP/1.1" 500 59
+INFO 2020-06-08 14:42:36,953 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 14:42:41,550 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 14:46:18,249 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 14:46:33,948 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 14:46:34,221 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 14:48:34,503 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 14:48:39,559 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 14:48:40,524 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+ERROR 2020-06-08 14:48:57,954 log 228 Internal Server Error: /commission/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 180, in commission
+    print(tol.sum_total)
+AttributeError: 'QuerySet' object has no attribute 'sum_total'
+ERROR 2020-06-08 14:48:57,956 basehttp 154 "GET /commission/ HTTP/1.1" 500 75530
+ERROR 2020-06-08 14:49:28,156 log 228 Internal Server Error: /commission/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 180, in commission
+    print(tol.get(sum("total")))
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+ERROR 2020-06-08 14:49:28,158 basehttp 154 "GET /commission/ HTTP/1.1" 500 75552
+ERROR 2020-06-08 14:49:36,819 log 228 Internal Server Error: /commission/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 180, in commission
+    print(tol)
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+ERROR 2020-06-08 14:49:36,821 basehttp 154 "GET /commission/ HTTP/1.1" 500 75496
+INFO 2020-06-08 14:49:38,616 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 15:08:44,805 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+ERROR 2020-06-08 15:08:44,812 basehttp 154 "GET /commission/ HTTP/1.1" 500 59
+INFO 2020-06-08 15:08:44,820 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 15:08:48,672 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 15:08:49,410 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 15:11:17,296 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 15:11:22,780 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+ERROR 2020-06-08 15:11:53,178 log 228 Internal Server Error: /commission/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 179, in commission
+    tol = models.Commission.objects.filter(Sum("total"))
+  File "E:\envs\test1\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\envs\test1\lib\site-packages\django\db\models\query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "E:\envs\test1\lib\site-packages\django\db\models\query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1161, in build_filter
+    arg, value = filter_expr
+TypeError: 'Sum' object is not iterable
+ERROR 2020-06-08 15:11:53,184 basehttp 154 "GET /commission/ HTTP/1.1" 500 103195
+INFO 2020-06-08 15:12:43,600 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+ERROR 2020-06-08 15:13:20,052 log 228 Internal Server Error: /commission/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 181, in commission
+    print(tol[1])
+KeyError: 1
+ERROR 2020-06-08 15:13:20,053 basehttp 154 "GET /commission/ HTTP/1.1" 500 75039
+INFO 2020-06-08 15:13:28,214 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+ERROR 2020-06-08 15:13:44,227 log 228 Internal Server Error: /commission/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 181, in commission
+    print(tol.value("Decimal"))
+AttributeError: 'dict' object has no attribute 'value'
+ERROR 2020-06-08 15:13:44,230 basehttp 154 "GET /commission/ HTTP/1.1" 500 75347
+ERROR 2020-06-08 15:13:50,201 log 228 Internal Server Error: /commission/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 181, in commission
+    print(tol.values("Decimal"))
+TypeError: values() takes no arguments (1 given)
+ERROR 2020-06-08 15:13:50,204 basehttp 154 "GET /commission/ HTTP/1.1" 500 75249
+ERROR 2020-06-08 15:13:56,743 log 228 Internal Server Error: /commission/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 181, in commission
+    print(tol.get("Decimal"))
+TypeError: values() takes no arguments (1 given)
+ERROR 2020-06-08 15:13:56,745 basehttp 154 "GET /commission/ HTTP/1.1" 500 75243
+INFO 2020-06-08 15:13:58,845 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 15:14:18,889 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 15:14:38,055 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+ERROR 2020-06-08 15:14:43,307 log 228 Internal Server Error: /commission/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 181, in commission
+    print(tol.total__sum)
+AttributeError: 'dict' object has no attribute 'total__sum'
+ERROR 2020-06-08 15:14:43,308 basehttp 154 "GET /commission/ HTTP/1.1" 500 75335
+ERROR 2020-06-08 15:14:59,512 log 228 Internal Server Error: /commission/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 181, in commission
+    print(tol.get(total__sum))
+AttributeError: 'dict' object has no attribute 'total__sum'
+ERROR 2020-06-08 15:14:59,514 basehttp 154 "GET /commission/ HTTP/1.1" 500 75345
+ERROR 2020-06-08 15:15:08,864 log 228 Internal Server Error: /commission/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 181, in commission
+    print(tol.get("total__sum"))
+NameError: name 'total__sum' is not defined
+ERROR 2020-06-08 15:15:08,866 basehttp 154 "GET /commission/ HTTP/1.1" 500 75263
+INFO 2020-06-08 15:15:17,162 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 15:17:40,155 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+ERROR 2020-06-08 15:17:45,899 log 228 Internal Server Error: /commission/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 181, in commission
+    print(tol.c)
+AttributeError: 'dict' object has no attribute 'c'
+ERROR 2020-06-08 15:17:45,902 basehttp 154 "GET /commission/ HTTP/1.1" 500 75274
+INFO 2020-06-08 15:18:01,174 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 15:18:15,737 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 15:18:20,643 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 15:18:39,856 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 15:18:48,726 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 15:18:54,124 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 15:19:06,313 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 15:20:18,583 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+ERROR 2020-06-08 15:22:15,477 log 228 Internal Server Error: /commission/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 180, in commission
+    print(tol.Decimal('320.00').to_eng_string())
+AttributeError: 'dict' object has no attribute 'Decimal'
+ERROR 2020-06-08 15:22:15,481 basehttp 154 "GET /commission/ HTTP/1.1" 500 75168
+ERROR 2020-06-08 15:23:16,963 log 228 Internal Server Error: /commission/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 180, in commission
+    print(tol.to_eng_string())
+AttributeError: 'dict' object has no attribute 'to_eng_string'
+ERROR 2020-06-08 15:23:16,965 basehttp 154 "GET /commission/ HTTP/1.1" 500 75276
+INFO 2020-06-08 15:23:29,001 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 15:25:28,593 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 15:27:09,239 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 15:27:25,103 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 15:28:01,374 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 15:28:07,271 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+ERROR 2020-06-08 15:28:49,400 log 228 Internal Server Error: /commission/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 182, in commission
+    print(tol[0])
+KeyError: 0
+ERROR 2020-06-08 15:28:49,402 basehttp 154 "GET /commission/ HTTP/1.1" 500 75180
+INFO 2020-06-08 15:29:22,155 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 15:29:28,134 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 15:29:30,631 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 15:30:01,100 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 15:30:05,543 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 15:30:13,256 basehttp 154 "GET /commission/2020/ HTTP/1.1" 200 9128
+INFO 2020-06-08 15:30:18,591 basehttp 154 "GET /commission_flash/ HTTP/1.1" 302 0
+INFO 2020-06-08 15:30:18,650 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 15:30:21,941 basehttp 154 "GET /commission_flash/ HTTP/1.1" 302 0
+INFO 2020-06-08 15:30:22,010 basehttp 154 "GET /commission/ HTTP/1.1" 200 10571
+INFO 2020-06-08 15:31:07,799 basehttp 154 "GET /commission/ HTTP/1.1" 200 10568
+INFO 2020-06-08 15:31:10,074 basehttp 154 "GET /commission/ HTTP/1.1" 200 10577
+INFO 2020-06-08 15:31:18,725 basehttp 154 "GET /commission/2019 HTTP/1.1" 301 0
+INFO 2020-06-08 15:31:18,826 basehttp 154 "GET /commission/2019/ HTTP/1.1" 200 6193
+INFO 2020-06-08 15:31:23,192 basehttp 154 "GET /commission_flash/ HTTP/1.1" 302 0
+INFO 2020-06-08 15:31:23,257 basehttp 154 "GET /commission/ HTTP/1.1" 200 10577
+INFO 2020-06-08 15:31:38,578 basehttp 154 "GET /commission/ HTTP/1.1" 200 10576
+INFO 2020-06-08 15:38:18,895 basehttp 154 "GET /commission/ HTTP/1.1" 200 10576
+INFO 2020-06-08 15:38:20,605 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 4669
+INFO 2020-06-08 15:52:10,318 basehttp 154 "GET /commission_flash/ HTTP/1.1" 302 0
+INFO 2020-06-08 15:52:10,384 basehttp 154 "GET /commission/ HTTP/1.1" 200 10576
+INFO 2020-06-08 15:54:13,496 basehttp 154 "GET /commission/ HTTP/1.1" 200 10576
+INFO 2020-06-08 15:54:15,879 basehttp 154 "GET /commission/ HTTP/1.1" 200 10576
+INFO 2020-06-08 15:54:16,685 basehttp 154 "GET /commission/ HTTP/1.1" 200 10576
+INFO 2020-06-08 15:54:17,321 basehttp 154 "GET /commission/ HTTP/1.1" 200 10576
+INFO 2020-06-08 15:54:17,846 basehttp 154 "GET /commission/ HTTP/1.1" 200 10576
+INFO 2020-06-08 15:54:50,205 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 15:57:31,923 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 10917
+WARNING 2020-06-08 15:57:35,581 log 228 Not Found: /待填入/
+WARNING 2020-06-08 15:57:35,594 basehttp 154 "GET /%E5%BE%85%E5%A1%AB%E5%85%A5/ HTTP/1.1" 404 6973
+INFO 2020-06-08 16:00:53,095 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 10917
+INFO 2020-06-08 16:09:52,586 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 10917
+ERROR 2020-06-08 16:12:18,990 log 228 Internal Server Error: /commission/深圳市宝安区鹏鼎控股深圳有限公司/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 231, in commission_detail
+    ret = models.Commission.objects.filter(pay__customercol__customer__name__contains=cu).all()
+  File "E:\envs\test1\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\envs\test1\lib\site-packages\django\db\models\query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "E:\envs\test1\lib\site-packages\django\db\models\query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1225, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1101, in build_lookup
+    raise ValueError("Cannot use None as a query value")
+ValueError: Cannot use None as a query value
+ERROR 2020-06-08 16:12:19,014 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 500 113611
+ERROR 2020-06-08 16:12:20,163 log 228 Internal Server Error: /commission/深圳市宝安区鹏鼎控股深圳有限公司/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 231, in commission_detail
+    ret = models.Commission.objects.filter(pay__customercol__customer__name__contains=cu).all()
+  File "E:\envs\test1\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\envs\test1\lib\site-packages\django\db\models\query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "E:\envs\test1\lib\site-packages\django\db\models\query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1225, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1101, in build_lookup
+    raise ValueError("Cannot use None as a query value")
+ValueError: Cannot use None as a query value
+ERROR 2020-06-08 16:12:20,165 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 500 113611
+ERROR 2020-06-08 16:12:33,522 log 228 Internal Server Error: /commission/深圳市宝安区鹏鼎控股深圳有限公司/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 231, in commission_detail
+    ret = Commission.objects.filter(pay__customercol__customer__name__contains=cu).all()
+  File "E:\envs\test1\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\envs\test1\lib\site-packages\django\db\models\query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "E:\envs\test1\lib\site-packages\django\db\models\query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1225, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1101, in build_lookup
+    raise ValueError("Cannot use None as a query value")
+ValueError: Cannot use None as a query value
+ERROR 2020-06-08 16:12:33,525 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 500 113597
+ERROR 2020-06-08 16:12:40,421 log 228 Internal Server Error: /commission/深圳市宝安区鹏鼎控股深圳有限公司/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 231, in commission_detail
+    ret = Commission.objects.filter(pay__customercol__customer__name=cu).all()
+  File "E:\envs\test1\lib\site-packages\django\db\models\manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\envs\test1\lib\site-packages\django\db\models\query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "E:\envs\test1\lib\site-packages\django\db\models\query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1225, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "E:\envs\test1\lib\site-packages\django\db\models\sql\query.py", line 1101, in build_lookup
+    raise ValueError("Cannot use None as a query value")
+ValueError: Cannot use None as a query value
+ERROR 2020-06-08 16:12:40,423 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 500 113577
+INFO 2020-06-08 16:12:42,131 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 4656
+INFO 2020-06-08 16:12:42,376 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 4656
+INFO 2020-06-08 16:12:43,366 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 4656
+INFO 2020-06-08 16:12:43,860 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 4656
+INFO 2020-06-08 16:12:44,265 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 4656
+INFO 2020-06-08 16:12:44,932 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 4656
+INFO 2020-06-08 16:12:45,279 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 4656
+INFO 2020-06-08 16:12:45,598 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 4656
+INFO 2020-06-08 16:12:50,056 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:12:54,007 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:12:55,501 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 4656
+INFO 2020-06-08 16:14:12,246 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 4656
+INFO 2020-06-08 16:14:13,355 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 4656
+INFO 2020-06-08 16:14:25,165 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 4656
+INFO 2020-06-08 16:15:04,993 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 4656
+INFO 2020-06-08 16:15:29,244 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6993
+INFO 2020-06-08 16:15:40,362 basehttp 154 "POST /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6993
+INFO 2020-06-08 16:15:41,426 basehttp 154 "POST /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6993
+INFO 2020-06-08 16:16:15,704 basehttp 154 "POST /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6530
+INFO 2020-06-08 16:16:17,664 basehttp 154 "POST /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6530
+INFO 2020-06-08 16:16:33,985 basehttp 154 "POST /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6596
+INFO 2020-06-08 16:16:44,518 basehttp 154 "POST /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6580
+INFO 2020-06-08 16:16:57,592 basehttp 154 "POST /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6543
+INFO 2020-06-08 16:17:17,059 basehttp 154 "POST /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6543
+INFO 2020-06-08 16:17:21,464 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:17:24,149 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 5022
+INFO 2020-06-08 16:17:25,153 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:17:26,962 basehttp 154 "GET /commission/d%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 5771
+INFO 2020-06-08 16:17:29,728 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:17:32,610 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6543
+INFO 2020-06-08 16:19:04,111 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6677
+INFO 2020-06-08 16:19:08,178 basehttp 154 "GET /modify_commission/10 HTTP/1.1" 301 0
+INFO 2020-06-08 16:19:08,220 basehttp 154 "GET /modify_commission/10/ HTTP/1.1" 200 1528
+INFO 2020-06-08 16:19:09,659 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:19:15,064 basehttp 154 "GET /commission/a1%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 5042
+INFO 2020-06-08 16:20:35,949 basehttp 154 "GET /modify_commission/1/ HTTP/1.1" 200 1528
+INFO 2020-06-08 16:21:03,621 basehttp 154 "GET /modify_commission/1/ HTTP/1.1" 200 1528
+INFO 2020-06-08 16:21:10,222 basehttp 154 "GET /project/ HTTP/1.1" 200 7492
+INFO 2020-06-08 16:21:12,518 basehttp 154 "GET /modify_project/1/ HTTP/1.1" 200 2649
+INFO 2020-06-08 16:21:14,025 basehttp 154 "GET /project/ HTTP/1.1" 200 7492
+INFO 2020-06-08 16:21:16,764 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:21:19,193 basehttp 154 "GET /modify_commission/1/ HTTP/1.1" 200 1528
+INFO 2020-06-08 16:21:23,967 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:21:26,284 basehttp 154 "GET /modify_commission/1/ HTTP/1.1" 200 1528
+INFO 2020-06-08 16:21:29,940 basehttp 154 "POST /modify_commission/1/ HTTP/1.1" 302 0
+INFO 2020-06-08 16:21:30,017 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:21:31,892 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 5088
+INFO 2020-06-08 16:21:37,197 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6677
+INFO 2020-06-08 16:21:43,956 basehttp 154 "GET /modify_commission/10/ HTTP/1.1" 200 1528
+INFO 2020-06-08 16:21:58,914 basehttp 154 "GET /modify_commission/10/ HTTP/1.1" 200 1528
+INFO 2020-06-08 16:22:04,713 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:22:06,910 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 5088
+INFO 2020-06-08 16:24:00,191 basehttp 154 "GET /commission_flash/ HTTP/1.1" 302 0
+INFO 2020-06-08 16:24:00,338 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:24:03,072 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 5102
+INFO 2020-06-08 16:25:10,486 basehttp 154 "GET /commission_flash/ HTTP/1.1" 302 0
+INFO 2020-06-08 16:25:10,639 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:25:10,835 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:25:11,601 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 5109
+INFO 2020-06-08 16:25:12,182 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 5109
+INFO 2020-06-08 16:25:12,657 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 5109
+INFO 2020-06-08 16:25:13,612 basehttp 154 "GET /commission_flash_detail/ HTTP/1.1" 302 0
+WARNING 2020-06-08 16:25:13,623 log 228 Not Found: /commission_detail/
+WARNING 2020-06-08 16:25:13,623 basehttp 154 "GET /commission_detail/ HTTP/1.1" 404 7377
+INFO 2020-06-08 16:25:16,472 basehttp 154 "GET /commission_flash_detail/ HTTP/1.1" 302 0
+WARNING 2020-06-08 16:25:16,486 log 228 Not Found: /commission_detail/
+WARNING 2020-06-08 16:25:16,487 basehttp 154 "GET /commission_detail/ HTTP/1.1" 404 7377
+INFO 2020-06-08 16:25:41,024 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 5109
+INFO 2020-06-08 16:25:41,534 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 5109
+INFO 2020-06-08 16:25:42,607 basehttp 154 "GET /commission_flash_detail/ HTTP/1.1" 302 0
+WARNING 2020-06-08 16:25:42,616 log 228 Not Found: /commission_detail/
+WARNING 2020-06-08 16:25:42,617 basehttp 154 "GET /commission_detail/ HTTP/1.1" 404 7377
+INFO 2020-06-08 16:27:55,472 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 5109
+INFO 2020-06-08 16:28:02,403 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 5109
+INFO 2020-06-08 16:28:16,990 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 5109
+INFO 2020-06-08 16:28:29,844 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 5109
+INFO 2020-06-08 16:28:32,175 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:28:32,486 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:28:32,696 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:28:32,968 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 5109
+INFO 2020-06-08 16:28:43,050 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6712
+INFO 2020-06-08 16:28:58,105 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 5108
+WARNING 2020-06-08 16:28:59,334 log 228 Not Found: /待填入/
+WARNING 2020-06-08 16:28:59,335 basehttp 154 "GET /%E5%BE%85%E5%A1%AB%E5%85%A5/ HTTP/1.1" 404 7371
+INFO 2020-06-08 16:29:03,115 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 5108
+INFO 2020-06-08 16:29:14,469 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/2020 HTTP/1.1" 301 0
+INFO 2020-06-08 16:29:14,534 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/2020/ HTTP/1.1" 200 9120
+WARNING 2020-06-08 16:29:20,285 log 228 Not Found: /待填入/
+WARNING 2020-06-08 16:29:20,286 basehttp 154 "GET /%E5%BE%85%E5%A1%AB%E5%85%A5/ HTTP/1.1" 404 7371
+INFO 2020-06-08 16:29:25,658 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6711
+INFO 2020-06-08 16:29:37,175 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6711
+INFO 2020-06-08 16:29:37,591 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6711
+INFO 2020-06-08 16:29:37,805 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6711
+INFO 2020-06-08 16:29:43,906 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6711
+INFO 2020-06-08 16:29:48,969 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6711
+INFO 2020-06-08 16:29:55,348 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6711
+INFO 2020-06-08 16:30:05,769 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:30:14,961 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6711
+INFO 2020-06-08 16:30:17,271 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:30:42,147 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6711
+INFO 2020-06-08 16:31:20,052 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6686
+INFO 2020-06-08 16:31:21,301 basehttp 154 "GET /modify_commission_detail/ HTTP/1.1" 200 1517
+INFO 2020-06-08 16:31:29,701 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:32:06,207 basehttp 154 "GET /modify_commission/ HTTP/1.1" 200 1680
+INFO 2020-06-08 16:32:07,434 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:32:31,233 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:32:31,607 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:32:32,040 basehttp 154 "GET /modify_commission/ HTTP/1.1" 200 1845
+INFO 2020-06-08 16:32:34,688 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:33:08,746 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:33:09,173 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:33:09,359 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:33:09,540 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:33:09,701 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:33:09,869 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:33:10,054 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:33:10,224 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:33:10,388 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:33:10,561 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:33:15,305 basehttp 154 "GET /modify_commission/ HTTP/1.1" 200 1845
+INFO 2020-06-08 16:33:16,748 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:33:17,630 basehttp 154 "GET /modify_commission/1/ HTTP/1.1" 200 1865
+ERROR 2020-06-08 16:33:23,026 log 228 Internal Server Error: /modify_commission/1/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 196, in modify_commission
+    total = int(num) * float(price)
+ValueError: invalid literal for int() with base 10: '未付'
+ERROR 2020-06-08 16:33:23,031 basehttp 154 "POST /modify_commission/1/ HTTP/1.1" 500 77076
+ERROR 2020-06-08 16:35:09,799 log 228 Internal Server Error: /modify_commission/1/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 196, in modify_commission
+    total = int(num) * float(price)
+ValueError: invalid literal for int() with base 10: '未付'
+ERROR 2020-06-08 16:35:09,800 basehttp 154 "POST /modify_commission/1/ HTTP/1.1" 500 77076
+INFO 2020-06-08 16:35:13,407 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:35:16,800 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6686
+INFO 2020-06-08 16:35:30,533 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6686
+INFO 2020-06-08 16:35:30,817 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6686
+INFO 2020-06-08 16:35:31,601 basehttp 154 "GET /modify_commission_detail/10 HTTP/1.1" 301 0
+INFO 2020-06-08 16:35:31,631 basehttp 154 "GET /modify_commission_detail/10/ HTTP/1.1" 200 1864
+INFO 2020-06-08 16:37:02,109 basehttp 154 "POST /modify_commission_detail/10/ HTTP/1.1" 302 0
+INFO 2020-06-08 16:37:02,257 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:37:05,828 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6691
+INFO 2020-06-08 16:38:08,366 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:38:13,668 basehttp 154 "GET /modify_commission/1/ HTTP/1.1" 200 1864
+INFO 2020-06-08 16:38:14,890 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:38:16,838 basehttp 154 "GET /modify_commission/1/ HTTP/1.1" 200 1864
+INFO 2020-06-08 16:38:22,145 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:38:29,629 basehttp 154 "GET /modify_commission/ HTTP/1.1" 200 1844
+INFO 2020-06-08 16:38:32,245 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:38:34,896 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 5083
+INFO 2020-06-08 16:38:41,484 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6691
+INFO 2020-06-08 16:38:43,030 basehttp 154 "GET /modify_commission_detail/ HTTP/1.1" 200 1844
+INFO 2020-06-08 16:38:44,502 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:39:05,731 basehttp 154 "GET /project/ HTTP/1.1" 200 7492
+INFO 2020-06-08 16:39:08,189 basehttp 154 "GET /modify_project/ HTTP/1.1" 200 2609
+INFO 2020-06-08 16:39:10,471 basehttp 154 "GET /project/ HTTP/1.1" 200 7492
+INFO 2020-06-08 16:39:17,947 basehttp 154 "GET /project/ HTTP/1.1" 200 7492
+INFO 2020-06-08 16:39:19,436 basehttp 154 "GET /modify_project/ HTTP/1.1" 200 2609
+INFO 2020-06-08 16:39:20,973 basehttp 154 "GET /project/ HTTP/1.1" 200 7492
+INFO 2020-06-08 16:39:24,663 basehttp 154 "GET /project/ HTTP/1.1" 200 7492
+INFO 2020-06-08 16:39:25,280 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:39:25,946 basehttp 154 "GET /project/ HTTP/1.1" 200 7492
+INFO 2020-06-08 16:39:27,060 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:39:27,736 basehttp 154 "GET /project/ HTTP/1.1" 200 7492
+INFO 2020-06-08 16:39:32,070 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:39:33,254 basehttp 154 "GET /modify_commission/ HTTP/1.1" 200 1844
+INFO 2020-06-08 16:39:38,141 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:40:05,117 basehttp 154 "GET /project/ HTTP/1.1" 200 7492
+INFO 2020-06-08 16:40:06,645 basehttp 154 "GET /modify_project/ HTTP/1.1" 200 2609
+INFO 2020-06-08 16:40:07,589 basehttp 154 "GET /project/ HTTP/1.1" 200 7492
+INFO 2020-06-08 16:40:10,162 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:40:11,836 basehttp 154 "GET /modify_commission/ HTTP/1.1" 200 1844
+INFO 2020-06-08 16:40:12,925 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:40:13,961 basehttp 154 "GET /modify_commission/4/ HTTP/1.1" 200 1864
+INFO 2020-06-08 16:40:17,811 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:42:59,100 basehttp 154 "GET /modify_commission/ HTTP/1.1" 200 1844
+INFO 2020-06-08 16:43:00,794 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:43:01,791 basehttp 154 "GET /project/ HTTP/1.1" 200 7492
+INFO 2020-06-08 16:43:02,913 basehttp 154 "GET /commission/ HTTP/1.1" 200 10563
+INFO 2020-06-08 16:43:04,173 basehttp 154 "GET /modify_commission/ HTTP/1.1" 200 1844
+INFO 2020-06-08 16:43:18,922 basehttp 154 "POST /modify_commission/ HTTP/1.1" 302 0
+INFO 2020-06-08 16:43:18,990 basehttp 154 "GET /commission/ HTTP/1.1" 200 11365
+INFO 2020-06-08 16:43:24,154 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 5944
+INFO 2020-06-08 16:43:35,463 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 5944
+INFO 2020-06-08 16:43:54,312 basehttp 154 "GET /commission/ HTTP/1.1" 200 11365
+INFO 2020-06-08 16:43:56,848 basehttp 154 "GET /modify_commission/ HTTP/1.1" 200 1680
+INFO 2020-06-08 16:43:57,910 basehttp 154 "GET /commission/ HTTP/1.1" 200 11365
+INFO 2020-06-08 16:43:58,691 basehttp 154 "GET /modify_commission/13 HTTP/1.1" 301 0
+INFO 2020-06-08 16:43:58,709 basehttp 154 "GET /modify_commission/13/ HTTP/1.1" 200 1696
+INFO 2020-06-08 16:43:59,964 basehttp 154 "GET /commission/ HTTP/1.1" 200 11365
+INFO 2020-06-08 16:44:01,088 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 5944
+INFO 2020-06-08 16:44:06,433 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 5944
+INFO 2020-06-08 16:44:08,843 basehttp 154 "GET /modify_commission_detail/ HTTP/1.1" 200 1680
+INFO 2020-06-08 16:44:10,216 basehttp 154 "GET /commission/ HTTP/1.1" 200 11365
+INFO 2020-06-08 16:44:11,860 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 5944
+INFO 2020-06-08 16:44:12,884 basehttp 154 "GET /modify_commission_detail/2 HTTP/1.1" 301 0
+INFO 2020-06-08 16:44:12,902 basehttp 154 "GET /modify_commission_detail/2/ HTTP/1.1" 200 1696
+INFO 2020-06-08 16:44:14,105 basehttp 154 "GET /commission/ HTTP/1.1" 200 11365
+INFO 2020-06-08 16:44:15,238 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 5944
+INFO 2020-06-08 16:45:07,640 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 5948
+INFO 2020-06-08 16:46:25,452 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 5970
+INFO 2020-06-08 16:46:30,590 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 5972
+INFO 2020-06-08 16:46:35,846 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 5972
+INFO 2020-06-08 16:46:45,325 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 5976
+INFO 2020-06-08 16:46:45,353 basehttp 154 "GET /static/blog/bs/js/bootstrap-select.min.js HTTP/1.1" 304 0
+INFO 2020-06-08 16:46:52,032 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 5972
+INFO 2020-06-08 16:47:07,349 basehttp 154 "GET /modify_commission_detail/ HTTP/1.1" 200 1680
+INFO 2020-06-08 16:47:14,676 basehttp 154 "GET /modify_commission_detail/2/ HTTP/1.1" 200 1696
+INFO 2020-06-08 16:48:02,474 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 5972
+INFO 2020-06-08 16:48:04,264 basehttp 154 "GET /modify_commission_detail/ HTTP/1.1" 200 1844
+INFO 2020-06-08 16:48:06,954 basehttp 154 "GET /commission/ HTTP/1.1" 200 11365
+INFO 2020-06-08 16:48:08,721 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6731
+INFO 2020-06-08 16:48:09,885 basehttp 154 "GET /modify_commission_detail/10/ HTTP/1.1" 200 1869
+INFO 2020-06-08 16:50:57,370 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6731
+INFO 2020-06-08 16:50:59,924 basehttp 154 "GET /modify_commission_detail/10/ HTTP/1.1" 200 1876
+INFO 2020-06-08 16:51:00,923 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6731
+INFO 2020-06-08 16:51:02,318 basehttp 154 "GET /modify_commission_detail/ HTTP/1.1" 200 1845
+WARNING 2020-06-08 16:51:03,177 log 228 Not Found: /commission//
+WARNING 2020-06-08 16:51:03,178 basehttp 154 "GET /commission// HTTP/1.1" 404 7359
+INFO 2020-06-08 16:51:24,305 basehttp 154 "GET /commission/ HTTP/1.1" 200 11365
+INFO 2020-06-08 16:51:26,714 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6731
+INFO 2020-06-08 16:52:17,556 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6732
+WARNING 2020-06-08 16:52:18,663 log 228 Not Found: /modify_commission_detail//
+WARNING 2020-06-08 16:52:18,663 basehttp 154 "GET /modify_commission_detail// HTTP/1.1" 404 7401
+WARNING 2020-06-08 16:52:21,617 log 228 Not Found: /modify_commission_detail//
+WARNING 2020-06-08 16:52:21,618 basehttp 154 "GET /modify_commission_detail// HTTP/1.1" 404 7401
+INFO 2020-06-08 16:53:17,128 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6732
+WARNING 2020-06-08 16:53:18,158 log 228 Not Found: /modify_commission_detail//
+WARNING 2020-06-08 16:53:18,159 basehttp 154 "GET /modify_commission_detail// HTTP/1.1" 404 7401
+INFO 2020-06-08 16:53:20,394 basehttp 154 "GET /modify_commission_detail/10/ HTTP/1.1" 200 1876
+INFO 2020-06-08 16:53:21,829 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6732
+WARNING 2020-06-08 16:53:23,606 log 228 Not Found: /modify_commission_detail//
+WARNING 2020-06-08 16:53:23,606 basehttp 154 "GET /modify_commission_detail// HTTP/1.1" 404 7401
+INFO 2020-06-08 16:54:12,953 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6731
+INFO 2020-06-08 16:54:13,788 basehttp 154 "GET /modify_commission_detail/ HTTP/1.1" 200 1845
+WARNING 2020-06-08 16:54:14,681 log 228 Not Found: /commission//
+WARNING 2020-06-08 16:54:14,681 basehttp 154 "GET /commission// HTTP/1.1" 404 7359
+INFO 2020-06-08 16:54:30,382 basehttp 154 "GET /modify_commission_detail/10/ HTTP/1.1" 200 1876
+INFO 2020-06-08 16:54:31,956 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6731
+INFO 2020-06-08 16:54:33,206 basehttp 154 "GET /modify_commission_detail/ HTTP/1.1" 200 1845
+WARNING 2020-06-08 16:54:35,319 log 228 Not Found: /commission//
+WARNING 2020-06-08 16:54:35,319 basehttp 154 "GET /commission// HTTP/1.1" 404 7359
+INFO 2020-06-08 16:55:45,583 basehttp 154 "GET /modify_commission_detail/10/ HTTP/1.1" 200 1875
+INFO 2020-06-08 16:55:46,624 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97 HTTP/1.1" 301 0
+INFO 2020-06-08 16:55:46,664 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6731
+INFO 2020-06-08 16:55:48,126 basehttp 154 "GET /modify_commission_detail/ HTTP/1.1" 200 1844
+INFO 2020-06-08 16:55:49,328 basehttp 154 "GET /commission/ HTTP/1.1" 200 11365
+INFO 2020-06-08 16:55:56,578 basehttp 154 "GET /modify_commission/4/ HTTP/1.1" 200 1696
+INFO 2020-06-08 16:55:57,524 basehttp 154 "GET /commission/ HTTP/1.1" 200 11365
+INFO 2020-06-08 16:55:58,937 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6731
+INFO 2020-06-08 16:55:59,961 basehttp 154 "GET /modify_commission_detail/11 HTTP/1.1" 301 0
+INFO 2020-06-08 16:55:59,984 basehttp 154 "GET /modify_commission_detail/11/ HTTP/1.1" 200 1872
+INFO 2020-06-08 16:56:00,708 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6731
+INFO 2020-06-08 16:56:02,407 basehttp 154 "GET /modify_commission_detail/ HTTP/1.1" 200 1844
+INFO 2020-06-08 16:56:03,298 basehttp 154 "GET /commission/ HTTP/1.1" 200 11365
+INFO 2020-06-08 16:56:04,830 basehttp 154 "GET /commission/d%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 5901
+INFO 2020-06-08 16:56:06,820 basehttp 154 "GET /modify_commission_detail/4 HTTP/1.1" 301 0
+INFO 2020-06-08 16:56:06,843 basehttp 154 "GET /modify_commission_detail/4/ HTTP/1.1" 200 1873
+INFO 2020-06-08 16:56:07,795 basehttp 154 "GET /commission/d%E5%AE%A2%E6%88%B7 HTTP/1.1" 301 0
+INFO 2020-06-08 16:56:07,834 basehttp 154 "GET /commission/d%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 5901
+INFO 2020-06-08 16:56:09,321 basehttp 154 "GET /commission/ HTTP/1.1" 200 11365
+INFO 2020-06-08 16:56:10,532 basehttp 154 "GET /modify_commission/2/ HTTP/1.1" 200 1696
+INFO 2020-06-08 16:56:11,566 basehttp 154 "GET /commission/ HTTP/1.1" 200 11365
+INFO 2020-06-08 16:56:12,461 basehttp 154 "GET /modify_commission/ HTTP/1.1" 200 1680
+INFO 2020-06-08 16:56:13,356 basehttp 154 "GET /commission/ HTTP/1.1" 200 11365
+INFO 2020-06-08 16:56:15,107 basehttp 154 "GET /commission/ HTTP/1.1" 200 11365
+INFO 2020-06-08 16:56:15,751 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6731
+INFO 2020-06-08 16:56:42,654 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6470
+INFO 2020-06-08 16:56:49,448 basehttp 154 "GET /commission/ HTTP/1.1" 200 11365
+INFO 2020-06-08 16:56:55,068 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6470
+INFO 2020-06-08 16:56:59,251 basehttp 154 "GET /commission/ HTTP/1.1" 200 11365
+INFO 2020-06-08 16:57:01,508 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6470
+INFO 2020-06-08 16:57:34,121 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6470
+INFO 2020-06-08 16:57:34,794 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6470
+INFO 2020-06-08 16:57:36,493 basehttp 154 "GET /commission/ HTTP/1.1" 200 11482
+INFO 2020-06-08 16:57:41,163 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6470
+INFO 2020-06-08 16:57:45,794 basehttp 154 "GET /commission/ HTTP/1.1" 200 11482
+INFO 2020-06-08 16:57:52,385 basehttp 154 "GET /commission/ HTTP/1.1" 200 11482
+INFO 2020-06-08 16:57:56,803 basehttp 154 "GET /commission/ HTTP/1.1" 200 11482
+INFO 2020-06-08 16:58:01,230 basehttp 154 "GET /commission/ HTTP/1.1" 200 11482
+INFO 2020-06-08 16:58:08,123 basehttp 154 "GET /commission/ HTTP/1.1" 200 11365
+INFO 2020-06-08 16:58:15,961 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6470
+INFO 2020-06-08 16:58:59,843 basehttp 154 "GET /commission/ HTTP/1.1" 200 11365
+INFO 2020-06-08 16:59:36,089 basehttp 154 "GET /commission/ HTTP/1.1" 200 11365
+INFO 2020-06-08 16:59:36,703 basehttp 154 "GET /commission/ HTTP/1.1" 200 11365
+INFO 2020-06-08 16:59:36,919 basehttp 154 "GET /commission/ HTTP/1.1" 200 11365
+INFO 2020-06-08 16:59:38,001 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6629
+INFO 2020-06-08 16:59:54,091 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6629
+INFO 2020-06-08 16:59:54,743 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6629
+INFO 2020-06-08 16:59:55,239 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6629
+INFO 2020-06-08 16:59:55,778 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6629
+INFO 2020-06-08 16:59:59,124 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6629
+INFO 2020-06-08 16:59:59,444 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6629
+INFO 2020-06-08 16:59:59,665 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6629
+INFO 2020-06-08 16:59:59,895 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6629
+INFO 2020-06-08 17:00:00,114 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6629
+INFO 2020-06-08 17:00:05,640 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6629
+INFO 2020-06-08 17:00:13,358 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6629
+INFO 2020-06-08 17:00:13,950 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6629
+INFO 2020-06-08 17:00:14,521 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6629
+INFO 2020-06-08 17:00:14,836 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6629
+INFO 2020-06-08 17:00:15,032 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6629
+INFO 2020-06-08 17:00:15,238 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6629
+INFO 2020-06-08 17:00:15,454 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6629
+INFO 2020-06-08 17:00:15,636 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6629
+INFO 2020-06-08 17:00:23,734 basehttp 154 "GET /commission/ HTTP/1.1" 200 11365
+INFO 2020-06-08 17:00:24,022 basehttp 154 "GET /commission/ HTTP/1.1" 200 11365
+INFO 2020-06-08 17:00:25,717 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6629
+INFO 2020-06-08 17:00:42,526 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6673
+INFO 2020-06-08 17:01:25,111 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6681
+INFO 2020-06-08 17:01:25,463 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6681
+INFO 2020-06-08 17:01:25,729 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6681
+INFO 2020-06-08 17:01:25,948 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6681
+INFO 2020-06-08 17:01:26,168 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6681
+INFO 2020-06-08 17:01:26,392 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6681
+INFO 2020-06-08 17:01:26,596 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6681
+INFO 2020-06-08 17:02:16,760 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6681
+INFO 2020-06-08 17:02:17,273 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6681
+INFO 2020-06-08 17:02:17,524 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6681
+INFO 2020-06-08 17:02:17,736 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6681
+INFO 2020-06-08 17:02:18,083 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6681
+INFO 2020-06-08 17:02:24,579 basehttp 154 "GET /commission/ HTTP/1.1" 200 11365
+INFO 2020-06-08 17:02:25,870 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 6009
+INFO 2020-06-08 17:02:27,762 basehttp 154 "GET /commission/ HTTP/1.1" 200 11365
+INFO 2020-06-08 17:02:29,239 basehttp 154 "GET /commission/a1%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 5174
+INFO 2020-06-08 17:02:30,719 basehttp 154 "GET /commission/ HTTP/1.1" 200 11365
+INFO 2020-06-08 17:02:31,729 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6681
+INFO 2020-06-08 17:02:34,542 basehttp 154 "GET /modify_commission_detail/ HTTP/1.1" 200 1844
+INFO 2020-06-08 17:02:36,922 basehttp 154 "GET /commission/ HTTP/1.1" 200 11365
+INFO 2020-06-08 17:02:39,512 basehttp 154 "GET /modify_commission/ HTTP/1.1" 200 1680
+INFO 2020-06-08 17:02:40,924 basehttp 154 "GET /commission/ HTTP/1.1" 200 11365
+INFO 2020-06-08 17:02:43,452 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6681
+INFO 2020-06-08 17:02:44,678 basehttp 154 "GET /modify_commission_detail/10/ HTTP/1.1" 200 1875
+INFO 2020-06-08 17:02:45,942 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6681
+INFO 2020-06-08 17:02:46,981 basehttp 154 "GET /modify_commission_detail/11/ HTTP/1.1" 200 1872
+INFO 2020-06-08 17:02:47,789 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 6681
+INFO 2020-06-08 17:02:52,465 basehttp 154 "GET /delete_commission/10 HTTP/1.1" 301 0
+INFO 2020-06-08 17:02:52,644 basehttp 154 "GET /delete_commission/10/ HTTP/1.1" 302 0
+INFO 2020-06-08 17:02:52,700 basehttp 154 "GET /commission/ HTTP/1.1" 200 10648
+INFO 2020-06-08 17:02:54,214 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 5933
+INFO 2020-06-08 17:04:13,347 basehttp 154 "GET /commission/ HTTP/1.1" 200 10648
+INFO 2020-06-08 17:04:14,657 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 5933
+INFO 2020-06-08 17:04:16,309 basehttp 154 "GET /commission/ HTTP/1.1" 200 10648
+INFO 2020-06-08 17:04:18,761 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 5933
+INFO 2020-06-08 17:04:52,639 basehttp 154 "GET /commission/ HTTP/1.1" 200 10648
+INFO 2020-06-08 17:05:58,224 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 5933
+INFO 2020-06-08 17:07:04,230 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 5933
+INFO 2020-06-08 17:07:05,583 basehttp 154 "GET /modify_commission_detail/ HTTP/1.1" 200 1844
+INFO 2020-06-08 17:07:08,597 basehttp 154 "GET /commission/ HTTP/1.1" 200 10648
+INFO 2020-06-08 17:07:09,762 basehttp 154 "GET /project/ HTTP/1.1" 200 7492
+INFO 2020-06-08 17:07:11,521 basehttp 154 "GET /commission/ HTTP/1.1" 200 10648
+INFO 2020-06-08 17:07:21,239 basehttp 154 "GET /commission/a1%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 5174
+INFO 2020-06-08 17:07:27,172 basehttp 154 "GET /delete_commission/1 HTTP/1.1" 301 0
+ERROR 2020-06-08 17:07:27,406 log 228 Internal Server Error: /delete_commission/1/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 272, in delete_commission
+    print(a.pay.customercol.customer.name)
+AttributeError: 'NoneType' object has no attribute 'pay'
+ERROR 2020-06-08 17:07:27,408 basehttp 154 "GET /delete_commission/1/ HTTP/1.1" 500 74434
+INFO 2020-06-08 17:09:03,545 basehttp 154 "GET /commission/ HTTP/1.1" 200 9936
+INFO 2020-06-08 17:09:04,605 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 5933
+INFO 2020-06-08 17:09:08,936 basehttp 154 "GET /commission/ HTTP/1.1" 200 9936
+INFO 2020-06-08 17:09:09,946 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 5933
+INFO 2020-06-08 17:09:59,116 basehttp 154 "GET /commission/ HTTP/1.1" 200 9936
+INFO 2020-06-08 17:09:59,429 basehttp 154 "GET /commission/ HTTP/1.1" 200 9936
+INFO 2020-06-08 17:10:07,012 basehttp 154 "GET /delete_commission/2 HTTP/1.1" 301 0
+ERROR 2020-06-08 17:10:07,161 log 228 Internal Server Error: /delete_commission/2/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 272, in delete_commission
+    for c in a:
+TypeError: 'Commission' object is not iterable
+ERROR 2020-06-08 17:10:07,164 basehttp 154 "GET /delete_commission/2/ HTTP/1.1" 500 74077
+INFO 2020-06-08 17:10:27,917 basehttp 154 "GET /commission/ HTTP/1.1" 200 9936
+ERROR 2020-06-08 17:10:27,920 basehttp 154 "GET /commission/ HTTP/1.1" 500 59
+ERROR 2020-06-08 17:10:28,008 log 228 Internal Server Error: /delete_commission/2/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 273, in delete_commission
+    print(a.pay.customercol.customer.name)
+AttributeError: 'QuerySet' object has no attribute 'pay'
+ERROR 2020-06-08 17:10:28,010 basehttp 154 "GET /delete_commission/2/ HTTP/1.1" 500 74396
+INFO 2020-06-08 17:10:31,839 basehttp 154 "GET /commission/ HTTP/1.1" 200 9936
+INFO 2020-06-08 17:11:17,741 basehttp 154 "GET /commission/ HTTP/1.1" 200 9936
+INFO 2020-06-08 17:11:18,093 basehttp 154 "GET /commission/ HTTP/1.1" 200 9936
+INFO 2020-06-08 17:11:18,329 basehttp 154 "GET /commission/ HTTP/1.1" 200 9936
+INFO 2020-06-08 17:11:18,892 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 5933
+INFO 2020-06-08 17:11:54,851 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 5933
+INFO 2020-06-08 17:11:56,097 basehttp 154 "GET /commission/ HTTP/1.1" 200 9936
+INFO 2020-06-08 17:12:05,606 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 5933
+INFO 2020-06-08 17:12:06,722 basehttp 154 "GET /delete_commission/11 HTTP/1.1" 301 0
+ERROR 2020-06-08 17:12:06,772 log 228 Internal Server Error: /delete_commission/11/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 272, in delete_commission
+    print(a.pay.customercol.customer.name)
+AttributeError: 'QuerySet' object has no attribute 'pay'
+ERROR 2020-06-08 17:12:06,773 basehttp 154 "GET /delete_commission/11/ HTTP/1.1" 500 74275
+INFO 2020-06-08 17:12:18,848 basehttp 154 "GET /delete_commission/11/ HTTP/1.1" 302 0
+INFO 2020-06-08 17:12:19,003 basehttp 154 "GET /commission/ HTTP/1.1" 200 9936
+INFO 2020-06-08 17:13:54,762 basehttp 154 "GET /commission/d%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 5937
+INFO 2020-06-08 17:14:11,264 basehttp 154 "GET /commission/ HTTP/1.1" 200 9936
+INFO 2020-06-08 17:17:15,649 basehttp 154 "GET /commission/ HTTP/1.1" 200 9936
+INFO 2020-06-08 17:17:21,807 basehttp 154 "GET /delete_commission/7 HTTP/1.1" 301 0
+INFO 2020-06-08 17:17:21,824 basehttp 154 "GET /delete_commission/7/ HTTP/1.1" 302 0
+INFO 2020-06-08 17:17:21,898 basehttp 154 "GET /commission/ HTTP/1.1" 200 9936
+INFO 2020-06-08 17:17:58,912 basehttp 154 "GET /commission/ HTTP/1.1" 200 9936
+INFO 2020-06-08 17:17:59,257 basehttp 154 "GET /delete_commission/9 HTTP/1.1" 301 0
+ERROR 2020-06-08 17:17:59,353 log 228 Internal Server Error: /delete_commission/9/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 271, in delete_commission
+    a = Commission.objects.filter(id=cus_id).values(c="pay__customercol__customer__name")
+  File "E:\envs\test1\lib\site-packages\django\db\models\query.py", line 750, in values
+    clone = self._values(*fields, **expressions)
+  File "E:\envs\test1\lib\site-packages\django\db\models\query.py", line 743, in _values
+    clone = clone.annotate(**expressions)
+  File "E:\envs\test1\lib\site-packages\django\db\models\query.py", line 979, in annotate
+    self._validate_values_are_expressions(args + tuple(kwargs.values()), method_name='annotate')
+  File "E:\envs\test1\lib\site-packages\django\db\models\query.py", line 1254, in _validate_values_are_expressions
+    ', '.join(invalid_args),
+TypeError: QuerySet.annotate() received non-expression(s): pay__customercol__customer__name.
+ERROR 2020-06-08 17:17:59,357 basehttp 154 "GET /delete_commission/9/ HTTP/1.1" 500 90626
+ERROR 2020-06-08 17:18:13,319 log 228 Internal Server Error: /delete_commission/9/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 272, in delete_commission
+    print(a[""])
+  File "E:\envs\test1\lib\site-packages\django\db\models\query.py", line 278, in __getitem__
+    raise TypeError
+TypeError
+ERROR 2020-06-08 17:18:13,322 basehttp 154 "GET /delete_commission/9/ HTTP/1.1" 500 77941
+ERROR 2020-06-08 17:18:15,705 log 228 Internal Server Error: /delete_commission/9/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 272, in delete_commission
+    print(a[""])
+  File "E:\envs\test1\lib\site-packages\django\db\models\query.py", line 278, in __getitem__
+    raise TypeError
+TypeError
+ERROR 2020-06-08 17:18:15,706 basehttp 154 "GET /delete_commission/9/ HTTP/1.1" 500 77806
+INFO 2020-06-08 17:18:24,228 basehttp 154 "GET /delete_commission/9/ HTTP/1.1" 302 0
+INFO 2020-06-08 17:18:24,382 basehttp 154 "GET /commission/ HTTP/1.1" 200 9936
+INFO 2020-06-08 17:18:50,629 basehttp 154 "GET /commission/ HTTP/1.1" 200 9936
+INFO 2020-06-08 17:18:50,633 basehttp 154 "GET /commission/ HTTP/1.1" 200 9936
+ERROR 2020-06-08 17:18:50,634 basehttp 154 "GET /commission/ HTTP/1.1" 500 59
+INFO 2020-06-08 17:18:51,679 basehttp 154 "GET /commission/ HTTP/1.1" 200 9936
+ERROR 2020-06-08 17:18:52,556 log 228 Internal Server Error: /delete_commission/9/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 272, in delete_commission
+    print(a["pay__customercol__customer__name"])
+  File "E:\envs\test1\lib\site-packages\django\db\models\query.py", line 278, in __getitem__
+    raise TypeError
+TypeError
+ERROR 2020-06-08 17:18:52,561 basehttp 154 "GET /delete_commission/9/ HTTP/1.1" 500 77902
+INFO 2020-06-08 17:19:04,956 basehttp 154 "GET /commission/ HTTP/1.1" 200 9936
+INFO 2020-06-08 17:19:07,026 basehttp 154 "GET /delete_commission/9/ HTTP/1.1" 302 0
+INFO 2020-06-08 17:19:07,175 basehttp 154 "GET /commission/ HTTP/1.1" 200 9936
+INFO 2020-06-08 17:19:21,609 basehttp 154 "GET /commission/ HTTP/1.1" 200 9936
+INFO 2020-06-08 17:19:25,437 basehttp 154 "GET /delete_commission/9/ HTTP/1.1" 302 0
+INFO 2020-06-08 17:19:25,512 basehttp 154 "GET /commission/ HTTP/1.1" 200 9936
+INFO 2020-06-08 17:19:41,019 basehttp 154 "GET /commission/ HTTP/1.1" 200 9936
+ERROR 2020-06-08 17:19:45,203 log 228 Internal Server Error: /delete_commission/9/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\12817\Desktop\klzgapp\klwork\klzg\views.py", line 271, in delete_commission
+    a = Commission.objects.filter(id=cus_id).values(c="pay__customercol__customer__name")
+  File "E:\envs\test1\lib\site-packages\django\db\models\query.py", line 750, in values
+    clone = self._values(*fields, **expressions)
+  File "E:\envs\test1\lib\site-packages\django\db\models\query.py", line 743, in _values
+    clone = clone.annotate(**expressions)
+  File "E:\envs\test1\lib\site-packages\django\db\models\query.py", line 979, in annotate
+    self._validate_values_are_expressions(args + tuple(kwargs.values()), method_name='annotate')
+  File "E:\envs\test1\lib\site-packages\django\db\models\query.py", line 1254, in _validate_values_are_expressions
+    ', '.join(invalid_args),
+TypeError: QuerySet.annotate() received non-expression(s): pay__customercol__customer__name.
+ERROR 2020-06-08 17:19:45,206 basehttp 154 "GET /delete_commission/9/ HTTP/1.1" 500 90629
+INFO 2020-06-08 17:20:03,674 basehttp 154 "GET /commission/ HTTP/1.1" 200 9936
+INFO 2020-06-08 17:20:05,308 basehttp 154 "GET /delete_commission/9/ HTTP/1.1" 302 0
+INFO 2020-06-08 17:20:05,374 basehttp 154 "GET /commission/ HTTP/1.1" 200 9936
+INFO 2020-06-08 17:20:42,738 basehttp 154 "GET /commission/ HTTP/1.1" 200 9936
+INFO 2020-06-08 17:20:47,033 basehttp 154 "GET /delete_commission/9/ HTTP/1.1" 302 0
+INFO 2020-06-08 17:20:47,098 basehttp 154 "GET /commission/ HTTP/1.1" 200 9936
+INFO 2020-06-08 17:21:22,361 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 5947
+INFO 2020-06-08 17:21:24,768 basehttp 154 "GET /delete_commission_detail/9 HTTP/1.1" 301 0
+INFO 2020-06-08 17:21:24,936 basehttp 154 "GET /delete_commission_detail/9/ HTTP/1.1" 302 0
+INFO 2020-06-08 17:21:24,996 basehttp 154 "GET /commission/ HTTP/1.1" 200 9215
+INFO 2020-06-08 17:21:27,378 basehttp 154 "GET /commission/ HTTP/1.1" 200 9215
+INFO 2020-06-08 17:21:27,848 basehttp 154 "GET /commission/ HTTP/1.1" 200 9215
+INFO 2020-06-08 17:21:27,972 basehttp 154 "GET /commission/ HTTP/1.1" 200 9215
+INFO 2020-06-08 17:21:28,147 basehttp 154 "GET /commission/ HTTP/1.1" 200 9215
+INFO 2020-06-08 17:21:28,315 basehttp 154 "GET /commission/ HTTP/1.1" 200 9215
+INFO 2020-06-08 17:21:28,496 basehttp 154 "GET /commission/ HTTP/1.1" 200 9215
+INFO 2020-06-08 17:21:54,960 basehttp 154 "GET /commission/b%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 5184
+INFO 2020-06-08 17:22:17,233 basehttp 154 "GET /commission/b%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 5184
+INFO 2020-06-08 17:22:19,147 basehttp 154 "GET /commission/b%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 5184
+INFO 2020-06-08 17:22:29,729 basehttp 154 "GET /delete_commission_detail/7 HTTP/1.1" 301 0
+INFO 2020-06-08 17:22:29,745 basehttp 154 "GET /delete_commission_detail/7/ HTTP/1.1" 302 0
+INFO 2020-06-08 17:22:29,803 basehttp 154 "GET /commission/ HTTP/1.1" 200 9215
+INFO 2020-06-08 17:22:58,410 basehttp 154 "GET /commission/ HTTP/1.1" 200 9215
+INFO 2020-06-08 17:23:00,141 basehttp 154 "GET /delete_commission/7/ HTTP/1.1" 302 0
+INFO 2020-06-08 17:23:00,287 basehttp 154 "GET /commission/ HTTP/1.1" 200 9215
+INFO 2020-06-08 17:23:01,573 basehttp 154 "GET /commission/b%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 5184
+INFO 2020-06-08 17:23:02,544 basehttp 154 "GET /delete_commission_detail/7/ HTTP/1.1" 302 0
+INFO 2020-06-08 17:23:02,599 basehttp 154 "GET /commission/ HTTP/1.1" 200 9215
+INFO 2020-06-08 17:23:03,719 basehttp 154 "GET /commission/b%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 5184
+INFO 2020-06-08 17:23:04,895 basehttp 154 "GET /delete_commission_detail/7/ HTTP/1.1" 302 0
+INFO 2020-06-08 17:23:04,947 basehttp 154 "GET /commission/ HTTP/1.1" 200 9215
+INFO 2020-06-08 17:23:13,137 basehttp 154 "GET /commission/d%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 5951
+INFO 2020-06-08 17:23:14,812 basehttp 154 "GET /delete_commission_detail/12 HTTP/1.1" 301 0
+INFO 2020-06-08 17:23:14,827 basehttp 154 "GET /delete_commission_detail/12/ HTTP/1.1" 302 0
+INFO 2020-06-08 17:23:14,873 basehttp 154 "GET /commission/ HTTP/1.1" 200 9215
+INFO 2020-06-08 17:23:22,088 basehttp 154 "GET /commission/b%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 5184
+INFO 2020-06-08 17:24:17,557 basehttp 154 "GET /commission/b%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 5184
+WARNING 2020-06-08 17:24:26,966 basehttp 154 "GET /static/blog/bs/js/bootstrap-select.min.js.map HTTP/1.1" 404 1738
+INFO 2020-06-08 17:24:27,019 basehttp 154 "GET /static/blog/bs/css/bootstrap.css.map HTTP/1.1" 200 389287
+INFO 2020-06-08 17:24:27,020 basehttp 154 "GET /static/blog/bs/css/bootstrap-select.css.map HTTP/1.1" 200 24643
+INFO 2020-06-08 17:24:34,589 basehttp 154 "GET /delete_commission_detail/7 HTTP/1.1" 301 0
+INFO 2020-06-08 17:24:34,607 basehttp 154 "GET /delete_commission_detail/7/ HTTP/1.1" 302 0
+INFO 2020-06-08 17:24:34,671 basehttp 154 "GET /commission/ HTTP/1.1" 200 9215
+INFO 2020-06-08 17:24:34,726 basehttp 154 "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 200 86659
+INFO 2020-06-08 17:24:34,739 basehttp 154 "GET /static/blog/bs/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2020-06-08 17:24:34,740 basehttp 154 "GET /static/blog/bs/css/bootstrap.css HTTP/1.1" 200 146010
+INFO 2020-06-08 17:24:34,741 basehttp 154 "GET /static/blog/bs/css/bootstrap-select.css HTTP/1.1" 200 12331
+INFO 2020-06-08 17:24:34,744 basehttp 154 "GET /static/blog/bs/js/bootstrap-select.min.js HTTP/1.1" 200 50638
+WARNING 2020-06-08 17:24:34,838 basehttp 154 "GET /static/blog/bs/js/bootstrap-select.min.js.map HTTP/1.1" 404 1738
+INFO 2020-06-08 17:24:34,880 basehttp 154 "GET /static/blog/bs/css/bootstrap-select.css.map HTTP/1.1" 200 24643
+INFO 2020-06-08 17:24:34,883 basehttp 154 "GET /static/blog/bs/css/bootstrap.css.map HTTP/1.1" 200 389287
+INFO 2020-06-08 17:25:02,270 basehttp 154 "GET /commission/ HTTP/1.1" 200 9215
+INFO 2020-06-08 17:25:02,311 basehttp 154 "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 200 86659
+INFO 2020-06-08 17:25:02,331 basehttp 154 "GET /static/blog/bs/css/bootstrap-select.css HTTP/1.1" 200 12331
+INFO 2020-06-08 17:25:02,333 basehttp 154 "GET /static/blog/bs/js/bootstrap-select.min.js HTTP/1.1" 200 50638
+INFO 2020-06-08 17:25:02,334 basehttp 154 "GET /static/blog/bs/css/bootstrap.css HTTP/1.1" 200 146010
+INFO 2020-06-08 17:25:02,337 basehttp 154 "GET /static/blog/bs/js/bootstrap.min.js HTTP/1.1" 200 37045
+WARNING 2020-06-08 17:25:02,396 basehttp 154 "GET /static/blog/bs/js/bootstrap-select.min.js.map HTTP/1.1" 404 1738
+INFO 2020-06-08 17:25:02,428 basehttp 154 "GET /static/blog/bs/css/bootstrap-select.css.map HTTP/1.1" 200 24643
+INFO 2020-06-08 17:25:02,431 basehttp 154 "GET /static/blog/bs/css/bootstrap.css.map HTTP/1.1" 200 389287
+INFO 2020-06-08 17:25:03,285 basehttp 154 "GET /commission/b%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 5184
+INFO 2020-06-08 17:25:03,344 basehttp 154 "GET /static/blog/bs/css/bootstrap-select.css HTTP/1.1" 200 12331
+INFO 2020-06-08 17:25:03,346 basehttp 154 "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 200 86659
+INFO 2020-06-08 17:25:03,348 basehttp 154 "GET /static/blog/bs/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2020-06-08 17:25:03,349 basehttp 154 "GET /static/blog/bs/css/bootstrap.css HTTP/1.1" 200 146010
+INFO 2020-06-08 17:25:03,350 basehttp 154 "GET /static/blog/bs/js/bootstrap-select.min.js HTTP/1.1" 200 50638
+WARNING 2020-06-08 17:25:03,410 basehttp 154 "GET /static/blog/bs/js/bootstrap-select.min.js.map HTTP/1.1" 404 1738
+INFO 2020-06-08 17:25:03,449 basehttp 154 "GET /static/blog/bs/css/bootstrap-select.css.map HTTP/1.1" 200 24643
+INFO 2020-06-08 17:25:03,451 basehttp 154 "GET /static/blog/bs/css/bootstrap.css.map HTTP/1.1" 200 389287
+INFO 2020-06-08 17:25:04,691 basehttp 154 "GET /delete_commission_detail/7 HTTP/1.1" 301 0
+INFO 2020-06-08 17:25:04,720 basehttp 154 "GET /delete_commission_detail/7/ HTTP/1.1" 302 0
+INFO 2020-06-08 17:25:04,739 basehttp 154 "GET /commission/b%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 5184
+INFO 2020-06-08 17:25:04,780 basehttp 154 "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 200 86659
+INFO 2020-06-08 17:25:04,782 basehttp 154 "GET /static/blog/bs/css/bootstrap-select.css HTTP/1.1" 200 12331
+INFO 2020-06-08 17:25:04,783 basehttp 154 "GET /static/blog/bs/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2020-06-08 17:25:04,785 basehttp 154 "GET /static/blog/bs/css/bootstrap.css HTTP/1.1" 200 146010
+INFO 2020-06-08 17:25:04,785 basehttp 154 "GET /static/blog/bs/js/bootstrap-select.min.js HTTP/1.1" 200 50638
+WARNING 2020-06-08 17:25:04,849 basehttp 154 "GET /static/blog/bs/js/bootstrap-select.min.js.map HTTP/1.1" 404 1738
+INFO 2020-06-08 17:25:04,874 basehttp 154 "GET /static/blog/bs/css/bootstrap-select.css.map HTTP/1.1" 200 24643
+INFO 2020-06-08 17:25:04,876 basehttp 154 "GET /static/blog/bs/css/bootstrap.css.map HTTP/1.1" 200 389287
+INFO 2020-06-08 17:25:05,692 basehttp 154 "GET /delete_commission_detail/7 HTTP/1.1" 301 0
+INFO 2020-06-08 17:25:05,716 basehttp 154 "GET /delete_commission_detail/7/ HTTP/1.1" 302 0
+INFO 2020-06-08 17:25:05,746 basehttp 154 "GET /commission/b%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 5184
+INFO 2020-06-08 17:25:05,788 basehttp 154 "GET /static/blog/bs/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2020-06-08 17:25:05,788 basehttp 154 "GET /static/blog/bs/css/bootstrap-select.css HTTP/1.1" 200 12331
+INFO 2020-06-08 17:25:05,791 basehttp 154 "GET /static/blog/bs/css/bootstrap.css HTTP/1.1" 200 146010
+INFO 2020-06-08 17:25:05,792 basehttp 154 "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 200 86659
+INFO 2020-06-08 17:25:05,793 basehttp 154 "GET /static/blog/bs/js/bootstrap-select.min.js HTTP/1.1" 200 50638
+WARNING 2020-06-08 17:25:05,864 basehttp 154 "GET /static/blog/bs/js/bootstrap-select.min.js.map HTTP/1.1" 404 1738
+INFO 2020-06-08 17:25:05,886 basehttp 154 "GET /static/blog/bs/css/bootstrap-select.css.map HTTP/1.1" 200 24643
+INFO 2020-06-08 17:25:05,889 basehttp 154 "GET /static/blog/bs/css/bootstrap.css.map HTTP/1.1" 200 389287
+INFO 2020-06-08 17:25:19,091 basehttp 154 "GET /commission/b%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 5184
+INFO 2020-06-08 17:25:19,144 basehttp 154 "GET /static/blog/bs/css/bootstrap-select.css HTTP/1.1" 200 12331
+INFO 2020-06-08 17:25:19,144 basehttp 154 "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 200 86659
+INFO 2020-06-08 17:25:19,145 basehttp 154 "GET /static/blog/bs/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2020-06-08 17:25:19,147 basehttp 154 "GET /static/blog/bs/css/bootstrap.css HTTP/1.1" 200 146010
+INFO 2020-06-08 17:25:19,161 basehttp 154 "GET /static/blog/bs/js/bootstrap-select.min.js HTTP/1.1" 200 50638
+WARNING 2020-06-08 17:25:19,241 basehttp 154 "GET /static/blog/bs/js/bootstrap-select.min.js.map HTTP/1.1" 404 1738
+INFO 2020-06-08 17:25:21,146 basehttp 154 "GET /delete_commission_detail/7 HTTP/1.1" 301 0
+INFO 2020-06-08 17:25:21,150 basehttp 154 "GET /static/blog/bs/css/bootstrap-select.css.map HTTP/1.1" 200 24643
+INFO 2020-06-08 17:25:21,158 basehttp 154 "GET /static/blog/bs/css/bootstrap.css.map HTTP/1.1" 200 389287
+INFO 2020-06-08 17:25:21,180 basehttp 154 "GET /delete_commission_detail/7/ HTTP/1.1" 302 0
+INFO 2020-06-08 17:25:21,301 basehttp 154 "GET /commission/b%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 5184
+INFO 2020-06-08 17:25:21,339 basehttp 154 "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 200 86659
+INFO 2020-06-08 17:25:21,339 basehttp 154 "GET /static/blog/bs/css/bootstrap.css HTTP/1.1" 200 146010
+INFO 2020-06-08 17:25:21,341 basehttp 154 "GET /static/blog/bs/css/bootstrap-select.css HTTP/1.1" 200 12331
+INFO 2020-06-08 17:25:21,347 basehttp 154 "GET /static/blog/bs/js/bootstrap-select.min.js HTTP/1.1" 200 50638
+INFO 2020-06-08 17:25:21,348 basehttp 154 "GET /static/blog/bs/js/bootstrap.min.js HTTP/1.1" 200 37045
+WARNING 2020-06-08 17:25:21,416 basehttp 154 "GET /static/blog/bs/js/bootstrap-select.min.js.map HTTP/1.1" 404 1738
+INFO 2020-06-08 17:25:21,441 basehttp 154 "GET /static/blog/bs/css/bootstrap-select.css.map HTTP/1.1" 200 24643
+INFO 2020-06-08 17:25:21,446 basehttp 154 "GET /static/blog/bs/css/bootstrap.css.map HTTP/1.1" 200 389287
+INFO 2020-06-08 17:25:25,361 basehttp 154 "GET /commission/ HTTP/1.1" 200 9215
+INFO 2020-06-08 17:25:25,413 basehttp 154 "GET /static/blog/bs/css/bootstrap-select.css HTTP/1.1" 200 12331
+INFO 2020-06-08 17:25:25,414 basehttp 154 "GET /static/blog/bs/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2020-06-08 17:25:25,414 basehttp 154 "GET /static/blog/bs/js/bootstrap-select.min.js HTTP/1.1" 200 50638
+INFO 2020-06-08 17:25:25,417 basehttp 154 "GET /static/blog/bs/css/bootstrap.css HTTP/1.1" 200 146010
+INFO 2020-06-08 17:25:25,418 basehttp 154 "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 200 86659
+WARNING 2020-06-08 17:25:25,481 basehttp 154 "GET /static/blog/bs/js/bootstrap-select.min.js.map HTTP/1.1" 404 1738
+INFO 2020-06-08 17:25:25,516 basehttp 154 "GET /static/blog/bs/css/bootstrap-select.css.map HTTP/1.1" 200 24643
+INFO 2020-06-08 17:25:25,519 basehttp 154 "GET /static/blog/bs/css/bootstrap.css.map HTTP/1.1" 200 389287
+INFO 2020-06-08 17:25:26,778 basehttp 154 "GET /delete_commission/7 HTTP/1.1" 301 0
+INFO 2020-06-08 17:25:26,789 basehttp 154 "GET /delete_commission/7/ HTTP/1.1" 302 0
+INFO 2020-06-08 17:25:26,850 basehttp 154 "GET /commission/ HTTP/1.1" 200 9215
+INFO 2020-06-08 17:25:26,903 basehttp 154 "GET /static/blog/bs/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2020-06-08 17:25:26,904 basehttp 154 "GET /static/blog/bs/css/bootstrap-select.css HTTP/1.1" 200 12331
+INFO 2020-06-08 17:25:26,905 basehttp 154 "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 200 86659
+INFO 2020-06-08 17:25:26,906 basehttp 154 "GET /static/blog/bs/css/bootstrap.css HTTP/1.1" 200 146010
+INFO 2020-06-08 17:25:26,907 basehttp 154 "GET /static/blog/bs/js/bootstrap-select.min.js HTTP/1.1" 200 50638
+WARNING 2020-06-08 17:25:26,969 basehttp 154 "GET /static/blog/bs/js/bootstrap-select.min.js.map HTTP/1.1" 404 1738
+INFO 2020-06-08 17:25:27,007 basehttp 154 "GET /static/blog/bs/css/bootstrap-select.css.map HTTP/1.1" 200 24643
+INFO 2020-06-08 17:25:27,016 basehttp 154 "GET /static/blog/bs/css/bootstrap.css.map HTTP/1.1" 200 389287
+INFO 2020-06-08 17:25:31,536 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 5190
+INFO 2020-06-08 17:25:31,597 basehttp 154 "GET /static/blog/bs/css/bootstrap-select.css HTTP/1.1" 200 12331
+INFO 2020-06-08 17:25:31,598 basehttp 154 "GET /static/blog/bs/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2020-06-08 17:25:31,600 basehttp 154 "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 200 86659
+INFO 2020-06-08 17:25:31,601 basehttp 154 "GET /static/blog/bs/css/bootstrap.css HTTP/1.1" 200 146010
+INFO 2020-06-08 17:25:31,602 basehttp 154 "GET /static/blog/bs/js/bootstrap-select.min.js HTTP/1.1" 200 50638
+WARNING 2020-06-08 17:25:31,657 basehttp 154 "GET /static/blog/bs/js/bootstrap-select.min.js.map HTTP/1.1" 404 1738
+INFO 2020-06-08 17:25:31,678 basehttp 154 "GET /static/blog/bs/css/bootstrap-select.css.map HTTP/1.1" 200 24643
+INFO 2020-06-08 17:25:31,681 basehttp 154 "GET /static/blog/bs/css/bootstrap.css.map HTTP/1.1" 200 389287
+INFO 2020-06-08 17:25:32,633 basehttp 154 "GET /delete_commission_detail/11 HTTP/1.1" 301 0
+INFO 2020-06-08 17:25:32,658 basehttp 154 "GET /delete_commission_detail/11/ HTTP/1.1" 302 0
+INFO 2020-06-08 17:25:32,680 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 5190
+INFO 2020-06-08 17:25:32,728 basehttp 154 "GET /static/blog/bs/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2020-06-08 17:25:32,730 basehttp 154 "GET /static/blog/bs/css/bootstrap-select.css HTTP/1.1" 200 12331
+INFO 2020-06-08 17:25:32,731 basehttp 154 "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 200 86659
+INFO 2020-06-08 17:25:32,732 basehttp 154 "GET /static/blog/bs/js/bootstrap-select.min.js HTTP/1.1" 200 50638
+INFO 2020-06-08 17:25:32,735 basehttp 154 "GET /static/blog/bs/css/bootstrap.css HTTP/1.1" 200 146010
+WARNING 2020-06-08 17:25:32,804 basehttp 154 "GET /static/blog/bs/js/bootstrap-select.min.js.map HTTP/1.1" 404 1738
+INFO 2020-06-08 17:25:32,824 basehttp 154 "GET /static/blog/bs/css/bootstrap-select.css.map HTTP/1.1" 200 24643
+INFO 2020-06-08 17:25:32,827 basehttp 154 "GET /static/blog/bs/css/bootstrap.css.map HTTP/1.1" 200 389287
+INFO 2020-06-08 17:25:45,644 basehttp 154 "GET /commission/ HTTP/1.1" 200 9215
+INFO 2020-06-08 17:25:45,691 basehttp 154 "GET /static/js/jquery-3.2.1.min.js HTTP/1.1" 200 86659
+INFO 2020-06-08 17:25:45,697 basehttp 154 "GET /static/blog/bs/css/bootstrap.css HTTP/1.1" 200 146010
+INFO 2020-06-08 17:25:45,704 basehttp 154 "GET /static/blog/bs/css/bootstrap-select.css HTTP/1.1" 200 12331
+INFO 2020-06-08 17:25:45,705 basehttp 154 "GET /static/blog/bs/js/bootstrap.min.js HTTP/1.1" 200 37045
+INFO 2020-06-08 17:25:45,711 basehttp 154 "GET /static/blog/bs/js/bootstrap-select.min.js HTTP/1.1" 200 50638
+WARNING 2020-06-08 17:25:45,766 basehttp 154 "GET /static/blog/bs/js/bootstrap-select.min.js.map HTTP/1.1" 404 1738
+INFO 2020-06-08 17:25:45,789 basehttp 154 "GET /static/blog/bs/css/bootstrap-select.css.map HTTP/1.1" 200 24643
+INFO 2020-06-08 17:25:45,792 basehttp 154 "GET /static/blog/bs/css/bootstrap.css.map HTTP/1.1" 200 389287
+INFO 2020-06-08 17:25:49,714 basehttp 154 "GET /commission/ HTTP/1.1" 200 9215
+INFO 2020-06-08 17:25:50,586 basehttp 154 "GET /finish/ HTTP/1.1" 200 5984
+INFO 2020-06-08 17:25:52,412 basehttp 154 "GET /commission/ HTTP/1.1" 200 9215
+INFO 2020-06-08 17:26:38,767 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 5190
+INFO 2020-06-08 17:26:45,177 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 6023
+INFO 2020-06-08 17:26:48,100 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 6023
+INFO 2020-06-08 17:28:38,158 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 6047
+WARNING 2020-06-08 17:28:38,877 log 228 Not Found: /commission/深圳市宝安区鹏鼎控股深圳有限公司/commission_flash_detail/
+WARNING 2020-06-08 17:28:38,916 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/commission_flash_detail/ HTTP/1.1" 404 7842
+WARNING 2020-06-08 17:28:43,971 log 228 Not Found: /commission/深圳市宝安区鹏鼎控股深圳有限公司/commission_flash_detail/
+WARNING 2020-06-08 17:28:43,972 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/commission_flash_detail/ HTTP/1.1" 404 7842
+WARNING 2020-06-08 17:29:12,956 log 228 Not Found: /commission/深圳市宝安区鹏鼎控股深圳有限公司/commission_flash_detail/
+WARNING 2020-06-08 17:29:12,957 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/commission_flash_detail/ HTTP/1.1" 404 7842
+WARNING 2020-06-08 17:29:47,206 log 228 Not Found: /commission/深圳市宝安区鹏鼎控股深圳有限公司/commission_flash_detail/
+WARNING 2020-06-08 17:29:47,206 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/commission_flash_detail/ HTTP/1.1" 404 7845
+INFO 2020-06-08 17:29:52,266 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 6047
+WARNING 2020-06-08 17:30:13,842 log 228 Not Found: /commission/深圳市宝安区鹏鼎控股深圳有限公司/commission_flash_detail/
+WARNING 2020-06-08 17:30:13,843 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/commission_flash_detail/ HTTP/1.1" 404 7845
+INFO 2020-06-08 17:30:31,908 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 6047
+INFO 2020-06-08 17:31:07,008 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 6048
+WARNING 2020-06-08 17:31:08,518 log 228 Not Found: /commission_flash_detail/
+WARNING 2020-06-08 17:31:08,518 basehttp 154 "GET /commission_flash_detail/ HTTP/1.1" 404 7569
+INFO 2020-06-08 17:31:20,944 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 6048
+WARNING 2020-06-08 17:31:21,981 log 228 Not Found: /commission_flash_detail/
+WARNING 2020-06-08 17:31:21,982 basehttp 154 "GET /commission_flash_detail/ HTTP/1.1" 404 7566
+INFO 2020-06-08 17:31:58,694 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 7388
+INFO 2020-06-08 17:31:59,735 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 7388
+INFO 2020-06-08 17:33:21,276 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 6050
+INFO 2020-06-08 17:33:23,563 basehttp 154 "GET /commission_flash_detail/12 HTTP/1.1" 301 0
+INFO 2020-06-08 17:33:23,589 basehttp 154 "GET /commission_flash_detail/12/ HTTP/1.1" 302 0
+INFO 2020-06-08 17:33:23,625 basehttp 154 "GET /commission/d%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 5978
+INFO 2020-06-08 17:33:27,701 basehttp 154 "GET /commission_flash_detail/12/ HTTP/1.1" 302 0
+INFO 2020-06-08 17:33:27,735 basehttp 154 "GET /commission/d%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 5978
+INFO 2020-06-08 17:33:31,210 basehttp 154 "GET /commission_flash_detail/12/ HTTP/1.1" 302 0
+INFO 2020-06-08 17:33:31,246 basehttp 154 "GET /commission/d%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 5978
+INFO 2020-06-08 17:33:35,329 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 6050
+INFO 2020-06-08 17:33:49,023 basehttp 154 "GET /commission_flash_detail/12/ HTTP/1.1" 302 0
+INFO 2020-06-08 17:33:49,049 basehttp 154 "GET /commission/d%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 5978
+INFO 2020-06-08 17:34:42,720 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 6050
+INFO 2020-06-08 17:34:44,872 basehttp 154 "GET /commission_flash_detail/12/ HTTP/1.1" 302 0
+INFO 2020-06-08 17:34:45,017 basehttp 154 "GET /commission/d%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 5978
+INFO 2020-06-08 17:35:03,283 basehttp 154 "GET /commission_flash_detail/12/ HTTP/1.1" 302 0
+INFO 2020-06-08 17:35:03,318 basehttp 154 "GET /commission/d%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 5978
+INFO 2020-06-08 17:35:03,931 basehttp 154 "GET /commission_flash_detail/12/ HTTP/1.1" 302 0
+INFO 2020-06-08 17:35:03,968 basehttp 154 "GET /commission/d%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 5978
+INFO 2020-06-08 17:35:04,255 basehttp 154 "GET /commission_flash_detail/12/ HTTP/1.1" 302 0
+INFO 2020-06-08 17:35:04,281 basehttp 154 "GET /commission/d%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 5978
+INFO 2020-06-08 17:35:04,450 basehttp 154 "GET /commission_flash_detail/12/ HTTP/1.1" 302 0
+INFO 2020-06-08 17:35:04,478 basehttp 154 "GET /commission/d%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 5978
+INFO 2020-06-08 17:35:24,832 basehttp 154 "GET /commission/ HTTP/1.1" 200 9215
+INFO 2020-06-08 17:35:25,760 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 6050
+INFO 2020-06-08 17:35:26,690 basehttp 154 "GET /commission_flash_detail/12/ HTTP/1.1" 302 0
+INFO 2020-06-08 17:35:26,723 basehttp 154 "GET /commission/d%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 5978
+INFO 2020-06-08 17:35:45,357 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 6185
+INFO 2020-06-08 17:35:47,594 basehttp 154 "GET /project/ HTTP/1.1" 200 7492
+INFO 2020-06-08 17:35:48,098 basehttp 154 "GET /commission/ HTTP/1.1" 200 9215
+INFO 2020-06-08 17:35:49,069 basehttp 154 "GET /finish/ HTTP/1.1" 200 5984
+INFO 2020-06-08 17:35:49,832 basehttp 154 "GET /commission/ HTTP/1.1" 200 9215
+INFO 2020-06-08 17:36:11,156 basehttp 154 "GET /commission/ HTTP/1.1" 200 9215
+INFO 2020-06-08 17:36:11,832 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 6050
+INFO 2020-06-08 17:36:12,637 basehttp 154 "GET /commission_flash_detail/12/ HTTP/1.1" 302 0
+INFO 2020-06-08 17:36:12,674 basehttp 154 "GET /commission/d%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 5978
+INFO 2020-06-08 17:36:44,491 basehttp 154 "GET /commission/ HTTP/1.1" 200 9215
+INFO 2020-06-08 17:36:46,255 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 6050
+INFO 2020-06-08 17:36:47,474 basehttp 154 "GET /commission_flash_detail/12/ HTTP/1.1" 302 0
+INFO 2020-06-08 17:36:47,514 basehttp 154 "GET /commission/d%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 5978
+INFO 2020-06-08 17:36:56,648 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 6185
+INFO 2020-06-08 17:36:58,951 basehttp 154 "GET /project/ HTTP/1.1" 200 7492
+INFO 2020-06-08 17:37:00,196 basehttp 154 "GET /customer/ HTTP/1.1" 200 7765
+INFO 2020-06-08 17:37:00,789 basehttp 154 "GET /commission/ HTTP/1.1" 200 9215
+INFO 2020-06-08 17:37:01,682 basehttp 154 "GET /finish/ HTTP/1.1" 200 5984
+INFO 2020-06-08 17:37:02,632 basehttp 154 "GET /commission/ HTTP/1.1" 200 9215
+INFO 2020-06-08 17:37:14,637 basehttp 154 "GET /commission/ HTTP/1.1" 200 9215
+INFO 2020-06-08 17:37:15,351 basehttp 154 "GET /commission/ HTTP/1.1" 200 9215
+INFO 2020-06-08 17:37:17,136 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 6050
+INFO 2020-06-08 17:37:17,894 basehttp 154 "GET /commission_flash_detail/12/ HTTP/1.1" 302 0
+INFO 2020-06-08 17:37:17,922 basehttp 154 "GET /commission/d%E5%AE%A2%E6%88%B7/ HTTP/1.1" 200 5978
+INFO 2020-06-08 17:37:37,345 basehttp 154 "GET /commission/ HTTP/1.1" 200 9215
+INFO 2020-06-08 17:37:37,747 basehttp 154 "GET /commission/ HTTP/1.1" 200 9215
+INFO 2020-06-08 17:37:44,917 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 6050
+INFO 2020-06-08 17:38:20,293 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 6050
+INFO 2020-06-08 17:38:31,461 basehttp 154 "GET /commission/ HTTP/1.1" 200 9215
+INFO 2020-06-08 17:38:33,744 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 6050
+INFO 2020-06-08 17:39:58,379 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 6023
+INFO 2020-06-08 17:39:58,486 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 6023
+INFO 2020-06-08 17:39:58,676 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 6023
+INFO 2020-06-08 17:39:58,928 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 6023
+INFO 2020-06-08 17:39:59,088 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 6023
+INFO 2020-06-08 17:39:59,525 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 6023
+INFO 2020-06-08 17:40:02,299 basehttp 154 "GET /commission/ HTTP/1.1" 200 9215

@@ -22,9 +22,14 @@
         <input type="text" name="price" class="form-control" value="{{ ret.pay.price }}">
     </div>
 
+    <div class="form-group">
+        <label for="account_method">备注</label>
+        <input type="text" name="remark" class="form-control" value="{{ ret.remark }}">
+    </div>
+
     <div class="btnn">
         <input type="submit" class="btn btn-primary btn-lg active add" value="保存">
-        <a href="/commission/" class="btn btn-lg active add" role="button">取消</a>
+        <a href="/commission/{{ ret.pay.customercol.customer.name }}" class="btn btn-lg active add" role="button">取消</a>
     </div>
 
 

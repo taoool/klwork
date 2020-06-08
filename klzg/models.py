@@ -45,6 +45,7 @@ class Commission(models.Model):
     """提成表"""
     id = models.AutoField(primary_key=True)
     total = models.DecimalField(max_digits=12, decimal_places=3)
+    remark = models.CharField(verbose_name="备注", max_length=32, default="未付")
 
     pay = models.ForeignKey(verbose_name='订单号', to='Pay', to_field='id', on_delete=models.CASCADE)
     sales = models.ForeignKey(default=1, verbose_name='销量', to='Sales', to_field='id', on_delete=models.CASCADE)

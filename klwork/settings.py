@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'klzg.apps.KlzgConfig',
+    'excel.apps.ExcelConfig',
 ]
 
 MIDDLEWARE = [

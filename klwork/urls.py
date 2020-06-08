@@ -25,6 +25,8 @@ urlpatterns = [
     path('customer/', views.customer),  # 客户收款表
     path('project/', views.project),  # 支付项目表
     path('commission/', views.commission),  # 提成表
+    # re_path('commission/(?P<customer_name>[\u4E00-\u9FA5]+)/$', views.commission_detail),  # 提成详情
+    re_path('commission/(?P<customer_name>.*[\u4E00-\u9FA5]+)/$', views.commission_detail),  # 提成详情
     path('finish/', views.finish),  # 付款记录表
     path('department/', views.department),  # 部门表
 
@@ -33,6 +35,7 @@ urlpatterns = [
     path('modify_salesman/', views.modify_salesman),
     path('modify_project/', views.modify_project),
     path('modify_commission/', views.modify_commission),
+    path('modify_commission_detail/', views.modify_commission_detail),
     path('modify_finish/', views.modify_finish),
     path('modify_department/', views.modify_department),
 
@@ -41,6 +44,7 @@ urlpatterns = [
     re_path('^modify_salesman/(?P<cus_id>\d+)/$', views.modify_salesman),
     re_path('^modify_project/(?P<cus_id>\d+)/$', views.modify_project),
     re_path('^modify_commission/(?P<cus_id>\d+)/$', views.modify_commission),
+    re_path('^modify_commission_detail/(?P<cus_id>\d+)/$', views.modify_commission_detail),
     re_path('^modify_finish/(?P<cus_id>\d+)/$', views.modify_finish),
     re_path('^modify_department/(?P<cus_id>\d+)/$', views.modify_department),
 
@@ -49,17 +53,23 @@ urlpatterns = [
     re_path('delete_salesman/(?P<cus_id>\d+)/$', views.delete_salesman),
     re_path('delete_project/(?P<cus_id>\d+)/$', views.delete_project),
     re_path('delete_commission/(?P<cus_id>\d+)/$', views.delete_commission),
+    re_path('delete_commission_detail/(?P<cus_id>\d+)/$', views.delete_commission_detail),
     re_path('delete_finish/(?P<cus_id>\d+)/$', views.delete_finish),
     re_path('delete_department/(?P<cus_id>\d+)/$', views.delete_department),
 
     re_path('commission/(?P<time_id>\d+-\d{2})/$', views.commission),  # 日期筛选
     re_path('project/(?P<time_id>\d+-\d{2})/$', views.project),
     re_path('finish/(?P<time_id>\d+-\d{2})/$', views.finish),
+    re_path('commission.*/(?P<year_id>\d{4})/$', views.commission),
+    re_path('commission/.*\d{4}/(?P<month_id>\d{2})/$', views.commission),
 
     path('commission_flash/', views.commission_flash),  # 刷新
+    # re_path('commission_flash_detail/(?P<cus_id>\d+)/$', views.commission_flash_detail),  # 刷新
 
 
 
 
     path('123/', views.aba),  # 测试用
+    re_path('123.*/(?P<year_id>\d{4})/$', views.aba),
+    re_path('123.*/(?P<year_id>\d{4})/$', views.aba),
 ]
