@@ -77,14 +77,14 @@
         <div class="top-search">
             <form class="navbar-form navbar-left" method="POST">
                 {% csrf_token %}
+
                 <div class="form-group">
                     <input type="text" class="form-control" name="cus_name" placeholder="Search">
                 </div>
+
                 <button type="submit" class="btn btn-default">搜索</button>
             </form>
             <a href="/modify_commission/" class="btn btn-primary btn-lg active add" role="button">新增</a>
-            <a href="/commission_flash/" class="btn btn-primary btn-lg active add flash" role="button">刷新</a>
-
         </div>
 
         <table class="table table-bordered">
@@ -98,17 +98,31 @@
                 <form name="date">
                     <th scope="col">
                         <select name="year" onchange="selectYear(this.value)">
-                            <option value="">选择 年</option>
+                            <option value="">
+                                {% if year %}
+                                    {{ year }}
+                                {% else %}
+                                    选择
+                                {% endif %}
+                                年</option>
+                            <option value="">全部</option>
+
                         </select>
                     </th>
 
                     <th scope="col">
                         <select name="month" onchange="selectMonth(this.value)">
-                            <option value="">选择 月</option>
+                            <option value="">
+                                {% if month %}
+                                    {{ month }}
+                                {% else %}
+                                    选择
+                                {% endif %}
+                                月</option>
+                            <option value="">全部</option>
                         </select>
+                    </th>
                 </form>
-
-                </th>
 
                 <th scope="col">金额</th>
                 <th scope="col">操作</th>
@@ -149,26 +163,40 @@
 
 <script>
     var select = document.querySelector('select');
+    //console.log('select',select);
+    //console.log('window.location.pathname', window.location.pathname);
+    //console.log('window.location', window.location);
     select.onchange = function () {
-        window.location = this.value;
+
+        window.location.href = window.location.origin + "/commission/" + this.value;
+    };
+
+    function selectMonth(date) {
+        var select = document.querySelector('select');
+
+        window.location.href = window.location.origin+ "/commission/" + {{ year }} + "/" + date
     }
 
-</script>
-
-
-<script language="JavaScript">
     function dateStart() {
 
         //给年下拉框赋内容
         var y = new Date().getFullYear();
-        for (var i = (y - 50); i < (y + 50); i++) //以今年为准，前50年，后50年
+        for (var i = (y - 5); i < (y + 5); i++) {
             document.date.year.options.add(new Option(" " + i + " 年", i));
-
+        }
         //给月下拉框赋内容
-        var m = new Date().getFullYear();
-        for (var i = 1; i < 13; i++)
-            document.date.month.options.add(new Option(" " + i + " 月", i));
+        var m = new Date().getMonth();
+        //console.log('m',m);
 
+        for (var i = 1;i < 13; i++){
+            if (i < 10){
+                i = '0' + i;
+                document.date.month.options.add(new Option(" " + i + " 月", i))
+
+            }else{
+                document.date.month.options.add(new Option(" " + i + " 月", i))
+            }
+        }
 
     }
 

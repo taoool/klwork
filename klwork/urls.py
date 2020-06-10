@@ -35,7 +35,7 @@ urlpatterns = [
     path('modify_salesman/', views.modify_salesman),
     path('modify_project/', views.modify_project),
     path('modify_commission/', views.modify_commission),
-    path('modify_commission_detail/', views.modify_commission_detail),
+    re_path('add_commission_detail/(?P<customer_name>.*[\u4E00-\u9FA5]+)/$', views.add_commission_detail),
     path('modify_finish/', views.modify_finish),
     path('modify_department/', views.modify_department),
 
@@ -60,8 +60,11 @@ urlpatterns = [
     re_path('commission/(?P<time_id>\d+-\d{2})/$', views.commission),  # 日期筛选
     re_path('project/(?P<time_id>\d+-\d{2})/$', views.project),
     re_path('finish/(?P<time_id>\d+-\d{2})/$', views.finish),
-    re_path('commission.*/(?P<year_id>\d{4})/$', views.commission),
-    re_path('commission/.*\d{4}/(?P<month_id>\d{2})/$', views.commission),
+    re_path('commission/(?P<year_id>\d{4})/$', views.commission),  # 年
+    re_path('commission/(?P<year_on>\d{4})/(?P<month_id>\d{2})/$', views.commission),  # 月
+
+    re_path('commission/(?P<customer_name>.*[\u4E00-\u9FA5]+)/(?P<year_id>\d{4})/$', views.commission_detail),  # 年
+    re_path('commission/(?P<customer_name>.*[\u4E00-\u9FA5]+)/(?P<year_on>\d{4})/(?P<month_id>\d{2})/$', views.commission_detail),  # 月
 
     path('commission_flash/', views.commission_flash),  # 刷新
     # re_path('commission_flash_detail/(?P<cus_id>\d+)/$', views.commission_flash_detail),  # 刷新

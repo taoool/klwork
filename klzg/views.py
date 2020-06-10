@@ -133,7 +133,6 @@ def modify_project(request, **kwargs):
     if kwargs:
         cus_id = kwargs.get("cus_id")
         ret = models.Pay.objects.filter(id=cus_id).first()
-
     if request.method == "POST":
         cu = request.POST.get("customer")
         co = request.POST.get("contact")
@@ -149,7 +148,7 @@ def modify_project(request, **kwargs):
             cus_id = kwargs.get("cus_id")
             pay_obj = Pay.objects.filter(id=cus_id).update(start_time=stime, end_time=etime, price=price, customercol_id=con.id, salesman_id=sale.id)
         else:
-            pay_obj = Pay.objects.create(start_time=stime, end_time=etime, customercol_id=con.id, salesman_id=sale.id)
+            pay_obj = Pay.objects.create(start_time=stime, end_time=etime, price=price, customercol_id=con.id, salesman_id=sale.id)
         return redirect("/project/")
 
     return render(request, "add_project.html", locals())
@@ -169,17 +168,19 @@ def commission(request, **kwargs):
     if kwargs.get("year_id"):
         # print("123")
         year = kwargs.get("year_id")
-        ret = models.Commission.objects.filter(sales__time__year=year).all()
+        ret = models.Commission.objects.filter(Q(sales__time__year=year)).all()
     if kwargs.get("month_id"):
         # print("456")
+        year = kwargs.get("year_on")
         month = kwargs.get("month_id")
-        ret = models.Commission.objects.filter(sales__time__month=month).all()
+        ret = models.Commission.objects.filter(Q(sales__time__year=year), Q(sales__time__month=month)).all()
     to = ret.aggregate(Sum("total"))
     tol=to["total__sum"]
     if request.method == "POST":
         sea = request.POST.get("cus_name")
         ret = models.Commission.objects.filter(pay__customercol__customer__name__contains=sea).all()
-    return render(request, "pay.html", {"ret": ret, "opt": opt, "tol": tol})
+    # return render(request, "pay.html", {"ret": ret, "opt": opt, "tol": tol})
+    return render(request, "pay.html", locals())
 
 def modify_commission(request, **kwargs):
     """提成表-增改"""
@@ -231,16 +232,48 @@ def commission_detail(request, **kwargs):
     cu = kwargs.get("customer_name")
     ret = models.Commission.objects.filter(pay__customercol__customer__name=cu).all()
     opt = models.Commission.objects.values("sales__time").distinct().all()
+    a = ret.values("pay__customercol__customer__name")
+    b = a[0]["pay__customercol__customer__name"]
+    if kwargs.get("year_id"):
+        # print("++++")
+        year = kwargs.get("year_id")
+        ret = ret.filter(sales__time__year=year).all()
+    if kwargs.get("month_id"):
+        # print("456")
+        year = kwargs.get("year_on")
+        month = kwargs.get("month_id")
+        ret = ret.filter(Q(sales__time__year=year), Q(sales__time__month=month)).all()
     to = ret.aggregate(Sum("total"))
     tol=to["total__sum"]
     return render(request, "pay_detail.html", locals())
 
-def modify_commission_detail(request, **kwargs):
-    """提成详细表-增改"""
+def add_commission_detail(request, customer_name):
+    """提成详细表-增"""
     cus = models.Customer.objects.all()
-    if kwargs:
-        cus_id = kwargs.get("cus_id")
-        ret = Commission.objects.filter(id=cus_id).first()
+    ret = Commission.objects.filter(pay__customercol__customer__name=customer_name).first()
+    if request.method == "POST":
+        order = request.POST.get("order")  # 订单号
+        time = request.POST.get("time")
+        pay_obj = Pay.objects.filter(id=order).values("price")
+        price = pay_obj[0]["price"]
+        # print(price)
+        num = request.POST.get("number")
+        remark = request.POST.get("remark")
+        if not remark:
+            remark = "未付"
+        total = int(num) * float(price)
+        time += "-01 01:01:01"
+        sal_obj = Sales.objects.create(time=time, number=num)
+        com_obj = Commission.objects.create(total=total, pay_id=order, sales_id=sal_obj.id, remark=remark)
+        a = Commission.objects.filter(pay__customercol__customer__name=customer_name).values("pay__customercol__customer__name")
+        b = a[0]["pay__customercol__customer__name"]
+        return redirect("/commission/" + b)
+    return render(request, "add_pay_detail.html", locals())
+
+def modify_commission_detail(request, cus_id):
+    """提成详细表-改"""
+    cus = models.Customer.objects.all()
+    ret = Commission.objects.filter(id=cus_id).first()
     if request.method == "POST":
         order = request.POST.get("order")  # 订单号
         time = request.POST.get("time")
@@ -249,18 +282,15 @@ def modify_commission_detail(request, **kwargs):
         remark = request.POST.get("remark")
         total = int(num) * float(price)
         time += "-01 01:01:01"
-        if kwargs:
-            cus_id = kwargs.get("cus_id")
-            ret = Commission.objects.filter(id=cus_id).first()
-            sal_obj = Sales.objects.filter(id=ret.sales_id).update(time=time, number=num)
-            pay_obj = Pay.objects.filter(id=ret.pay_id).update(price=price)
-            com_obj = Commission.objects.filter(id=cus_id).update(total=total, pay_id=order, remark=remark)
-        else:
-            sal_obj = Sales.objects.create(time=time, number=num)
-            pay_obj = Pay.objects.create(price=price)
-            com_obj = Commission.objects.create(total=total, pay_id=order, sales_id=sal_obj.id, remark=remark)
-        return redirect("/commission/")
-    return render(request, "add_pay_detail.html", locals())
+        ret = Commission.objects.filter(id=cus_id).first()
+        sal_obj = Sales.objects.filter(id=ret.sales_id).update(time=time, number=num)
+        pay_obj = Pay.objects.filter(id=ret.pay_id).update(price=price)
+        com_obj = Commission.objects.filter(id=cus_id).update(total=total, pay_id=order, remark=remark)
+        a = Commission.objects.filter(id=cus_id).values("pay__customercol__customer__name")
+        b = a[0]["pay__customercol__customer__name"]
+        # print(b)
+        return redirect("/commission/" + b)
+    return render(request, "modify_pay_detail.html", locals())
 
 # def commission_flash_detail(request, cus_id):
 #     """提成表-刷新"""
@@ -271,10 +301,10 @@ def modify_commission_detail(request, **kwargs):
 
 def delete_commission_detail(request, cus_id):
     """提成表-删除"""
-    com_obj = Commission.objects.filter(id=cus_id).delete()
     # print("2222222")
     na = Commission.objects.filter(id=cus_id).values("pay__customercol__customer__name")
     name = na[0]["pay__customercol__customer__name"]
+    com_obj = Commission.objects.filter(id=cus_id).delete()
 
     return redirect("/commission/" + name + "/")
 
@@ -359,6 +389,10 @@ def delete_department(request, cus_id):
 def aba(request, **kwargs):
     """测试用"""
     opt = models.Commission.objects.values("sales__time").distinct().all()
+
+    opt = models.Pay.objects.values("start_time").distinct().all()
+
+
     ret = models.Commission.objects.all()
     if kwargs:
         year = kwargs.get("year_id")
