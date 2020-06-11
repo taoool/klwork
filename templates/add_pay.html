@@ -3,8 +3,16 @@
 {% block content %}
 
     <div class="form-group put">
-        <label for="account_method">订单编号</label>
-        <input type="text" name="order" class="form-control" value="{{ ret.pay_id }}">
+        <label>订单编号</label>
+        <select class="selectpicker show-tick form-control" name="order" data-live-search="true">
+            {% for cc in pay %}
+                {% if cc.id == ret.pay_id %}
+                    <option selected>{{ cc.id }}&nbsp;&nbsp;&nbsp;&nbsp;{{ cc.customercol.customer.name }}&nbsp;&nbsp;&nbsp;&nbsp;{{ cc.customercol.name }}</option>
+                {% else %}
+                    <option>{{ cc.id }}&nbsp;&nbsp;&nbsp;&nbsp;{{ cc.customercol.customer.name }}&nbsp;&nbsp;&nbsp;&nbsp;{{ cc.customercol.name }}</option>
+                {% endif %}
+            {% endfor %}
+        </select>
     </div>
 
     <div class="form-group">

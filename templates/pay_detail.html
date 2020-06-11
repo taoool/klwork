@@ -121,7 +121,7 @@
                         <th scope="col">数量</th>
                         <th scope="col">单价</th>
                         <th scope="col">金额</th>
-                        <th scope="col">备注</th>
+                        <th scope="col">已付</th>
                         <th scope="col">操作</th>
                     </tr>
                 </thead>
@@ -137,7 +137,7 @@
                             <td>{{ cus.sales.number }}</td>
                             <td>{{ cus.pay.price|floatformat:2 }}</td>
                             <td>{{ cus.total|floatformat:2 }}</td>
-                            <td>{{ cus.remark }}</td>
+                            <td>{{ cus.money|floatformat:2 }}</td>
                             <td><a href="/modify_commission_detail/{{ cus.id }}" class="btn btn-primary btn-lg active modify"
                                    role="button">编辑</a>
                                 <a href="/delete_commission_detail/{{ cus.id }}" class="btn btn-primary btn-lg active delete"
@@ -153,6 +153,8 @@
                     <td></td>
                     <td>总额</td>
                     <td>{{ tol|floatformat:2 }}</td>
+                    <td>待付</td>
+                    <td>{{ paid|floatformat:2 }}</td>
 
                 </tbody>
             </table>

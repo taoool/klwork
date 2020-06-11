@@ -3,16 +3,18 @@
 {% block content %}
 
     <div class="form-group put">
-        <label for="remark">客户</label>
-        <input type="text" name="customer" class="form-control" value="{{ ret.customercol.customer.name }}">
-
+        <label>编号</label>
+        <select class="selectpicker show-tick form-control" name="customer" data-live-search="true">
+            {% for cc in cus %}
+                {% if cc.id == ret.customercol.id %}
+                    <option selected>{{ cc.id }}&nbsp;&nbsp;&nbsp;&nbsp;{{ cc.customer.name }}&nbsp;&nbsp;&nbsp;&nbsp;{{ cc.name }}</option>
+                {% else %}
+                    <option>{{ cc.id }}&nbsp;&nbsp;&nbsp;&nbsp;{{ cc.customer.name }}&nbsp;&nbsp;&nbsp;&nbsp;{{ cc.name }}</option>
+                {% endif %}
+            {% endfor %}
+        </select>
     </div>
 
-    <div class="form-group">
-        <label for="remark">联络人</label>
-        <input type="text" name="contact" class="form-control" value="{{ ret.customercol.name }}">
-
-    </div>
 
     <div class="form-group">
         <label>业务负责人</label>

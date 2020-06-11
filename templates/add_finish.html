@@ -3,8 +3,16 @@
 {% block content %}
 
     <div class="form-group put">
-        <label for="remark">联络人</label>
-        <input type="text" name="contact" class="form-control" value="{{ ret.customercol.name }}">
+        <label>编号</label>
+        <select class="selectpicker show-tick form-control" name="customer" data-live-search="true">
+            {% for cc in cus %}
+                {% if cc.id == ret.customercol.id %}
+                    <option selected>{{ cc.id }}&nbsp;&nbsp;&nbsp;&nbsp;{{ cc.customer.name }}&nbsp;&nbsp;&nbsp;&nbsp;{{ cc.name }}</option>
+                {% else %}
+                    <option>{{ cc.id }}&nbsp;&nbsp;&nbsp;&nbsp;{{ cc.customer.name }}&nbsp;&nbsp;&nbsp;&nbsp;{{ cc.name }}</option>
+                {% endif %}
+            {% endfor %}
+        </select>
     </div>
 
     <div class="form-group">
@@ -34,7 +42,7 @@
 
     <div class="btnn">
         <input type="submit" class="btn btn-primary btn-lg active add" value="保存">
-        <a href="/project/" class="btn btn-lg active add" role="button">取消</a>
+        <a href="/finish/" class="btn btn-lg active add" role="button">取消</a>
     </div>
 
 

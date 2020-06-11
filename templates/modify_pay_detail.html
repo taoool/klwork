@@ -3,8 +3,14 @@
 {% block content %}
 
     <div class="form-group put">
-        <label for="account_method">订单编号</label>
-        <input type="text" name="order" class="form-control" value="{{ ret.pay_id }}">
+        <label>订单编号</label>
+        <select class="show-tick form-control" name="order" data-live-search="true">
+            {% for cc in pay %}
+                {% if cc.id == ret.pay_id %}
+                    <option selected>{{ cc.id }}&nbsp;&nbsp;&nbsp;&nbsp;{{ cc.customercol.customer.name }}&nbsp;&nbsp;&nbsp;&nbsp;{{ cc.customercol.name }}</option>
+                {% endif %}
+            {% endfor %}
+        </select>
     </div>
 
     <div class="form-group">
@@ -23,8 +29,8 @@
     </div>
 
     <div class="form-group">
-        <label for="account_method">备注</label>
-        <input type="text" name="remark" class="form-control" value="{{ ret.remark }}">
+        <label for="account_method">已付</label>
+        <input type="text" name="money" class="form-control" value="{{ ret.money|floatformat:2 }}">
     </div>
 
     <form method="POST">
@@ -33,6 +39,5 @@
         <a href="/commission/{{ ret.pay.customercol.customer.name }}" class="btn btn-lg active add" role="button">取消</a>
     </div>
     </form>
-
 
 {% endblock %}
