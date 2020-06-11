@@ -30,6 +30,9 @@ urlpatterns = [
     path('finish/', views.finish),  # 付款记录表
     path('department/', views.department),  # 部门表
 
+    path('history/', views.history),  # 历史记录
+
+
     path('modify_customer/', views.modify_customer),  # 增
     path('modify_customer_inf/', views.modify_customer_inf),
     path('modify_salesman/', views.modify_salesman),

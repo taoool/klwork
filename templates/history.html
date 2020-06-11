@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>科隆智谷</title>
+    <link rel="stylesheet" href="/static/blog/bs/css/bootstrap.css">
+    <script src="/static/js/jquery-3.2.1.min.js"></script>
+    <script src="/static/blog/bs/js/bootstrap.min.js"></script>
+
+    <style>
+        .background{
+            display: flex;
+            margin-top: 60px;
+        }
+
+        .col-1{
+            font-size: 40px;
+        }
+
+        .col-2{
+            font-size: 30px;
+        }
+
+        .col-md-3{
+            width: 360px;
+        }
+
+        .col-md-9{
+            margin-top: 65px;
+        }
+
+        .table{
+            font-size: 25px;
+
+        }
+
+        .btn{
+            font-size: 14px;
+
+        }
+
+        .add{
+            margin-left: 80px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<div class="background">
+
+    <div class="col-md-3 ">
+        <div class="col-1">导航栏</div>
+            <div class="panel-body col-2">
+                <ul>
+                    <li><a href="/customer_inf/">客户信息</a></li>
+                    <li><a href="/customer/">客户收款</a></li>
+                    <li><a href="/salesman/">业务员信息</a></li>
+                    <li><a href="/project/">支付项目</a></li>
+                    <li><a href="/commission/">提成</a></li>
+                    <li><a href="/finish/">付款记录</a></li>
+                    <li><a href="/department/">部门</a></li>
+                    <li><a href="/history/">导入记录</a></li>
+                </ul>
+            </div>
+    </div>
+
+    <div class="col-md-9">
+        <div class="top-search">
+            <form class="navbar-form navbar-left" method="POST">
+                {% csrf_token %}
+                <div class="form-group">
+                    <input type="file" class="form-control" id="avatar">
+                </div>
+                <input type="button" class="btn btn-default reg_btn " value="导入"><span class="error"></span>
+
+                <button class="btn btn-default reg_btn  add">导出</button>
+
+            </form>
+        </div>
+
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th>导入时间</th>
+                <th>{{ time.create_time|date:"Y年m月" }}</th>
+            </tr>
+            <tr>
+
+                <th scope="col">序号</th>
+                <th scope="col">业务员</th>
+                <th scope="col">时间</th>
+                <th scope="col">客户</th>
+                <th scope="col">联络人</th>
+                <th scope="col">销量</th>
+                <th scope="col">单价</th>
+            </tr>
+            </thead>
+            <tbody>
+
+            {% for cus in his %}
+                <tr>
+                    <th scope="row">{{ cus.id }}</th>
+                    <td>{{ cus.salesman }}</td>
+                    <td>{{ cus.time|date:"Y年m月" }}</td>
+                    <td>{{ cus.customer }}</td>
+                    <td>{{ cus.customercol }}</td>
+                    <td>{{ cus.number }}</td>
+                    <td>{{ cus.price }}</td>
+
+                </tr>
+            {% endfor %}
+
+            </tbody>
+
+        </table>
+    </div>
+
+</div>
+
+
+</body>
+</html>
+

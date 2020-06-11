@@ -304,8 +304,10 @@ def add_commission_detail(request, customer_name):
     """提成详细表-增"""
     cus = models.Customer.objects.all()
     ret = Commission.objects.filter(pay__customercol__customer__name=customer_name).first()
+    pay = models.Pay.objects.all()
     if request.method == "POST":
-        order = request.POST.get("order")  # 订单号
+        ord = request.POST.get("order")  # 订单号
+        order = ord.split("\xa0", 1)[0]
         time = request.POST.get("time")
         pay_obj = Pay.objects.filter(id=order).values("price")
         price = pay_obj[0]["price"]
@@ -456,6 +458,23 @@ def delete_department(request, cus_id):
     except:
         return render(request, "not_found.html")
     return redirect("/department/")
+
+
+from django.http import JsonResponse
+
+def history(request):
+    """历史记录"""
+
+
+
+    his = models.History.objects.all()
+    time = his.first()
+    if request.method == "POST":
+        pass
+
+    return render(request, "history.html", {"his": his, "time": time})
+
+
 
 
 

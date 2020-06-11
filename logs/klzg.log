@@ -25862,3 +25862,196 @@ INFO 2020-06-11 16:45:26,045 basehttp 154 "GET /static/blog/bs/css/bootstrap.css
 INFO 2020-06-11 16:45:30,796 basehttp 154 "GET /commission/ HTTP/1.1" 200 13246
 INFO 2020-06-11 16:45:31,750 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 8562
 INFO 2020-06-11 16:45:34,289 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 8562
+INFO 2020-06-11 16:47:38,388 basehttp 154 "GET / HTTP/1.1" 200 1553
+WARNING 2020-06-11 16:47:38,709 log 228 Not Found: /favicon.ico
+WARNING 2020-06-11 16:47:38,710 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 7807
+INFO 2020-06-11 16:47:42,368 basehttp 154 "GET /commission/ HTTP/1.1" 200 13246
+INFO 2020-06-11 16:47:44,127 basehttp 154 "GET /modify_commission/ HTTP/1.1" 200 3188
+INFO 2020-06-11 16:47:45,247 basehttp 154 "GET /commission/ HTTP/1.1" 200 13246
+INFO 2020-06-11 16:47:47,130 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 8562
+INFO 2020-06-11 16:47:48,115 basehttp 154 "GET /add_commission_detail/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 1894
+INFO 2020-06-11 16:47:49,907 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 8562
+INFO 2020-06-11 16:49:01,211 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 8562
+INFO 2020-06-11 16:49:02,350 basehttp 154 "GET /add_commission_detail/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 1940
+INFO 2020-06-11 16:49:25,411 basehttp 154 "GET /add_commission_detail/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 1940
+INFO 2020-06-11 16:49:27,000 basehttp 154 "GET /add_commission_detail/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 3021
+INFO 2020-06-11 16:49:28,315 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 8562
+INFO 2020-06-11 16:49:30,275 basehttp 154 "GET /add_commission_detail/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 3021
+INFO 2020-06-11 16:49:51,333 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 8562
+INFO 2020-06-11 16:49:51,874 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 8562
+INFO 2020-06-11 16:49:52,818 basehttp 154 "GET /add_commission_detail/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 2760
+INFO 2020-06-11 16:49:53,813 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 8562
+INFO 2020-06-11 16:49:55,188 basehttp 154 "GET /modify_commission_detail/22/ HTTP/1.1" 200 2665
+INFO 2020-06-11 16:49:56,713 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 8562
+INFO 2020-06-11 16:49:59,722 basehttp 154 "GET /commission/ HTTP/1.1" 200 13246
+INFO 2020-06-11 16:50:00,709 basehttp 154 "GET /modify_commission/ HTTP/1.1" 200 3188
+INFO 2020-06-11 16:50:02,149 basehttp 154 "GET /commission/ HTTP/1.1" 200 13246
+INFO 2020-06-11 16:50:04,061 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 8562
+INFO 2020-06-11 16:50:05,407 basehttp 154 "GET /add_commission_detail/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 2760
+INFO 2020-06-11 16:50:08,423 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 8562
+INFO 2020-06-11 16:50:16,326 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 8562
+INFO 2020-06-11 16:50:17,806 basehttp 154 "GET /add_commission_detail/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 3021
+INFO 2020-06-11 16:50:19,786 basehttp 154 "GET /commission/%E9%87%91%E4%BC%97/ HTTP/1.1" 200 8562
+INFO 2020-06-11 16:50:20,801 basehttp 154 "GET /commission/ HTTP/1.1" 200 13246
+INFO 2020-06-11 16:50:21,691 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 11631
+INFO 2020-06-11 16:50:22,901 basehttp 154 "GET /add_commission_detail/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 3063
+INFO 2020-06-11 16:50:24,154 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 11631
+INFO 2020-06-11 16:57:34,736 basehttp 154 "GET /commission/ HTTP/1.1" 200 13246
+INFO 2020-06-11 16:57:38,727 basehttp 154 "GET /finish/ HTTP/1.1" 200 6128
+INFO 2020-06-11 16:57:39,251 basehttp 154 "GET /department/ HTTP/1.1" 200 4327
+INFO 2020-06-11 16:57:40,405 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 6185
+INFO 2020-06-11 16:57:41,765 basehttp 154 "GET /commission/ HTTP/1.1" 200 13246
+INFO 2020-06-11 16:57:43,357 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 11631
+INFO 2020-06-11 16:57:48,527 basehttp 154 "GET /commission/ HTTP/1.1" 200 13246
+INFO 2020-06-11 16:57:49,904 basehttp 154 "GET /commission/%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%AE%9D%E5%AE%89%E5%8C%BA%E9%B9%8F%E9%BC%8E%E6%8E%A7%E8%82%A1%E6%B7%B1%E5%9C%B3%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8/ HTTP/1.1" 200 11631
+INFO 2020-06-11 16:58:02,413 basehttp 154 "GET /commission/ HTTP/1.1" 200 13246
+INFO 2020-06-11 16:58:08,279 basehttp 154 "GET /commission/ HTTP/1.1" 200 13246
+INFO 2020-06-11 16:58:12,160 basehttp 154 "GET /commission/2019/ HTTP/1.1" 200 7883
+INFO 2020-06-11 16:58:17,083 basehttp 154 "GET /commission/2019/10/ HTTP/1.1" 200 6359
+INFO 2020-06-11 16:58:44,157 basehttp 154 "GET /commission/2019/ HTTP/1.1" 200 7883
+INFO 2020-06-11 16:58:46,401 basehttp 154 "GET /commission/ HTTP/1.1" 200 13246
+INFO 2020-06-11 16:58:57,401 basehttp 154 "GET /salesman/ HTTP/1.1" 200 5148
+INFO 2020-06-11 16:58:58,619 basehttp 154 "GET /project/ HTTP/1.1" 200 8203
+INFO 2020-06-11 16:59:28,628 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 6185
+INFO 2020-06-11 16:59:29,381 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 6185
+INFO 2020-06-11 16:59:33,514 basehttp 154 "GET / HTTP/1.1" 200 1553
+INFO 2020-06-11 17:01:04,423 basehttp 154 "GET / HTTP/1.1" 200 1619
+ERROR 2020-06-11 17:01:06,901 log 228 Internal Server Error: /history/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 137, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view klzg.views.history didn't return an HttpResponse object. It returned None instead.
+ERROR 2020-06-11 17:01:06,902 basehttp 154 "GET /history/ HTTP/1.1" 500 64837
+INFO 2020-06-11 17:01:09,154 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 6251
+INFO 2020-06-11 17:01:10,023 basehttp 154 "GET /project/ HTTP/1.1" 200 8203
+INFO 2020-06-11 17:01:10,467 basehttp 154 "GET /finish/ HTTP/1.1" 200 6128
+INFO 2020-06-11 17:01:11,013 basehttp 154 "GET /department/ HTTP/1.1" 200 4393
+INFO 2020-06-11 17:01:11,756 basehttp 154 "GET /customer/ HTTP/1.1" 200 7831
+INFO 2020-06-11 17:01:12,236 basehttp 154 "GET /customer_inf/ HTTP/1.1" 200 6251
+INFO 2020-06-11 17:01:12,705 basehttp 154 "GET /customer/ HTTP/1.1" 200 7831
+INFO 2020-06-11 17:01:13,098 basehttp 154 "GET /salesman/ HTTP/1.1" 200 5214
+INFO 2020-06-11 17:01:13,629 basehttp 154 "GET /project/ HTTP/1.1" 200 8203
+INFO 2020-06-11 17:01:14,296 basehttp 154 "GET /commission/ HTTP/1.1" 200 13246
+INFO 2020-06-11 17:01:14,796 basehttp 154 "GET /finish/ HTTP/1.1" 200 6128
+INFO 2020-06-11 17:01:15,280 basehttp 154 "GET /department/ HTTP/1.1" 200 4393
+INFO 2020-06-11 17:01:28,264 basehttp 154 "GET /project/ HTTP/1.1" 200 8203
+INFO 2020-06-11 17:01:28,630 basehttp 154 "GET /commission/ HTTP/1.1" 200 13246
+INFO 2020-06-11 17:01:28,895 basehttp 154 "GET /finish/ HTTP/1.1" 200 6128
+INFO 2020-06-11 17:01:29,264 basehttp 154 "GET /department/ HTTP/1.1" 200 4393
+ERROR 2020-06-11 17:01:32,168 log 228 Internal Server Error: /history/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 137, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view klzg.views.history didn't return an HttpResponse object. It returned None instead.
+ERROR 2020-06-11 17:01:32,169 basehttp 154 "GET /history/ HTTP/1.1" 500 64848
+INFO 2020-06-11 17:01:34,741 basehttp 154 "GET /department/ HTTP/1.1" 200 4393
+INFO 2020-06-11 17:01:35,264 basehttp 154 "GET /finish/ HTTP/1.1" 200 6128
+INFO 2020-06-11 17:01:35,860 basehttp 154 "GET /commission/ HTTP/1.1" 200 13246
+INFO 2020-06-11 17:01:36,091 basehttp 154 "GET /commission/ HTTP/1.1" 200 13246
+INFO 2020-06-11 17:01:36,370 basehttp 154 "GET /project/ HTTP/1.1" 200 8203
+INFO 2020-06-11 17:01:37,062 basehttp 154 "GET /commission/ HTTP/1.1" 200 13246
+INFO 2020-06-11 17:01:37,353 basehttp 154 "GET /finish/ HTTP/1.1" 200 6128
+INFO 2020-06-11 17:01:38,024 basehttp 154 "GET /department/ HTTP/1.1" 200 4393
+INFO 2020-06-11 17:02:09,093 basehttp 154 "GET /department/ HTTP/1.1" 200 4393
+INFO 2020-06-11 17:02:09,386 basehttp 154 "GET /department/ HTTP/1.1" 200 4393
+INFO 2020-06-11 17:02:09,609 basehttp 154 "GET /department/ HTTP/1.1" 200 4393
+INFO 2020-06-11 17:02:09,985 basehttp 154 "GET /project/ HTTP/1.1" 200 8269
+INFO 2020-06-11 17:02:10,392 basehttp 154 "GET /commission/ HTTP/1.1" 200 13308
+INFO 2020-06-11 17:02:10,732 basehttp 154 "GET /finish/ HTTP/1.1" 200 6194
+INFO 2020-06-11 17:02:11,076 basehttp 154 "GET /department/ HTTP/1.1" 200 4393
+ERROR 2020-06-11 17:03:09,898 log 228 Internal Server Error: /history/
+Traceback (most recent call last):
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "E:\envs\test1\lib\site-packages\django\core\handlers\base.py", line 137, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view klzg.views.history didn't return an HttpResponse object. It returned None instead.
+ERROR 2020-06-11 17:03:09,899 basehttp 154 "GET /history/ HTTP/1.1" 500 64848
+INFO 2020-06-11 17:03:28,686 basehttp 154 "GET /history/ HTTP/1.1" 200 123
+INFO 2020-06-11 17:03:30,825 basehttp 154 "GET /department/ HTTP/1.1" 200 4393
+INFO 2020-06-11 17:04:04,921 basehttp 154 "GET /department/ HTTP/1.1" 200 4393
+INFO 2020-06-11 17:04:06,026 basehttp 154 "GET /history/ HTTP/1.1" 200 2842
+INFO 2020-06-11 17:05:01,799 basehttp 154 "GET /history/ HTTP/1.1" 200 2949
+INFO 2020-06-11 17:05:23,498 basehttp 154 "GET /history/ HTTP/1.1" 200 2842
+INFO 2020-06-11 17:05:35,399 basehttp 154 "GET /history/ HTTP/1.1" 200 2868
+INFO 2020-06-11 17:05:42,286 basehttp 154 "GET /history/ HTTP/1.1" 200 2894
+INFO 2020-06-11 17:05:48,258 basehttp 154 "GET /history/ HTTP/1.1" 200 2876
+INFO 2020-06-11 17:06:51,055 basehttp 154 "GET /history/ HTTP/1.1" 200 2791
+INFO 2020-06-11 17:06:58,313 basehttp 154 "GET /history/ HTTP/1.1" 200 2803
+INFO 2020-06-11 17:06:59,020 basehttp 154 "GET /history/ HTTP/1.1" 200 2803
+INFO 2020-06-11 17:06:59,843 basehttp 154 "GET /history/ HTTP/1.1" 200 2803
+INFO 2020-06-11 17:07:00,233 basehttp 154 "GET /history/ HTTP/1.1" 200 2803
+INFO 2020-06-11 17:07:00,458 basehttp 154 "GET /history/ HTTP/1.1" 200 2803
+INFO 2020-06-11 17:07:00,641 basehttp 154 "GET /history/ HTTP/1.1" 200 2803
+INFO 2020-06-11 17:07:00,827 basehttp 154 "GET /history/ HTTP/1.1" 200 2803
+INFO 2020-06-11 17:07:36,883 basehttp 154 "GET /history/ HTTP/1.1" 200 2793
+INFO 2020-06-11 17:07:44,489 basehttp 154 "GET /history/ HTTP/1.1" 200 2780
+INFO 2020-06-11 17:08:02,427 basehttp 154 "GET /history/ HTTP/1.1" 200 2758
+INFO 2020-06-11 17:08:23,184 basehttp 154 "GET /history/ HTTP/1.1" 200 2751
+INFO 2020-06-11 17:08:23,854 basehttp 154 "GET /history/ HTTP/1.1" 200 2751
+INFO 2020-06-11 17:08:36,292 basehttp 154 "GET /history/ HTTP/1.1" 200 2745
+INFO 2020-06-11 17:08:37,856 basehttp 154 "GET /history/ HTTP/1.1" 200 2745
+INFO 2020-06-11 17:08:45,884 basehttp 154 "GET /history/ HTTP/1.1" 200 2739
+INFO 2020-06-11 17:08:55,318 basehttp 154 "GET /history/ HTTP/1.1" 200 2733
+INFO 2020-06-11 17:08:56,053 basehttp 154 "GET /history/ HTTP/1.1" 200 2733
+INFO 2020-06-11 17:08:56,377 basehttp 154 "GET /history/ HTTP/1.1" 200 2733
+INFO 2020-06-11 17:08:56,634 basehttp 154 "GET /history/ HTTP/1.1" 200 2733
+INFO 2020-06-11 17:09:11,472 basehttp 154 "GET /history/ HTTP/1.1" 200 2765
+INFO 2020-06-11 17:09:11,981 basehttp 154 "GET /history/ HTTP/1.1" 200 2765
+INFO 2020-06-11 17:09:17,193 basehttp 154 "GET /history/ HTTP/1.1" 200 2765
+INFO 2020-06-11 17:09:17,653 basehttp 154 "GET /history/ HTTP/1.1" 200 2765
+INFO 2020-06-11 17:09:17,917 basehttp 154 "GET /history/ HTTP/1.1" 200 2765
+INFO 2020-06-11 17:09:18,162 basehttp 154 "GET /history/ HTTP/1.1" 200 2765
+INFO 2020-06-11 17:09:18,386 basehttp 154 "GET /history/ HTTP/1.1" 200 2765
+INFO 2020-06-11 17:09:25,915 basehttp 154 "GET /history/ HTTP/1.1" 200 2764
+INFO 2020-06-11 17:09:30,634 basehttp 154 "GET /history/ HTTP/1.1" 200 2765
+INFO 2020-06-11 17:09:37,359 basehttp 154 "GET /history/ HTTP/1.1" 200 2763
+INFO 2020-06-11 17:12:08,135 basehttp 154 "GET /history/ HTTP/1.1" 200 2708
+INFO 2020-06-11 17:15:14,513 basehttp 154 "GET /history/ HTTP/1.1" 200 2733
+INFO 2020-06-11 17:15:25,976 basehttp 154 "GET /history/ HTTP/1.1" 200 2730
+INFO 2020-06-11 17:15:32,137 basehttp 154 "GET /history/ HTTP/1.1" 200 2769
+INFO 2020-06-11 17:15:43,768 basehttp 154 "GET /history/ HTTP/1.1" 200 2781
+INFO 2020-06-11 17:26:09,067 basehttp 154 "GET / HTTP/1.1" 200 1619
+WARNING 2020-06-11 17:26:09,294 log 228 Not Found: /favicon.ico
+WARNING 2020-06-11 17:26:09,295 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 7915
+INFO 2020-06-11 17:26:12,074 basehttp 154 "GET /history/ HTTP/1.1" 200 3137
+INFO 2020-06-11 17:26:30,822 basehttp 154 "GET /history/ HTTP/1.1" 200 3137
+INFO 2020-06-11 17:26:32,726 basehttp 154 "GET /history/ HTTP/1.1" 200 3158
+INFO 2020-06-11 17:26:33,918 basehttp 154 "GET /history/ HTTP/1.1" 200 3158
+INFO 2020-06-11 17:26:34,385 basehttp 154 "GET /history/ HTTP/1.1" 200 3158
+INFO 2020-06-11 17:26:34,625 basehttp 154 "GET /history/ HTTP/1.1" 200 3158
+INFO 2020-06-11 17:26:34,831 basehttp 154 "GET /history/ HTTP/1.1" 200 3158
+INFO 2020-06-11 17:26:35,036 basehttp 154 "GET /history/ HTTP/1.1" 200 3158
+INFO 2020-06-11 17:26:35,294 basehttp 154 "GET /history/ HTTP/1.1" 200 3158
+INFO 2020-06-11 17:26:35,523 basehttp 154 "GET /history/ HTTP/1.1" 200 3158
+INFO 2020-06-11 17:26:58,909 basehttp 154 "GET /history/ HTTP/1.1" 200 3144
+INFO 2020-06-11 17:27:06,760 basehttp 154 "GET /history/ HTTP/1.1" 200 3149
+INFO 2020-06-11 17:27:21,906 basehttp 154 "GET /history/ HTTP/1.1" 200 3140
+INFO 2020-06-11 17:31:47,179 basehttp 154 "GET /history/ HTTP/1.1" 200 3139
+INFO 2020-06-11 17:32:03,308 basehttp 154 "POST /history/ HTTP/1.1" 200 3139
+INFO 2020-06-11 17:34:38,126 basehttp 154 "POST /history/ HTTP/1.1" 200 3134
+INFO 2020-06-11 17:34:40,683 basehttp 154 "POST /history/ HTTP/1.1" 200 3134
+INFO 2020-06-11 17:34:50,926 basehttp 154 "POST /history/ HTTP/1.1" 200 3092
+INFO 2020-06-11 17:34:52,115 basehttp 154 "POST /history/ HTTP/1.1" 200 3092
+INFO 2020-06-11 17:34:56,909 basehttp 154 "POST /history/ HTTP/1.1" 200 3113
+INFO 2020-06-11 17:34:59,035 basehttp 154 "POST /history/ HTTP/1.1" 200 3113
+INFO 2020-06-11 17:36:07,072 basehttp 154 "POST /history/ HTTP/1.1" 200 3226
+INFO 2020-06-11 17:36:29,616 basehttp 154 "POST /history/ HTTP/1.1" 200 3135
+INFO 2020-06-11 17:37:00,136 basehttp 154 "POST /history/ HTTP/1.1" 200 3140
+INFO 2020-06-11 17:37:38,964 basehttp 154 "POST /history/ HTTP/1.1" 200 3171
+INFO 2020-06-11 17:37:49,727 basehttp 154 "POST /history/ HTTP/1.1" 200 3171
+INFO 2020-06-11 17:37:55,221 basehttp 154 "POST /history/ HTTP/1.1" 200 3171
+INFO 2020-06-11 17:48:27,232 basehttp 154 "POST /history/ HTTP/1.1" 200 4150
+WARNING 2020-06-11 17:48:32,002 log 228 Forbidden (CSRF token missing or incorrect.): /history/
+WARNING 2020-06-11 17:48:32,003 basehttp 154 "POST /history/ HTTP/1.1" 403 2508
+INFO 2020-06-11 17:49:41,489 basehttp 154 "POST /history/ HTTP/1.1" 200 4136
+WARNING 2020-06-11 17:49:45,623 log 228 Forbidden (CSRF token missing or incorrect.): /history/
+WARNING 2020-06-11 17:49:45,624 basehttp 154 "POST /history/ HTTP/1.1" 403 2508
+INFO 2020-06-11 17:51:14,666 basehttp 154 "POST /history/ HTTP/1.1" 200 3209
+INFO 2020-06-11 17:51:39,504 basehttp 154 "POST /history/ HTTP/1.1" 200 3209
+INFO 2020-06-11 17:55:27,550 basehttp 154 "POST /history/ HTTP/1.1" 200 3172
+INFO 2020-06-11 17:55:28,844 basehttp 154 "POST /history/ HTTP/1.1" 200 3172

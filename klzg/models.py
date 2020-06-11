@@ -71,7 +71,9 @@ class History(models.Model):
     """导入记录"""
     id = models.AutoField(primary_key=True)
     salesman = models.CharField(verbose_name="业务员", max_length=32)
+    time = models.DateTimeField(verbose_name="时间", null=True)
     customer = models.CharField(verbose_name="客户", max_length=64)
     customercol = models.CharField(verbose_name="联络人", max_length=32)
     number = models.IntegerField(verbose_name="销量")
-    total = models.IntegerField(verbose_name="金额")
+    price = models.DecimalField(max_digits=6, decimal_places=2)
+    create_time = models.DateTimeField(verbose_name='创建时间', auto_now_add=True)
