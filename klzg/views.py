@@ -51,9 +51,10 @@ def customer(request):
 def modify_customer(request, **kwargs):
     """客户收款表-增改"""
     cus = models.Customer.objects.all()
+    ret = CustomerCollection.objects.all()
     if kwargs:
         cus_id = kwargs.get("cus_id")
-        ret = CustomerCollection.objects.filter(id=cus_id).first()
+        ret = CustomerCollection.objects.filter(id=cus_id).all()
     if request.method == "POST":
         cus = request.POST.get("customer")
         a = Customer.objects.filter(name=cus).first()
@@ -62,7 +63,6 @@ def modify_customer(request, **kwargs):
         account = request.POST.get("account")
         account_method = request.POST.get("account_method")
         account_number = request.POST.get("account_number")
-
         if kwargs:
             cus_id = kwargs.get("cus_id")
             cuscol_obj = CustomerCollection.objects.filter(id=cus_id).update(name=contact, remark=remark, account_name=account, account_method=account_method, account_number=account_number,customer=a.id)

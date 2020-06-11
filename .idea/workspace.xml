@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d34d233d-5291-41e4-ad04-42e5012211b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/modify_pay_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/klwork/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/klwork/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/klzg/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/klzg/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/klzg.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/klzg.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/123.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/123.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/add_pay_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add_pay_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pay.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pay_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pay_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/project.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/add_customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add_customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base_add.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +111,7 @@
       <workItem from="1591663481862" duration="4262000" />
       <workItem from="1591667841525" duration="2231000" />
       <workItem from="1591759485715" duration="17300000" />
+      <workItem from="1591836760051" duration="2315000" />
     </task>
     <servers />
   </component>
