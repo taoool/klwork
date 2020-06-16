@@ -34,7 +34,7 @@ class Pay(models.Model):
     """支付项目表"""
     id = models.AutoField(primary_key=True)
     start_time = models.DateTimeField(verbose_name='开始时间')
-    end_time = models.DateTimeField(verbose_name='结束时间', null=True)
+    end_time = models.DateTimeField(verbose_name='结束时间', default="9999-12-30 01:01:01")
     price = models.DecimalField(max_digits=6, decimal_places=2, null=True)
 
 
@@ -67,13 +67,5 @@ class Sales(models.Model):
     time = models.DateTimeField(verbose_name="月销量", null=True)
     number = models.IntegerField(null=True)
 
-class History(models.Model):
-    """导入记录"""
-    id = models.AutoField(primary_key=True)
-    salesman = models.CharField(verbose_name="业务员", max_length=32)
-    time = models.DateTimeField(verbose_name="时间", null=True)
-    customer = models.CharField(verbose_name="客户", max_length=64)
-    customercol = models.CharField(verbose_name="联络人", max_length=32)
-    number = models.IntegerField(verbose_name="销量")
-    price = models.DecimalField(max_digits=6, decimal_places=2)
-    create_time = models.DateTimeField(verbose_name='创建时间', auto_now_add=True)
+    customer = models.ForeignKey(verbose_name='所属客户', to='Customer', to_field='id', on_delete=models.CASCADE)
+

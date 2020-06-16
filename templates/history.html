@@ -68,23 +68,23 @@
 
     <div class="col-md-9">
         <div class="top-search">
-            <form class="navbar-form navbar-left" method="POST">
+            <form class="navbar-form navbar-left" id="form">
                 {% csrf_token %}
                 <div class="form-group">
                     <input type="file" class="form-control" id="avatar">
+
+                    <input type="button" class="btn btn-default reg_btn add" value="导入">
+
+                    <input type="button" class="btn btn-default reg_btn out" value="导出">
                 </div>
-                <input type="button" class="btn btn-default reg_btn " value="导入"><span class="error"></span>
-
-                <button class="btn btn-default reg_btn  add">导出</button>
-
             </form>
         </div>
 
         <table class="table table-bordered">
             <thead>
             <tr>
-                <th>导入时间</th>
-                <th>{{ time.create_time|date:"Y年m月" }}</th>
+                <th>上次导入时间</th>
+                <th>{{ time.create_time|date:"Y-m-d h:d:s" }}</th>
             </tr>
             <tr>
 
@@ -119,6 +119,40 @@
 
 </div>
 
+<script>
+    $("#avatar").change(function () {
+        // 获取用户选中的文件对象
+        var file_obj = $(this)[0].files[0];
+        // 获取文件对象的路径
+
+        var reader = new FileReader();
+
+        reader.readAsDataURL(file_obj);
+
+    });
+
+    //基于Ajax提交事件
+    $(".add").click(function () {
+        var formdata = new FormData();
+        formdata.append("avatar",$("#avatar")[0].files[0]);
+        formdata.append("csrfmiddlewaretoken",$("[name='csrfmiddlewaretoken']").val());
+
+        $.ajax({
+            url:"",
+            type:"post",
+            data:formdata,
+            contentType:false,
+            processData:false,
+            success:function (data) {
+                console.log(data)
+            }
+        });
+    });
+
+    $(".out").click(function () {
+
+    });
+</script>
 
 </body>
 </html>

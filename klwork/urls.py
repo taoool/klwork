@@ -16,6 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, re_path
 from klzg import views
+import excel.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -30,7 +31,7 @@ urlpatterns = [
     path('finish/', views.finish),  # 付款记录表
     path('department/', views.department),  # 部门表
 
-    path('history/', views.history),  # 历史记录
+    path('history/', excel.views.history),  # 历史记录
 
 
     path('modify_customer/', views.modify_customer),  # 增

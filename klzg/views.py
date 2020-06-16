@@ -74,7 +74,7 @@ def modify_customer(request, **kwargs):
         if kwargs:
             cus_id = kwargs.get("cus_id")
             try:
-                cuscol_obj = CustomerCollection.objects.filter(id=cus_id).update(name=contact, remark=remark, account_name=account, account_method=account_method, account_number=account_number,customer=a.id)
+                cuscol_obj = CustomerCollection.objects.filter(id=cus_id).update(name=contact, remark=remark, account_name=account, account_method=account_method, account_number=account_number, customer=a.id)
             except:
                 return render(request, "not_found.html")
         else:
@@ -232,6 +232,8 @@ def modify_commission(request, **kwargs):
     if request.method == "POST":
         ord = request.POST.get("order")  # 订单号
         order = ord.split("\xa0", 1)[0]
+        cusname = ord.split("\xa0\xa0\xa0\xa0", 2)[1]  # 客户名字
+        cust = Customer.objects.filter(name=cusname).first()
         # print(order)
         time = request.POST.get("time")
         num = request.POST.get("number")
@@ -243,13 +245,13 @@ def modify_commission(request, **kwargs):
             cus_id = kwargs.get("cus_id")
             ret = Commission.objects.filter(id=cus_id).first()
             try:
-                sal_obj = Sales.objects.filter(id=ret.sales_id).update(time=time, number=num)
+                sal_obj = Sales.objects.filter(id=ret.sales_id).update(time=time, number=num, customer_id=cust.id)
                 com_obj = Commission.objects.filter(id=cus_id).update(total=total, pay_id=order)
             except:
                 return render(request, "not_found.html")
         else:
             try:
-                sal_obj = Sales.objects.create(time=time, number=num)
+                sal_obj = Sales.objects.create(time=time, number=num, customer_id=cust.id)
                 com_obj = Commission.objects.create(total=total, pay_id=order, sales_id=sal_obj.id)
             except:
                 return render(request, "not_found.html")
@@ -308,6 +310,8 @@ def add_commission_detail(request, customer_name):
     if request.method == "POST":
         ord = request.POST.get("order")  # 订单号
         order = ord.split("\xa0", 1)[0]
+        cusname = ord.split("\xa0\xa0\xa0\xa0", 2)[1]  # 客户名字
+        cust = Customer.objects.filter(name=cusname).first()
         time = request.POST.get("time")
         pay_obj = Pay.objects.filter(id=order).values("price")
         price = pay_obj[0]["price"]
@@ -316,7 +320,7 @@ def add_commission_detail(request, customer_name):
         total = int(num) * float(price)
         time += "-01 01:01:01"
         try:
-            sal_obj = Sales.objects.create(time=time, number=num)
+            sal_obj = Sales.objects.create(time=time, number=num, customer_id=cust.id)
             com_obj = Commission.objects.create(total=total, pay_id=order, sales_id=sal_obj.id)
         except:
             return render(request, "not_found.html")
@@ -333,18 +337,20 @@ def modify_commission_detail(request, cus_id):
     if request.method == "POST":
         ord = request.POST.get("order")  # 订单号
         order = ord.split("\xa0", 1)[0]
+        cusname = ord.split("\xa0\xa0\xa0\xa0", 2)[1]  # 客户名字
+        cust = Customer.objects.filter(name=cusname).first()
         time = request.POST.get("time")
         num = request.POST.get("number")
         price = request.POST.get("price")
         money = request.POST.get("money")
         total = int(num) * float(price)
-        print(num)
-        print(price)
-        print(total)
+        # print(num)
+        # print(price)
+        # print(total)
         time += "-01 01:01:01"
         ret = Commission.objects.filter(id=cus_id).first()
         try:
-            sal_obj = Sales.objects.filter(id=ret.sales_id).update(time=time, number=num)
+            sal_obj = Sales.objects.filter(id=ret.sales_id).update(time=time, number=num, customer_id=cust.id)
             pay_obj = Pay.objects.filter(id=ret.pay_id).update(price=price)
             com_obj = Commission.objects.filter(id=cus_id).update(total=total, pay_id=order, money=money)
         except:
@@ -460,19 +466,6 @@ def delete_department(request, cus_id):
     return redirect("/department/")
 
 
-from django.http import JsonResponse
-
-def history(request):
-    """历史记录"""
-
-
-
-    his = models.History.objects.all()
-    time = his.first()
-    if request.method == "POST":
-        pass
-
-    return render(request, "history.html", {"his": his, "time": time})
 
 
 

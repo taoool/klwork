@@ -130,6 +130,12 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
 
+
+# 与用户上传相关的media配置
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = "/media/"
+
+
 # 日志配置
 LOGGING = {
     'version': 1,
