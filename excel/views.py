@@ -1,5 +1,5 @@
-from django.shortcuts import render, redirect
-import xlrd
+from django.shortcuts import render
+import xlrd, xlwt, os
 from excel import models
 from excel.models import History
 from klzg.models import CustomerCollection, Customer, Sales, Salesman, Pay, Department, Commission, FinishPay
@@ -88,3 +88,28 @@ def history(request):
 
         return JsonResponse(response)
     return render(request, "history.html", {"his": his, "time": time})
+
+def history_out(request):
+    response = {"user": None}
+    time_obj = request.POST.get("date")
+    time = str(time_obj) + "-01 01:01:01"
+    print(time)
+
+    wb = xlwt.Workbook()
+    sheet = wb.add_sheet('提成', cell_overwrite_ok=True)  # 将sheet表取名为up
+    sheet.write(0, 0, '客户')  # 在第一行第一列的第一格写入
+    sheet.write(0, 1, '联络人')
+    sheet.write(0, 2, '收款人')
+    sheet.write(0, 3, '时间')
+    sheet.write(0, 4, '数量')
+    sheet.write(0, 5, '单价')
+    sheet.write(0, 6, '金额')
+    sheet.write(0, 7, '已付')
+    # for index, filename in enumerate(os.listdir("D:/Ins/测试图片2/")):  # 读取一个文件夹下所有图片
+    #     try:
+    #         sheet.write(index + 1, 0, filename)  # 写入文件名
+    #     except Exception as e:
+    #         print(e)
+    wb.save(r'C:\Users\12817\Desktop\提成表.xls')  # 再保存
+
+    return JsonResponse(response)

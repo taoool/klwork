@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d34d233d-5291-41e4-ad04-42e5012211b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/modify_sales.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excel/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/excel/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/klwork/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/klwork/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/klzg/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/klzg/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/klzg.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/klzg.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/customer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/customer_inf.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/customer_inf.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/department.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/department.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pay.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/pay_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pay_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/project.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/sales.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sales.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/salesman.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/salesman.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/history.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,15 +51,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\12817\Desktop\klzgapp\klwork\static\blog\bs\css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\12817\Desktop\klzgapp\klwork\templates" />
       <recent name="C:\Users\12817\Desktop\klzgapp\klwork\klzg" />
       <recent name="C:\Users\12817\Desktop\klzgapp\klwork\static\blog\bs\css" />
       <recent name="C:\Users\12817\Desktop\klzgapp\klwork\static\blog\bs\js" />
       <recent name="C:\Users\12817\Desktop\klzgapp\klwork" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\12817\Desktop\klzgapp\klwork\static\blog\bs\css" />
     </key>
   </component>
   <component name="RunManager">
@@ -128,7 +119,7 @@
       <workItem from="1592183704146" duration="16371000" />
       <workItem from="1592271969413" duration="22787000" />
       <workItem from="1592356697365" duration="5358000" />
-      <workItem from="1592366235364" duration="12212000" />
+      <workItem from="1592366235364" duration="15581000" />
     </task>
     <servers />
   </component>
@@ -140,22 +131,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="650" y="163" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592190098007" />
-    <state width="1855" height="242" key="GridCell.Tab.0.bottom" timestamp="1592368603011">
+    <state width="1855" height="69" key="GridCell.Tab.0.bottom" timestamp="1592386982898">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1855" height="242" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592368603011" />
-    <state width="1855" height="242" key="GridCell.Tab.0.center" timestamp="1592368603011">
+    <state width="1855" height="69" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592386982898" />
+    <state width="1855" height="69" key="GridCell.Tab.0.center" timestamp="1592386982898">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1855" height="242" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592368603011" />
-    <state width="1855" height="242" key="GridCell.Tab.0.left" timestamp="1592368603010">
+    <state width="1855" height="69" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592386982898" />
+    <state width="1855" height="69" key="GridCell.Tab.0.left" timestamp="1592386982898">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1855" height="242" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592368603010" />
-    <state width="1855" height="242" key="GridCell.Tab.0.right" timestamp="1592368603011">
+    <state width="1855" height="69" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592386982898" />
+    <state width="1855" height="69" key="GridCell.Tab.0.right" timestamp="1592386982898">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1855" height="242" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592368603011" />
+    <state width="1855" height="69" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592386982898" />
     <state width="1855" height="315" key="GridCell.Tab.1.bottom" timestamp="1592361146683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -172,10 +163,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1855" height="315" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592361146683" />
-    <state x="214" y="0" key="SettingsEditor" timestamp="1592273088819">
+    <state x="214" y="0" key="SettingsEditor" timestamp="1592386549252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="214" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592273088819" />
+    <state x="214" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592386549252" />
     <state x="453" y="-2" width="1009" height="1470" key="search.everywhere.popup" timestamp="1592189811886">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

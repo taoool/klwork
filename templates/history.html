@@ -133,6 +133,22 @@
         });
     });
 
+    $(".out").click(function () {
+        var formdata = new FormData();
+        formdata.append("date",$("#date").val());
+        formdata.append("csrfmiddlewaretoken",$("[name='csrfmiddlewaretoken']").val());
+
+        $.ajax({
+            url:"/history_out",
+            type:"post",
+            data:formdata,
+            contentType:false,
+            processData:false,
+            success:function (data) {
+                console.log(data)
+            }
+        });
+    });
 
 </script>
 

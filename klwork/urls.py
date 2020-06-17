@@ -75,7 +75,7 @@ urlpatterns = [
     path('commission_flash/', views.commission_flash),  # 刷新
     # re_path('commission_flash_detail/(?P<cus_id>\d+)/$', views.commission_flash_detail),  # 刷新
 
-
+    path ('history_out', excel.views.history_out),  # 导出
 
 
     path('123/', views.aba),  # 测试用
