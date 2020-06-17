@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect, HttpResponse
 from klzg import models
 from klzg.models import CustomerCollection, Customer, Sales, Salesman, Pay, Department, Commission, FinishPay
-import re
+from django.core.paginator import Paginator, EmptyPage
 from django.db.models import Q, Sum
 
 # Create your views here.
@@ -16,7 +16,25 @@ def customer_inf(request):
     if request.method == "POST":
         sea = request.POST.get("search_cus")
         ret = models.Customer.objects.filter(name__contains=sea).all()
-    return render(request, "customer_inf.html", {"ret": ret})
+
+    paginator = Paginator(ret, 10)
+    # print("page_range", paginator.page_range)
+    current_page_num = int(request.GET.get("page", 1))
+    if paginator.num_pages > 11:
+        if current_page_num - 5 < 1:
+            page_range = range(1, 12)
+        elif current_page_num + 5 > paginator.num_pages:
+            page_range = range(paginator.num_pages - 10, paginator.num_pages + 1)
+        else:
+            page_range = range(current_page_num - 5, current_page_num + 6)
+    else:
+        page_range = paginator.page_range
+    try:
+        current_page = paginator.page(current_page_num)
+    except EmptyPage as e:
+        current_page = paginator.page(1)
+
+    return render(request, "customer_inf.html", locals())
 
 def modify_customer_inf(request, **kwargs):
     """客户信息表-增改"""
@@ -54,7 +72,24 @@ def customer(request):
     if request.method == "POST":
         sea = request.POST.get("search_cus")
         ret = models.CustomerCollection.objects.filter(customer__name__contains=sea).all()
-    return render(request, "customer.html", {"ret": ret})
+
+    paginator = Paginator(ret, 5)
+    current_page_num = int(request.GET.get("page", 1))
+    if paginator.num_pages > 11:
+        if current_page_num - 5 < 1:
+            page_range = range(1, 12)
+        elif current_page_num + 5 > paginator.num_pages:
+            page_range = range(paginator.num_pages - 10, paginator.num_pages + 1)
+        else:
+            page_range = range(current_page_num - 5, current_page_num + 6)
+    else:
+        page_range = paginator.page_range
+    try:
+        current_page = paginator.page(current_page_num)
+    except EmptyPage as e:
+        current_page = paginator.page(1)
+
+    return render(request, "customer.html", locals())
 
 def modify_customer(request, **kwargs):
     """客户收款表-增改"""
@@ -62,7 +97,7 @@ def modify_customer(request, **kwargs):
     ret = CustomerCollection.objects.all()
     if kwargs:
         cus_id = kwargs.get("cus_id")
-        ret = CustomerCollection.objects.filter(id=cus_id).all()
+        ret = CustomerCollection.objects.filter(id=cus_id).first()
     if request.method == "POST":
         cus = request.POST.get("customer")
         a = Customer.objects.filter(name=cus).first()
@@ -100,7 +135,24 @@ def salesman(request):
     if request.method == "POST":
         search_obj = request.POST.get("search")
         ret = models.Salesman.objects.filter(name__contains=search_obj).all()
-    return render(request, "salesman.html", {'ret': ret})
+
+    paginator = Paginator(ret, 10)
+    current_page_num = int(request.GET.get("page", 1))
+    if paginator.num_pages > 11:
+        if current_page_num - 5 < 1:
+            page_range = range(1, 12)
+        elif current_page_num + 5 > paginator.num_pages:
+            page_range = range(paginator.num_pages - 10, paginator.num_pages + 1)
+        else:
+            page_range = range(current_page_num - 5, current_page_num + 6)
+    else:
+        page_range = paginator.page_range
+    try:
+        current_page = paginator.page(current_page_num)
+    except EmptyPage as e:
+        current_page = paginator.page(1)
+
+    return render(request, "salesman.html", locals())
 
 def modify_salesman(request, **kwargs):
     """业务员信息-增改"""
@@ -148,7 +200,24 @@ def project(request, **kwargs):
     if request.method == "POST":
         sea = request.POST.get("cus_name")
         ret = models.Pay.objects.filter(customercol__customer__name__contains=sea).all()
-    return render(request, "project.html", {"ret": ret, "opt": opt})
+
+    paginator = Paginator(ret, 10)
+    current_page_num = int(request.GET.get("page", 1))
+    if paginator.num_pages > 11:
+        if current_page_num - 5 < 1:
+            page_range = range(1, 12)
+        elif current_page_num + 5 > paginator.num_pages:
+            page_range = range(paginator.num_pages - 10, paginator.num_pages + 1)
+        else:
+            page_range = range(current_page_num - 5, current_page_num + 6)
+    else:
+        page_range = paginator.page_range
+    try:
+        current_page = paginator.page(current_page_num)
+    except EmptyPage as e:
+        current_page = paginator.page(1)
+
+    return render(request, "project.html", locals())
 
 def modify_project(request, **kwargs):
     """支付项目-增改"""
@@ -220,6 +289,23 @@ def commission(request, **kwargs):
     # 总额
     to = ret.aggregate(Sum("total"))
     tol=to["total__sum"]
+
+    paginator = Paginator(ret, 9)
+    current_page_num = int(request.GET.get("page", 1))
+    if paginator.num_pages > 11:
+        if current_page_num - 5 < 1:
+            page_range = range(1, 12)
+        elif current_page_num + 5 > paginator.num_pages:
+            page_range = range(paginator.num_pages - 10, paginator.num_pages + 1)
+        else:
+            page_range = range(current_page_num - 5, current_page_num + 6)
+    else:
+        page_range = paginator.page_range
+    try:
+        current_page = paginator.page(current_page_num)
+    except EmptyPage as e:
+        current_page = paginator.page(1)
+
     return render(request, "pay.html", locals())
 
 def modify_commission(request, **kwargs):
@@ -300,6 +386,23 @@ def commission_detail(request, **kwargs):
     noo = ret.aggregate(Sum("money"))
     note = noo["money__sum"]
     paid = int(tol) - int(note)
+
+    paginator = Paginator(ret, 9)
+    current_page_num = int(request.GET.get("page", 1))
+    if paginator.num_pages > 11:
+        if current_page_num - 5 < 1:
+            page_range = range(1, 12)
+        elif current_page_num + 5 > paginator.num_pages:
+            page_range = range(paginator.num_pages - 10, paginator.num_pages + 1)
+        else:
+            page_range = range(current_page_num - 5, current_page_num + 6)
+    else:
+        page_range = paginator.page_range
+    try:
+        current_page = paginator.page(current_page_num)
+    except EmptyPage as e:
+        current_page = paginator.page(1)
+
     return render(request, "pay_detail.html", locals())
 
 def add_commission_detail(request, customer_name):
@@ -434,7 +537,24 @@ def department(request):
     if request.method == "POST":
         sea = request.POST.get("search")
         ret = models.Department.objects.filter(name__contains=sea).all()
-    return render(request, "department.html", {"ret": ret})
+
+    paginator = Paginator(ret, 10)
+    current_page_num = int(request.GET.get("page", 1))
+    if paginator.num_pages > 11:
+        if current_page_num - 5 < 1:
+            page_range = range(1, 12)
+        elif current_page_num + 5 > paginator.num_pages:
+            page_range = range(paginator.num_pages - 10, paginator.num_pages + 1)
+        else:
+            page_range = range(current_page_num - 5, current_page_num + 6)
+    else:
+        page_range = paginator.page_range
+    try:
+        current_page = paginator.page(current_page_num)
+    except EmptyPage as e:
+        current_page = paginator.page(1)
+
+    return render(request, "department.html", locals())
 
 def modify_department(request, **kwargs):
     """部门表-增改"""
@@ -468,9 +588,38 @@ def delete_department(request, cus_id):
 
 def sales(request):
     cus = Sales.objects.all()
-    return render(request, "sales.html", {"cus": cus})
 
+    paginator = Paginator(cus, 10)
+    current_page_num = int(request.GET.get("page", 1))
+    if paginator.num_pages > 11:
+        if current_page_num - 5 < 1:
+            page_range = range(1, 12)
+        elif current_page_num + 5 > paginator.num_pages:
+            page_range = range(paginator.num_pages - 10, paginator.num_pages + 1)
+        else:
+            page_range = range(current_page_num - 5, current_page_num + 6)
+    else:
+        page_range = paginator.page_range
+    try:
+        current_page = paginator.page(current_page_num)
+    except EmptyPage as e:
+        current_page = paginator.page(1)
 
+    return render(request, "sales.html", locals())
+
+def modify_sales(request, cus_id):
+    """销量表-改"""
+
+    ret = models.Sales.objects.filter(id=cus_id).first()
+    if request.method == "POST":
+        number = request.POST.get("number")
+        try:
+            dep_obj = Sales.objects.filter(id=cus_id).update(number=number)
+        except:
+            return render(request, "not_found.html")
+
+        return redirect("/sales/")
+    return render(request, "modify_sales.html", locals())
 
 
 

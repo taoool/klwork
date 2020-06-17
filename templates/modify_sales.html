@@ -1,0 +1,15 @@
+{% extends 'base_add.html' %}
+
+{% block content %}
+
+    <div class="form-group put">
+        <label for="name">数量</label>
+        <input type="text" name="number" class="form-control" value="{{ ret.number }}">
+    </div>
+
+    <div class="btnn">
+        <input type="submit" class="btn btn-primary btn-lg active add" value="保存">
+        <a href="/sales/" class="btn btn-lg active add" role="button">取消</a>
+    </div>
+
+{% endblock %}

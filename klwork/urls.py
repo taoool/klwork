@@ -29,7 +29,7 @@ urlpatterns = [
     # re_path('commission/(?P<customer_name>[\u4E00-\u9FA5]+)/$', views.commission_detail),  # 提成详情
     re_path('commission/(?P<customer_name>.*[\u4E00-\u9FA5]+)/$', views.commission_detail),  # 提成详情
     # path('finish/', views.finish),  # 付款记录表
-    path('sales/', views.sales),  # 付款记录表
+    path('sales/', views.sales),  # 销量表
     path('department/', views.department),  # 部门表
 
     path('history/', excel.views.history),  # 历史记录
@@ -52,6 +52,7 @@ urlpatterns = [
     re_path('^modify_commission_detail/(?P<cus_id>\d+)/$', views.modify_commission_detail),
     re_path('^modify_finish/(?P<cus_id>\d+)/$', views.modify_finish),
     re_path('^modify_department/(?P<cus_id>\d+)/$', views.modify_department),
+    re_path('^modify_sales/(?P<cus_id>\d+)/$', views.modify_sales),
 
     re_path('delete_customer_inf/(?P<cus_id>\d+)/$', views.delete_customer_inf),  # 删
     re_path('delete_customer/(?P<cus_id>\d+)/$', views.delete_customer),

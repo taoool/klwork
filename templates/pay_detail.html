@@ -25,10 +25,6 @@
             font-size: 30px;
         }
 
-        .col-md-3 {
-            width: 360px;
-        }
-
         .col-md-9 {
             margin-top: 65px;
         }
@@ -43,8 +39,9 @@
             float: right;
         }
 
-        .flash_btn {
-            margin-right: 320px;
+        .pagination1 {
+            display: flex;
+            justify-content: center;
         }
 
     </style>
@@ -52,16 +49,16 @@
 </head>
 
 <body>
-<div class="flash_all">
+
     <div class="background">
 
         <div class="col-md-2">
             <div class="col-1">
-              导航栏
+                导航栏
             </div>
             <div>123123
 
-               {{ opt.sales__time|date:"Y" }}
+                {{ opt.sales__time|date:"Y" }}
 
             </div>
             <div class="panel-body col-2">
@@ -72,11 +69,11 @@
                     <li><a href="/project/">支付项目</a></li>
                     <li><a href="/commission/">提成</a></li>
                     <li><a href="/sales/">销量</a></li>
-{#                    <li><a href="/finish/">付款记录</a></li>#}
+                    {#                    <li><a href="/finish/">付款记录</a></li>#}
                     <li><a href="/department/">部门</a></li>
                 </ul>
             </div>
-    </div>
+        </div>
 
         <div class="col-md-9">
             <div class="top-search">
@@ -85,83 +82,113 @@
 
             <table class="table table-bordered">
                 <thead>
-                    <tr>
-                        <th scope="col">序号</th>
-                        <th scope="col">客户</th>
-                        <th scope="col">联络人</th>
-                        <th scope="col">收款人</th>
-                        <form name="date">
-                            <th scope="col">
-                                <select name="year" onchange="selectYear(this.value)">
-                                    <option value="">
-                                        {% if year %}
-                                            {{ year }}
-                                        {% else %}
-                                            选择
-                                        {% endif %}
-                                    年</option>
-                                    <option value="">全部</option>
-                                </select>
-                            </th>
+                <tr>
+                    <th scope="col">序号</th>
+                    <th scope="col">客户</th>
+                    <th scope="col">联络人</th>
+                    <th scope="col">收款人</th>
+                    <form name="date">
+                        <th scope="col">
+                            <select name="year" onchange="selectYear(this.value)">
+                                <option value="">
+                                    {% if year %}
+                                        {{ year }}
+                                    {% else %}
+                                        选择
+                                    {% endif %}
+                                    年
+                                </option>
+                                <option value="">全部</option>
+                            </select>
+                        </th>
 
-                            <th scope="col">
-                                <select name="month" onchange="selectMonth(this.value)">
-                                    <option value="">
-                                        {% if month %}
-                                            {{ month }}
-                                        {% else %}
-                                            选择
-                                        {% endif %}
-                                    月</option>
-                                    <option value="">全部</option>
-                                </select>
-                            </th>
-                        </form>
+                        <th scope="col">
+                            <select name="month" onchange="selectMonth(this.value)">
+                                <option value="">
+                                    {% if month %}
+                                        {{ month }}
+                                    {% else %}
+                                        选择
+                                    {% endif %}
+                                    月
+                                </option>
+                                <option value="">全部</option>
+                            </select>
+                        </th>
+                    </form>
 
 
-                        <th scope="col">数量</th>
-                        <th scope="col">单价</th>
-                        <th scope="col">金额</th>
-                        <th scope="col">已付</th>
-                        <th scope="col">操作</th>
-                    </tr>
+                    <th scope="col">数量</th>
+                    <th scope="col">单价</th>
+                    <th scope="col">金额</th>
+                    <th scope="col">已付</th>
+                    <th scope="col">操作</th>
+                </tr>
                 </thead>
                 <tbody>
-                    {% for cus in ret %}
-                        <tr>
-                            <th scope="row">{{ cus.id }}</th>
-                            <td width="300">{{ cus.pay.customercol.customer.name }}</td>
-                            <td>{{ cus.pay.customercol.name }}</td>
-                            <td>{{ cus.pay.customercol.account_name }}</td>
-                            <td>{{ cus.sales.time|date:"Y" }}</td>
-                            <td>{{ cus.sales.time|date:"m" }}</td>
-                            <td>{{ cus.sales.number }}</td>
-                            <td>{{ cus.pay.price|floatformat:2 }}</td>
-                            <td>{{ cus.total|floatformat:2 }}</td>
-                            <td>{{ cus.money|floatformat:2 }}</td>
-                            <td><a href="/modify_commission_detail/{{ cus.id }}" class="btn btn-primary btn-lg active modify"
-                                   role="button">编辑</a>
-                                <a href="/delete_commission_detail/{{ cus.id }}" class="btn btn-primary btn-lg active delete"
-                                   role="button">删除</a></td>
-                        </tr>
-                    {% endfor %}
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>总额</td>
-                    <td>{{ tol|floatformat:2 }}</td>
-                    <td>待付</td>
-                    <td>{{ paid|floatformat:2 }}</td>
+                {% for cus in current_page %}
+                    <tr>
+                        <th scope="row">{{ cus.id }}</th>
+                        <td width="300">{{ cus.pay.customercol.customer.name }}</td>
+                        <td>{{ cus.pay.customercol.name }}</td>
+                        <td>{{ cus.pay.customercol.account_name }}</td>
+                        <td>{{ cus.sales.time|date:"Y" }}</td>
+                        <td>{{ cus.sales.time|date:"m" }}</td>
+                        <td>{{ cus.sales.number }}</td>
+                        <td>{{ cus.pay.price|floatformat:2 }}</td>
+                        <td>{{ cus.total|floatformat:2 }}</td>
+                        <td>{{ cus.money|floatformat:2 }}</td>
+                        <td><a href="/modify_commission_detail/{{ cus.id }}"
+                               class="btn btn-primary btn-lg active modify"
+                               role="button">编辑</a>
+                            <a href="/delete_commission_detail/{{ cus.id }}"
+                               class="btn btn-primary btn-lg active delete"
+                               role="button">删除</a></td>
+                    </tr>
+                {% endfor %}
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>总额</td>
+                <td>{{ tol|floatformat:2 }}</td>
+                <td>待付</td>
+                <td>{{ paid|floatformat:2 }}</td>
 
                 </tbody>
             </table>
+            <div class="pagination1">
+                <nav aria-label="Page navigation" class="center-block">
+                    <ul class="pagination">
+                        {% if current_page.has_previous %}
+                            <li><a href="?page={{ current_page.previous_page_number }}" aria-label="Previous"><span
+                                    aria-hidden="true">上一页</span></a></li>
+                        {% else %}
+                            <li class="disabled"><a href="" aria-label="Previous"><span
+                                    aria-hidden="true">上一页</span></a></li>
+                        {% endif %}
+                        {% for item in page_range %}
+                            {% if current_page_num == item %}
+                                <li class="active"><a href="?page={{ item }}">{{ item }}</a></li>
+                            {% else %}
+                                <li><a href="?page={{ item }}">{{ item }}</a></li>
+                            {% endif %}
+                        {% endfor %}
+                        {% if current_page.has_next %}
+                            <li><a href="?page={{ current_page.next_page_number }}" aria-label="Next"><span
+                                    aria-hidden="true">下一页</span></a></li>
+                        {% else %}
+                            <li class="disabled"><a href="" aria-label="Next"><span aria-hidden="true">下一页</span></a>
+                            </li>
+                        {% endif %}
+                    </ul>
+                </nav>
+            </div>
         </div>
     </div>
-</div>
 
 <script>
     var select = document.querySelector('select');

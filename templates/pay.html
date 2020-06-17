@@ -46,6 +46,11 @@
             margin-left: 915px;
         }
 
+        .pagination1 {
+            display: flex;
+            justify-content: center;
+        }
+
     </style>
 
 </head>
@@ -126,7 +131,7 @@
             </thead>
             <tbody>
 
-            {% for cus in ret %}
+            {% for cus in current_page %}
                 <tr>
                     <th scope="row">{{ cus.id }}</th>
                     <td onclick="location.href='/commission/{{ cus.pay.customercol.customer.name }}/';"
@@ -154,6 +159,30 @@
             </tbody>
 
         </table>
+        <div class="pagination1">
+            <nav aria-label="Page navigation" class="center-block">
+                <ul class="pagination">
+                    {% if current_page.has_previous %}
+                        <li><a href="?page={{ current_page.previous_page_number }}" aria-label="Previous"><span
+                                aria-hidden="true">上一页</span></a></li>
+                    {% else %}
+                        <li class="disabled"><a href="" aria-label="Previous"><span aria-hidden="true">上一页</span></a></li>
+                    {% endif %}
+                    {% for item in page_range %}
+                        {% if current_page_num == item %}
+                            <li class="active"><a href="?page={{ item }}">{{ item }}</a></li>
+                        {% else %}
+                            <li><a href="?page={{ item }}">{{ item }}</a></li>
+                        {% endif %}
+                    {% endfor %}
+                    {% if current_page.has_next %}
+                        <li><a href="?page={{ current_page.next_page_number }}" aria-label="Next"><span aria-hidden="true">下一页</span></a></li>
+                    {% else %}
+                        <li class="disabled"><a href="" aria-label="Next"><span aria-hidden="true">下一页</span></a></li>
+                    {% endif %}
+                </ul>
+            </nav>
+        </div>
     </div>
 
 

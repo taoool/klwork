@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d34d233d-5291-41e4-ad04-42e5012211b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/sales.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/modify_sales.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/klwork/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/klwork/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/klzg/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/klzg/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/klzg.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/klzg.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/customer_inf.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/customer_inf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/department.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/department.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pay.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/pay_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pay_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/project.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sales.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/sales.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/salesman.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/salesman.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +128,7 @@
       <workItem from="1592183704146" duration="16371000" />
       <workItem from="1592271969413" duration="22787000" />
       <workItem from="1592356697365" duration="5358000" />
-      <workItem from="1592366235364" duration="4653000" />
+      <workItem from="1592366235364" duration="12212000" />
     </task>
     <servers />
   </component>
@@ -176,16 +180,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="453" y="-2" width="1009" height="1470" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592189811886" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/excel/views.py</url>
-          <line>61</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

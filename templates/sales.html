@@ -3,29 +3,59 @@
 {% block content %}
     <div class="col-md-9">
         <div class="top-search">
-        <table class="table table-bordered">
-            <thead>
-            <tr>
-                <th scope="col">序号</th>
-                <th scope="col">时间</th>
-                <th scope="col">数量</th>
-                <th scope="col">公司</th>
-            </tr>
-            </thead>
-            <tbody>
-
-            {% for cc in cus %}
+            <table class="table table-bordered">
+                <thead>
                 <tr>
-                    <th scope="row">{{ cc.id }}</th>
-                    <td>{{ cc.time|date:"Y-m" }}</td>
-                    <td>{{ cc.number }}</td>
-                    <td>{{ cc.customer.name }}</td>
+                    <th scope="col">序号</th>
+                    <th scope="col">时间</th>
+                    <th scope="col">数量</th>
+                    <th scope="col">公司</th>
+                    <th scope="col">操作</th>
                 </tr>
-            {% endfor %}
+                </thead>
+                <tbody>
 
-            </tbody>
+                {% for cc in current_page %}
+                    <tr>
+                        <th scope="row">{{ cc.id }}</th>
+                        <td>{{ cc.time|date:"Y-m" }}</td>
+                        <td>{{ cc.number }}</td>
+                        <td>{{ cc.customer.name }}</td>
+                        <td><a href="/modify_sales/{{ cc.id }}" class="btn btn-primary btn-lg active modify" role="button">编辑</a>
+                        <a href="/delete_sales/{{ cc.id }}" class="btn btn-primary btn-lg active delete" role="button">删除</a></td>
+                    </tr>
+                {% endfor %}
 
-        </table>
+                </tbody>
+
+            </table>
+            <div class="pagination1">
+                <nav aria-label="Page navigation" class="center-block">
+                    <ul class="pagination">
+                        {% if current_page.has_previous %}
+                            <li><a href="?page={{ current_page.previous_page_number }}" aria-label="Previous"><span
+                                    aria-hidden="true">上一页</span></a></li>
+                        {% else %}
+                            <li class="disabled"><a href="" aria-label="Previous"><span
+                                    aria-hidden="true">上一页</span></a></li>
+                        {% endif %}
+                        {% for item in page_range %}
+                            {% if current_page_num == item %}
+                                <li class="active"><a href="?page={{ item }}">{{ item }}</a></li>
+                            {% else %}
+                                <li><a href="?page={{ item }}">{{ item }}</a></li>
+                            {% endif %}
+                        {% endfor %}
+                        {% if current_page.has_next %}
+                            <li><a href="?page={{ current_page.next_page_number }}" aria-label="Next"><span
+                                    aria-hidden="true">下一页</span></a></li>
+                        {% else %}
+                            <li class="disabled"><a href="" aria-label="Next"><span aria-hidden="true">下一页</span></a>
+                            </li>
+                        {% endif %}
+                    </ul>
+                </nav>
+            </div>
         </div>
     </div>
 {% endblock %}
