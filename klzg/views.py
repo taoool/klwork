@@ -466,6 +466,9 @@ def delete_department(request, cus_id):
     return redirect("/department/")
 
 
+def sales(request):
+    cus = Sales.objects.all()
+    return render(request, "sales.html", {"cus": cus})
 
 
 

@@ -39,9 +39,7 @@
 
         }
 
-        .add{
-            margin-left: 80px;
-        }
+
 
     </style>
 
@@ -59,7 +57,8 @@
                     <li><a href="/salesman/">业务员信息</a></li>
                     <li><a href="/project/">支付项目</a></li>
                     <li><a href="/commission/">提成</a></li>
-                    <li><a href="/finish/">付款记录</a></li>
+                    <li><a href="/sales/">销量</a></li>
+{#                    <li><a href="/finish/">付款记录</a></li>#}
                     <li><a href="/department/">部门</a></li>
                     <li><a href="/history/">导入记录</a></li>
                 </ul>
@@ -94,7 +93,10 @@
         <div class="top-search">
             <form class="navbar-form navbar-left" id="form">
                 {% csrf_token %}
-
+                <div class="form-group outt">
+                    <input type="month" class="form-control" id="date">
+                    <input type="button" class="btn btn-default reg_btn out" value="导出Excel">
+                </div>
             </form>
         </div>
     </div>

@@ -28,7 +28,8 @@ urlpatterns = [
     path('commission/', views.commission),  # 提成表
     # re_path('commission/(?P<customer_name>[\u4E00-\u9FA5]+)/$', views.commission_detail),  # 提成详情
     re_path('commission/(?P<customer_name>.*[\u4E00-\u9FA5]+)/$', views.commission_detail),  # 提成详情
-    path('finish/', views.finish),  # 付款记录表
+    # path('finish/', views.finish),  # 付款记录表
+    path('sales/', views.sales),  # 付款记录表
     path('department/', views.department),  # 部门表
 
     path('history/', excel.views.history),  # 历史记录
