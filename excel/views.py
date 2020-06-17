@@ -35,9 +35,9 @@ def history(request):
                     cell_con = table2.cell(i, 2).value  # 联络人
                     cell_rem = table2.cell(i, 3).value  # 备注
                     cell_pri = table2.cell(i, 4).value  # 金额
-                    cell_sti = xlrd.xldate_as_datetime(table2.cell(i, 5).value, 5).strftime("%Y-%m")  # 开始时间
+                    cell_sti = xlrd.xldate_as_datetime(table2.cell(i, 5).value, 0).strftime("%Y-%m")  # 开始时间
                     cell_sti += "-01 01:01:01"
-                    cell_eti = xlrd.xldate_as_datetime(table2.cell(i, 6).value, 6).strftime("%Y-%m")  # 结束时间
+                    cell_eti = xlrd.xldate_as_datetime(table2.cell(i, 6).value, 0).strftime("%Y-%m")  # 结束时间
                     cell_eti += "-01 01:01:01"
                     cell_acc = table2.cell(i, 7).value  # 收款人
                     cell_met = table2.cell(i, 8).value  # 开户行
@@ -57,6 +57,8 @@ def history(request):
                     cuds = CustomerCollection.objects.filter(Q(name=cell_con), Q(customer_id=cud.id)).first()
 
                     # 存储支付项目
+                    # print("cell_sti", cell_sti)
+                    # print("cell_eti", cell_eti)
                     pro = Pay.objects.filter(Q(customercol_id=cuds.id), Q(start_time=cell_sti)).all().exists()
                     sman = Salesman.objects.filter(name=cell_sal).first()
                     if pro:
@@ -64,12 +66,13 @@ def history(request):
                     else:
                         Pay.objects.filter(Q(customercol_id=cuds.id), Q(start_time=cell_sti)).create(start_time=cell_sti, end_time=cell_eti, price=cell_pri, customercol_id=cuds.id, salesman_id=sman.id)
 
+
                 # 表1
                 table1 = ws.sheets()[0]
                 for i in range(1, table1.nrows):
                     cell_tim = xlrd.xldate_as_datetime(table1.cell(i, 0).value, 0).strftime("%Y-%m")  # 时间
                     cell_tim += "-01 01:01:01"
-                    print(cell_tim)
+                    # print(cell_tim)
                     cell_name = table1.cell(i, 1).value  # 客户
                     cell_number = table1.cell(i, 2).value  # 数量
                     # print(cell_tim, end="    ")
